@@ -10,20 +10,25 @@ public class MoverObject : MonoBehaviour
     public Documento documento;
     public bool enterMouse;
     public float maxX, maxZ, minX, minZ, minY, maxY;
-
+    
     Vector3 spawn= new Vector3(-0.25f,0.66f,-1.5f);
 private void Update()
 {
   
     if(documento!=null){
         if(Input.GetKey(KeyCode.Tab)){
-                if(enterMouse){
-                    Debug.Log("entermouse true "+documento.name);
-                    UIManager.Instance.setActive(true);
-                    UIManager.Instance.setImage(documento.imageDocumento);
-                }
+                   
+            //Debug.Log("chamando varias vezes");
+            if(UIManager.Instance.reseta&&enterMouse){
+                UIManager.Instance.setActive(true);
+                UIManager.Instance.paginas(documento.imageDocumento, documento.textosDocumento);
+                UIManager.Instance.reseta=false;
+                 }
+                
             }else{
                 UIManager.Instance.setActive(false);
+                UIManager.Instance.reseta=true;
+                UIManager.Instance.resetaIda();
             }
     }
         
@@ -90,17 +95,18 @@ private void OnMouseUp()
 }
 private void OnMouseEnter()
 {
-    
-        enterMouse=true;
-    
-   
-    
+    if(UIManager.Instance.reseta)enterMouse=true;
 }
+ private void OnMouseOver()
+ {
+     if(UIManager.Instance.reseta)enterMouse=true;
+ }
 private void OnMouseExit()
 {
      if(documento!=null){
         enterMouse=false;
-        UIManager.Instance.setActive(false);
+       // UIManager.Instance.setActive(false);
+       //UIManager.Instance.resetaIda();
      }
 }
 

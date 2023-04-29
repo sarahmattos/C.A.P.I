@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Documento : MonoBehaviour
 {
-    public Sprite imageDocumento;
+    public Sprite[] imageDocumento;
+    public string[] textosDocumento;
     public bool plagioAceito;
     public bool plagioNegado;
     public string respostaCerta;

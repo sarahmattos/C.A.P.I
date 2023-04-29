@@ -565,18 +565,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1133553131782531793, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133553131791818594, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133553131828933207, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
-      objectReference: {fileID: 0}
     - target: {fileID: 1133553132103896378, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Name
       value: Folhas
@@ -624,18 +612,6 @@ PrefabInstance:
     - target: {fileID: 1133553132103896379, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133553132272347070, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133553132380364931, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133553132647080785, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
-      propertyPath: minZ
-      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
