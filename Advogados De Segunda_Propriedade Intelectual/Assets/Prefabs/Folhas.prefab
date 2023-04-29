@@ -337,10 +337,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1016011715390866396, guid: ac800eaabe30f3146adcca132e8804cd, type: 3}
-      propertyPath: respostaCerta
-      value: Negado
-      objectReference: {fileID: 0}
     - target: {fileID: 1016011715390866406, guid: ac800eaabe30f3146adcca132e8804cd, type: 3}
       propertyPath: m_Name
       value: Folha (5)
@@ -464,10 +460,6 @@ PrefabInstance:
     - target: {fileID: 1016011715390866394, guid: ac800eaabe30f3146adcca132e8804cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1016011715390866396, guid: ac800eaabe30f3146adcca132e8804cd, type: 3}
-      propertyPath: respostaCerta
-      value: Negado
       objectReference: {fileID: 0}
     - target: {fileID: 1016011715390866406, guid: ac800eaabe30f3146adcca132e8804cd, type: 3}
       propertyPath: m_Name
