@@ -17,31 +17,19 @@ private void Update()
 {
   
     if(documento!=null){
-        if(Input.GetKeyDown(KeyCode.Tab)){
-                   
-            Debug.Log(keyDown+"keyDown");
+        if(Input.GetKeyDown(KeyCode.Tab)){     
             if(keyDown==false){
-                //Debug.Log(UIManager.Instance.reseta+"UIManager.Instance.reseta");
-                Debug.Log(enterMouse+"enterMouse");
-                //if(UIManager.Instance.reseta&&enterMouse){
                 if(enterMouse){
-                    Debug.Log(enterMouse+"entrou");
-
                     UIManager.Instance.setActive(true);
-                    UIManager.Instance.paginas(documento.imageDocumento, documento.textosDocumento);
-                    //UIManager.Instance.reseta=false;
+                    UIManager.Instance.paginas(documento);
                     keyDown=true;
+                    documento.playSound();  
                  }
             }else{
                  UIManager.Instance.setActive(false);
-                    //UIManager.Instance.reseta=true;
-                    UIManager.Instance.resetaIda();
-                     keyDown=false;
+                UIManager.Instance.resetaIda();
+                keyDown=false;
             }
-               
-                
-            
-            
     }
         
     }

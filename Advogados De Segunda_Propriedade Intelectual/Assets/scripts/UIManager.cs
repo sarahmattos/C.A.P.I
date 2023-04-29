@@ -20,6 +20,7 @@ public class UIManager : MonoBehaviour
     Sprite[] imagenDefault;
     public bool reseta=true;
     int recebeTamanho;
+    Documento doc;
     int id;
     bool ler=false;
     private void Start()
@@ -70,6 +71,7 @@ public class UIManager : MonoBehaviour
     }
     public void chamarCerto(){
         configuracaoSetas();
+        doc.playSound();
         if(ler){
             setTexto();
         }else{
@@ -85,10 +87,11 @@ public class UIManager : MonoBehaviour
         id--;
         chamarCerto();
     }
-    public void paginas(Sprite[] imagensDocumento, string[] textos){
-        recebeTextos =textos;
-        recebeTamanho=imagensDocumento.Length;
-        imagenDefault=imagensDocumento;
+    public void paginas(Documento documento){
+        recebeTextos =documento.textosDocumento;
+        recebeTamanho=documento.imageDocumento.Length;
+        imagenDefault=documento.imageDocumento;
+        doc=documento;
         setImage();
         chamarCerto();
     }

@@ -8,10 +8,12 @@ public class Carimbo : MonoBehaviour
     public bool aceitar,negar;
     public bool carimbarBool;
     Collider target;
+    AudioSource audioCarimbo;
     MoverObject move;
     void Start()
     {
         move =GetComponentInChildren<MoverObject>();
+        audioCarimbo =GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,6 +44,7 @@ public class Carimbo : MonoBehaviour
     public void carimbar(GameObject other){
        Documento doc = other.GetComponent<Documento>();
        if(doc.plagioAceito==false && doc.plagioNegado==false){
+            audioCarimbo.Play();
             if(aceitar) doc.plagioAceito=true;
             if(negar) doc.plagioNegado=true;
         

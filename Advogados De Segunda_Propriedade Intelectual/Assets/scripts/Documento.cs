@@ -8,6 +8,7 @@ public class Documento : MonoBehaviour
 {
     public Sprite[] imageDocumento;
     public string[] textosDocumento;
+    AudioSource audioFolha;
     public bool plagioAceito;
     public bool plagioNegado;
     public string respostaCerta;
@@ -21,6 +22,7 @@ public class Documento : MonoBehaviour
     private void Start()
     {
         transform.position = new Vector3(-0.08f,0.68f,0.66f);
+        audioFolha =GetComponent<AudioSource>();
         dentroImpressora=true;
         rb = GetComponent<Rigidbody>();
         this.gameObject.SetActive(false);
@@ -45,5 +47,8 @@ public class Documento : MonoBehaviour
         }else{
             return false;
         }
+    }
+    public void playSound(){
+        audioFolha.Play();
     }
 }
