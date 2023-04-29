@@ -13,6 +13,8 @@ public class Documento : MonoBehaviour
     public string respostaCerta;
     public string resposta;
     public Image imagem;
+    public GameObject plagio;
+    public GameObject naoPlagio;
      public bool dentroImpressora;
      private Rigidbody rb;
     
@@ -26,11 +28,13 @@ public class Documento : MonoBehaviour
     private void Update()
     {
         if(plagioAceito){
-            imagem.color=Color.green;
+            //imagem.color=Color.green;
+            plagio.SetActive(true);
             resposta ="Aceito";
         }
         if(plagioNegado){
-            imagem.color=Color.red;
+            naoPlagio.SetActive(true);
+            //imagem.color=Color.red;
             resposta ="Negado";
         }
         
