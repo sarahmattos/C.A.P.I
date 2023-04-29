@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelUiDocumento;
     [SerializeField] GameObject esquerdaSeta;
     [SerializeField] GameObject direitaSeta;
+    [SerializeField] GameObject zoomTexto;
     [SerializeField] Image documentoImage;
     string[] recebeTextos;
     Sprite[] imagenDefault;
@@ -61,10 +62,11 @@ public class UIManager : MonoBehaviour
         Debug.Log("id: "+id+" tamanho: "+recebeTamanho);
          textoDocumento.text="";
         documentoImage.sprite =imagenDefault[id];
+        zoomTexto.SetActive(false);
     }
     public void setTexto(){
          textoDocumento.text = recebeTextos[id];
-         documentoImage.sprite =defaultSprite;
+         zoomTexto.SetActive(true);
     }
     public void chamarCerto(){
         configuracaoSetas();
