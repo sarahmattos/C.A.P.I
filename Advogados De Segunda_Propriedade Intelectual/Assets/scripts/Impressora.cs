@@ -6,8 +6,7 @@ public class Impressora : MonoBehaviour
 {
     [SerializeField] GameObject[] folhas;
     public Material[] materiais;
-    Vector3 spawn2= new Vector3(-0.25f,0.66f,-1.5f);
-    Vector3 spawn3= new Vector3(-0.25f,0.66f,0.68f);
+    Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     public GameObject capsulee;
     int id=-1;
     private IEnumerator coroutine;
@@ -25,7 +24,7 @@ public class Impressora : MonoBehaviour
         if(jogar){
             capsulee.GetComponent<Renderer>().material =materiais[1];
             folhas[id].SetActive(true);
-            folhas[id].transform.position = Vector3.MoveTowards(folhas[id].transform.position, new Vector3(folhas[id].transform.position.x,folhas[id].transform.position.y,-1.5f), 5 * Time.deltaTime);
+            folhas[id].transform.position = Vector3.MoveTowards(folhas[id].transform.position, new Vector3(folhas[id].transform.position.x,folhas[id].transform.position.y,-1.5f), 3* Time.deltaTime);
             if(folhas[id].transform.position.z<=spawn2.z ){
                 folhas[id].GetComponent<Documento>().dentroImpressora=false;
                  jogar=false;

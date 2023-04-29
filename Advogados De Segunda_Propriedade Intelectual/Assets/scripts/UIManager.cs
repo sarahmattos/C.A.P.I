@@ -18,7 +18,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Image documentoImage;
     string[] recebeTextos;
     Sprite[] imagenDefault;
-    public bool reseta;
+    public bool reseta=true;
     int recebeTamanho;
     int id;
     bool ler=false;

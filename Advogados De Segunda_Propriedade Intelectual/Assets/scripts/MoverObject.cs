@@ -9,6 +9,7 @@ public class MoverObject : MonoBehaviour
     private Vector3 offset;
     public Documento documento;
     public bool enterMouse;
+    bool keyDown;
     public float maxX, maxZ, minX, minZ, minY, maxY;
     
     Vector3 spawn= new Vector3(-0.25f,0.66f,-1.5f);
@@ -16,23 +17,34 @@ private void Update()
 {
   
     if(documento!=null){
-        if(Input.GetKey(KeyCode.Tab)){
+        if(Input.GetKeyDown(KeyCode.Tab)){
                    
-            //Debug.Log("chamando varias vezes");
-            if(UIManager.Instance.reseta&&enterMouse){
-                UIManager.Instance.setActive(true);
-                UIManager.Instance.paginas(documento.imageDocumento, documento.textosDocumento);
-                UIManager.Instance.reseta=false;
+            Debug.Log(keyDown+"keyDown");
+            if(keyDown==false){
+                //Debug.Log(UIManager.Instance.reseta+"UIManager.Instance.reseta");
+                Debug.Log(enterMouse+"enterMouse");
+                //if(UIManager.Instance.reseta&&enterMouse){
+                if(enterMouse){
+                    Debug.Log(enterMouse+"entrou");
+
+                    UIManager.Instance.setActive(true);
+                    UIManager.Instance.paginas(documento.imageDocumento, documento.textosDocumento);
+                    //UIManager.Instance.reseta=false;
+                    keyDown=true;
                  }
-                
             }else{
-                UIManager.Instance.setActive(false);
-                UIManager.Instance.reseta=true;
-                UIManager.Instance.resetaIda();
+                 UIManager.Instance.setActive(false);
+                    //UIManager.Instance.reseta=true;
+                    UIManager.Instance.resetaIda();
+                     keyDown=false;
             }
+               
+                
+            
+            
     }
         
-
+    }
     if(transform.position.y<-10){
         transform.position=spawn;
     }
@@ -95,11 +107,13 @@ private void OnMouseUp()
 }
 private void OnMouseEnter()
 {
-    if(UIManager.Instance.reseta)enterMouse=true;
+    //if(UIManager.Instance.reseta)enterMouse=true;
+    enterMouse=true;
 }
  private void OnMouseOver()
  {
-     if(UIManager.Instance.reseta)enterMouse=true;
+     //if(UIManager.Instance.reseta)enterMouse=true;
+     enterMouse=true;
  }
 private void OnMouseExit()
 {

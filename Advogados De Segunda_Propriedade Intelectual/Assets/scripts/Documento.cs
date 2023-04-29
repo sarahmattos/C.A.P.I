@@ -18,7 +18,7 @@ public class Documento : MonoBehaviour
     
     private void Start()
     {
-        transform.position = new Vector3(-0.25f,0.68f,0.66f);
+        transform.position = new Vector3(-0.08f,0.68f,0.66f);
         dentroImpressora=true;
         rb = GetComponent<Rigidbody>();
         this.gameObject.SetActive(false);
