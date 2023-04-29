@@ -16,6 +16,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject direitaSeta;
     [SerializeField] GameObject zoomTexto;
     [SerializeField] Image documentoImage;
+    [SerializeField] GameObject bonuObj;
+    [SerializeField] GameObject panelFinal;
+    [SerializeField] TMP_Text bonuUI;
+    [SerializeField] TMP_Text somaUI;
+    [SerializeField] TMP_Text erroUI;
+    [SerializeField] TMP_Text totalUI;
+    [SerializeField] TMP_Text quantidade;
+
     string[] recebeTextos;
     Sprite[] imagenDefault;
     public bool reseta=true;
@@ -103,6 +111,18 @@ public class UIManager : MonoBehaviour
     public void resetaIda(){
         id=0;
         ler=false;
+    }
+    public void panelFinalTrue(int soma, int bonus, int erro, int total, string acertos){
+        panelFinal.SetActive(true);
+        somaUI.text+= soma.ToString()+",00";
+        erroUI.text+= erro.ToString()+",00";
+        totalUI.text+= total.ToString()+",00";
+        quantidade.text=acertos;
+        if(bonus>0){
+            bonuUI.text+= bonus.ToString()+",00";
+            bonuObj.SetActive(true);
+        }
+        
     }
 }
  

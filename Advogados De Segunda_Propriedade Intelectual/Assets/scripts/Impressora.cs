@@ -28,6 +28,7 @@ public class Impressora : MonoBehaviour
             folhas[id].SetActive(true);
             folhas[id].transform.position = Vector3.MoveTowards(folhas[id].transform.position, new Vector3(folhas[id].transform.position.x,folhas[id].transform.position.y,-1.5f), 3* Time.deltaTime);
             if(folhas[id].transform.position.z<=spawn2.z ){
+                 folhas[id].GetComponent<Documento>().dentroImpressora=false;
                 jogar=false;
                  coroutine = esperaEmudaCor(esperaTime2);
                 StartCoroutine(coroutine);
@@ -43,7 +44,6 @@ public class Impressora : MonoBehaviour
     IEnumerator esperaEmudaCor(float time){
         yield return new WaitForSeconds(time);
         capsulee.GetComponent<Renderer>().material =materiais[0];
-        folhas[id].GetComponent<Documento>().dentroImpressora=false;
         boolJogar=false;
     }
     public void lancarFolha(){

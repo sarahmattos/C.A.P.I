@@ -9,6 +9,10 @@ public class Pontuacao : MonoBehaviour
     Collider target;
     public int maxDocumentos;
     public int Pontos;
+    public int soma;
+    public int bonus;
+    public int erros;
+    public int total;
     Vector3 spawn2= new Vector3(-0.25f,0.66f,-1.5f);
     void Start()
     {
@@ -67,8 +71,16 @@ public class Pontuacao : MonoBehaviour
         foreach(Documento doc in docs){
             if(doc.pontuar()){
                 Pontos++;
+                soma+=15;
+
+            }else{
+                erros+=10;
             }
         }
+        if(Pontos==maxDocumentos)bonus = 20;
+        total = bonus + soma - erros;
+        string acertos=Pontos+"/"+maxDocumentos;
         Debug.Log("Seus pontos: "+Pontos+"/"+maxDocumentos);
+        UIManager.Instance.panelFinalTrue(soma,bonus,erros,total,acertos);
     }
 }
