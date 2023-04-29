@@ -8,7 +8,6 @@ public class MoverObject : MonoBehaviour
     private Rigidbody rb;
     private Vector3 offset;
     public Documento documento;
-    public Vector2 hotspot = Vector2.zero;
     public bool enterMouse;
     public float maxX, maxZ, minX, minZ, minY, maxY;
 
@@ -31,17 +30,13 @@ private void Update()
 
     if(transform.position.y<-10){
         transform.position=spawn;
-        rb.freezeRotation =true;
     }
-    
+    rb.freezeRotation =true;
 }
 private void Start()
 {
-    //uIManager = FindObjectOfType<UIManager>();
     rb = GetComponent<Rigidbody>();
-    rb.freezeRotation =true;
     documento = this.GetComponent<Documento>();
-    //Cursor.SetCursor(UIManager.Instance.cursorTexture[0], hotspot, CursorMode.Auto);
 }
 
 private void OnMouseDown()
@@ -50,19 +45,19 @@ private void OnMouseDown()
         if(!documento.dentroImpressora){
             isDragging = true;
             offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(transform.position).z));
-            rb.freezeRotation = true;
+            //rb.freezeRotation = true;
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
-            Cursor.SetCursor(UIManager.Instance.cursorTexture[1], hotspot, CursorMode.Auto);
+            UIManager.Instance.SetarCursor(UIManager.Instance.cursorTexture[1]);
         }
        
     }else{
             isDragging = true;
             offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(transform.position).z));
-            rb.freezeRotation = true;
+            //rb.freezeRotation = true;
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
-            Cursor.SetCursor(UIManager.Instance.cursorTexture[1], hotspot, CursorMode.Auto);
+            UIManager.Instance.SetarCursor(UIManager.Instance.cursorTexture[1]);
     }
 }
 
@@ -91,8 +86,7 @@ private void OnMouseDrag()
 private void OnMouseUp()
 {
     isDragging = false;
-    rb.freezeRotation = false;
-    Cursor.SetCursor(UIManager.Instance.cursorTexture[0], hotspot, CursorMode.Auto);
+    UIManager.Instance.SetarCursor(UIManager.Instance.cursorTexture[0]);
 }
 private void OnMouseEnter()
 {
