@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Pontuacao : MonoBehaviour
 {
+    AudioSource audioEnvelope;
+    public AudioSource audioRelogio;
     public List<Documento> docs;
     bool checar;
     Collider target;
@@ -13,10 +15,11 @@ public class Pontuacao : MonoBehaviour
     public int bonus;
     public int erros;
     public int total;
+    public bool fim;
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     void Start()
     {
-        
+        audioEnvelope = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -52,6 +55,7 @@ public class Pontuacao : MonoBehaviour
                 if(mov.isDragging==false){
                     Documento doc = other.gameObject.GetComponent<Documento>();
                         if(doc.plagioAceito||doc.plagioNegado){
+                            audioEnvelope.Play();
                             docs.Add(doc);
                             other.gameObject.SetActive(false);
                             checar=false;
@@ -82,5 +86,7 @@ public class Pontuacao : MonoBehaviour
         string acertos=Pontos+"/"+maxDocumentos;
         Debug.Log("Seus pontos: "+Pontos+"/"+maxDocumentos);
         UIManager.Instance.panelFinalTrue(soma,bonus,erros,total,acertos);
+        fim=true;
+        audioRelogio.Stop();
     }
 }

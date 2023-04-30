@@ -28,9 +28,10 @@ public class UIManager : MonoBehaviour
     Sprite[] imagenDefault;
     public bool reseta=true;
     int recebeTamanho;
-    Documento doc;
+    public Documento doc;
     int id;
     bool ler=false;
+    public bool zoomON;
     private void Start()
     {
         Instance=this;
