@@ -75,7 +75,7 @@ private void OnMouseDrag()
         curPosition.x = Mathf.Clamp(curPosition.x, minX, maxX);
         curPosition.z = Mathf.Clamp(curPosition.z, minZ, maxZ);
         curPosition.y = Mathf.Clamp(curPosition.y, minY, maxY);
-        transform.position = curPosition;
+        transform.position = new Vector3(curPosition.x,transform.position.y,curPosition.z);
         }
         
     }else{
@@ -84,7 +84,7 @@ private void OnMouseDrag()
         curPosition.x = Mathf.Clamp(curPosition.x, minX, maxX);
         curPosition.z = Mathf.Clamp(curPosition.z, minZ, maxZ);
         curPosition.y = Mathf.Clamp(curPosition.y, minY, maxY);
-        transform.position = curPosition;
+        transform.position = new Vector3(curPosition.x,transform.position.y,curPosition.z);
     }
 }
 
