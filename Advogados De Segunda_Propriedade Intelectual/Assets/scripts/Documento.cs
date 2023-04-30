@@ -18,14 +18,17 @@ public class Documento : MonoBehaviour
     public GameObject naoPlagio;
      public bool dentroImpressora;
      private Rigidbody rb;
-    
+    public bool regras;
     private void Start()
     {
-        transform.position = new Vector3(-0.08f,0.68f,0.66f);
+        if(!regras){
+            transform.position = new Vector3(-0.08f,0.68f,0.66f);
+            this.gameObject.SetActive(false);
+            dentroImpressora=true;
+        }
         audioFolha =GetComponent<AudioSource>();
-        dentroImpressora=true;
         rb = GetComponent<Rigidbody>();
-        this.gameObject.SetActive(false);
+        
     }
     private void Update()
     {

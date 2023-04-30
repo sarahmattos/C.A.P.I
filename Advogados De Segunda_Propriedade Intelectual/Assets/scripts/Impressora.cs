@@ -5,6 +5,8 @@ using UnityEngine;
 public class Impressora : MonoBehaviour
 {
     [SerializeField] GameObject[] folhas;
+    [SerializeField] GameObject folhaBranca;
+    [SerializeField] GameObject folhaBrancaDefault;
     public Material[] materiais;
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     public GameObject capsulee;
@@ -14,11 +16,18 @@ public class Impressora : MonoBehaviour
     public bool aux, jogar, boolJogar;
     Coroutine currentCourotine;
     public float esperaTime, esperaTime2;
-   
+    Rigidbody rgFolhaBranca;
+    public Transform transFolhaBranca;
+    public Vector3 inicialTransP;
+    public Quaternion inicialTransR;
     void Start()
     {
         transform.position = Vector3.MoveTowards(transform.position, spawn2, 1 * Time.deltaTime);
         audioImpressora = GetComponent<AudioSource>();   
+        transFolhaBranca= folhaBranca.GetComponent<Transform>();
+        inicialTransP=transFolhaBranca.position;
+        inicialTransR=transFolhaBranca.rotation;
+        rgFolhaBranca= folhaBranca.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -30,6 +39,12 @@ public class Impressora : MonoBehaviour
             if(folhas[id].transform.position.z<=spawn2.z ){
                  folhas[id].GetComponent<Documento>().dentroImpressora=false;
                 jogar=false;
+                rgFolhaBranca.useGravity=false;
+                 if(id<folhas.Length-1){
+                    transFolhaBranca.position=inicialTransP;
+                    transFolhaBranca.rotation=inicialTransR;
+                 }
+                if(id==folhas.Length-2)folhaBrancaDefault.SetActive(false);
                  coroutine = esperaEmudaCor(esperaTime2);
                 StartCoroutine(coroutine);
             }
@@ -52,6 +67,7 @@ public class Impressora : MonoBehaviour
             id++;
             audioImpressora.Play();
             capsulee.GetComponent<Renderer>().material =materiais[1];
+            rgFolhaBranca.useGravity=true;
             coroutine = esperaEvai(esperaTime);
             StartCoroutine(coroutine);
         }
