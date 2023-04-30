@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pontuacao : MonoBehaviour
 {
+    AudioSource audioEnvelope;
     public List<Documento> docs;
     bool checar;
     Collider target;
@@ -16,7 +17,7 @@ public class Pontuacao : MonoBehaviour
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     void Start()
     {
-        
+        audioEnvelope = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -52,6 +53,7 @@ public class Pontuacao : MonoBehaviour
                 if(mov.isDragging==false){
                     Documento doc = other.gameObject.GetComponent<Documento>();
                         if(doc.plagioAceito||doc.plagioNegado){
+                            audioEnvelope.Play();
                             docs.Add(doc);
                             other.gameObject.SetActive(false);
                             checar=false;
