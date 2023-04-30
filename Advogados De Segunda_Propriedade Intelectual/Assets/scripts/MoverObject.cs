@@ -17,19 +17,23 @@ private void Update()
 {
   
     if(documento!=null){
-        if(Input.GetKeyDown(KeyCode.Tab)){     
+        
+        if(Input.GetKeyDown(KeyCode.Tab)){   
             if(keyDown==false){
-                if(enterMouse){
+                if(enterMouse && UIManager.Instance.zoomON==false){
                     UIManager.Instance.setActive(true);
                     UIManager.Instance.paginas(documento);
                     keyDown=true;
                     documento.playSound();  
+                    UIManager.Instance.zoomON=true;
                  }
             }else{
                  UIManager.Instance.setActive(false);
                 UIManager.Instance.resetaIda();
                 keyDown=false;
+                UIManager.Instance.zoomON=false;
             }
+        
     }
         
     }

@@ -31,6 +31,7 @@ public class UIManager : MonoBehaviour
     Documento doc;
     int id;
     bool ler=false;
+    public bool zoomON;
     private void Start()
     {
         Instance=this;
