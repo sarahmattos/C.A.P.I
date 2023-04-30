@@ -13,7 +13,7 @@ public class Pontuacao : MonoBehaviour
     public int bonus;
     public int erros;
     public int total;
-    Vector3 spawn2= new Vector3(-0.25f,0.66f,-1.5f);
+    Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     void Start()
     {
         
