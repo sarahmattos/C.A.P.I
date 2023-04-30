@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
@@ -123,6 +123,9 @@ public class UIManager : MonoBehaviour
             bonuObj.SetActive(true);
         }
         
+    }
+    public void mudarCena(int i){
+         SceneManager.LoadScene(i);
     }
 }
  
