@@ -43,6 +43,8 @@ public class Impressora : MonoBehaviour
                  if(id<folhas.Length-1){
                     transFolhaBranca.position=inicialTransP;
                     transFolhaBranca.rotation=inicialTransR;
+                 }else{
+                    transFolhaBranca.gameObject.SetActive(false);
                  }
                 if(id==folhas.Length-2)folhaBrancaDefault.SetActive(false);
                  coroutine = esperaEmudaCor(esperaTime2);

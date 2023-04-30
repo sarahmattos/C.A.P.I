@@ -248,24 +248,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageDocumento:
-  - {fileID: 21300000, guid: 8598ba7e00a03fc449fe955a5cf49d53, type: 3}
-  - {fileID: 21300000, guid: cfb8e9900232f044eb08aae9ea3bfbec, type: 3}
+  - {fileID: 21300000, guid: 617da687bb5c040489b63e56f58b2cd4, type: 3}
+  - {fileID: 21300000, guid: cabe3dd313ac25e4f95772d75bc02421, type: 3}
   textosDocumento:
-  - "Mensagem de requerimento do Autor:  Chegou ao nosso entendimento, que h\xE1
-    um cantor que utiliza o nome art\xEDstico \" MC Donald\" . Como o McDonald's
-    det\xE9m os direitos de propriedade intelectual sobre a marca \"McDonald's\",
-    decidimos tomar medidas legais contra esse uso indevido de nossa marca.  Estamos
-    cientes de que o cantor de funk em quest\xE3o n\xE3o tem qualquer rela\xE7\xE3o
-    com nossa empresa. n\xE3o podemos permitir que ele continue utilizando nossa
-    marca de forma indevida e associando-a a um estilo musical que n\xE3o est\xE1
-    alinhado com os valores do McDonald's.  Por isso, estamos processando o cantor
-    de funk por viola\xE7\xE3o de marca registrada.  Resposta do Acusado: \u201Dirm\xE3o\u2026
-    que fita \xE9 essa? geral usa MC no nome, MC \xE9 de\u2026 sla, algo art\xEDstico,
-    sacou? nem vou nesses restaurantes ai n\xE3o, eles t\xE3o \xE9 querendo tirar
-    o que eu conquistei.\u201D \u201Csobre o meu nome n\xE3o ser Donald, e sim Carlos
-    ai \xE9 porque o meu apelido de Inf\xE2ncia era por causa de um famoso pato\u2026
-    Mas a\xED \xE9 papo para outro processo\u201D"
-  - teste folha 1 pagina 2 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  - "Informa\xE7\xF5es jur\xEDdica\nDe: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor:
+    Lec Donalt's\r\nAcusado: Lec Donalt\r\n\r\nInforma\xE7\xF5es do autor\r\nO Lec
+    Donalt's \xE9 uma das maiores redes de restaurantes de Comidas Lentas do mundo,
+    fundada em 1925 nos Estados Unidos. A empresa \xE9 conhecida por seus nuggets,
+    esfirra e coxinhas, bem como por seu logotipo ic\xF4nico do \"L\" amarelo.\r\n\r\nInforma\xE7\xF5es
+    do acusado\r\nLec Donalt \xE9 um jovem de 24 anos, cujo nome verdadeiro \xE9
+    Carlos Nascimento da Silva, autor de mais de 10 m\xFAsicas do g\xEAnero Funk
+    tocadas principalmente no Brasil.\n\nMensagem de requerimento do processo:\r\n1.
+    Obra original: Lec Donalt's\r\n2. Obra plagiada: Lec Donalt\r\n3. Semelhan\xE7as:
+    Nome de marca\r\n4. Pedido de a\xE7\xE3o: Troca de nome art\xEDstico do cantor"
+  - "Informa\xE7\xF5es jur\xEDdica\r\nDe: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor:
+    Lec Donalt's\r\nAcusado: Lec Donalt\r\n\nMensagem de requerimento do Autor:\r\n\u201CChegou
+    ao nosso entendimento, que h\xE1 um cantor que utiliza o nome art\xEDstico \"
+    Lec Donalt\" . Como o Lec Donalt's det\xE9m os direitos de propriedade intelectual
+    sobre a marca \" Lec Donalt's \", decidimos tomar medidas legais contra esse
+    uso indevido de nossa marca.\r\n\r\nEstamos cientes de que o cantor de funk em
+    quest\xE3o n\xE3o tem qualquer rela\xE7\xE3o com nossa empresa. N\xE3o podemos
+    permitir que ele continue utilizando nossa marca de forma indevida e associando-a
+    a um estilo musical que n\xE3o est\xE1 alinhado com os valores do Lec Donalt's
+    .\r\n\r\nPor isso, estamos processando o cantor de funk por viola\xE7\xE3o de
+    marca registrada.\u201D\r\n\r\nResposta do Acusado:\r\n\u201Dirm\xE3o\u2026 que
+    fita \xE9 essa? geral usa Lec no nome, Lec \xE9 uma sigla ou algo do tipo, de\u2026
+    sla, algo art\xEDstico, sacou? nem vou nesses restaurantes ai n\xE3o, eles t\xE3o
+    \xE9 querendo tirar o que eu conquistei.\u201D\r\n\r\n\u201Csobre o meu nome
+    n\xE3o ser Donalt, e sim Carlos ai \xE9 porque o meu apelido de Inf\xE2ncia era
+    por causa de um famoso pato\u2026 Mas a\xED \xE9 papo para outro processo\u201D"
   plagioAceito: 0
   plagioNegado: 0
   respostaCerta: Aceito

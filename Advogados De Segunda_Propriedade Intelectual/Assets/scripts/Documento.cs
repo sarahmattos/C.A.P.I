@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Documento : MonoBehaviour
 {
     public Sprite[] imageDocumento;
+    [TextArea(100,10000)]
     public string[] textosDocumento;
     AudioSource audioFolha;
     public bool plagioAceito;
