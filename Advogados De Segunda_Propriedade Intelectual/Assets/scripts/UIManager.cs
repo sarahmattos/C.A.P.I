@@ -24,6 +24,11 @@ public class UIManager : MonoBehaviour
     [SerializeField] TMP_Text totalUI;
     [SerializeField] TMP_Text quantidade;
 
+   [SerializeField] private CanvasGroup telfinalgrupo ;
+
+    [SerializeField] private bool fadeIn = false;
+    [SerializeField] private bool fadeOut = false;
+
     string[] recebeTextos;
     Sprite[] imagenDefault;
     public bool reseta=true;
@@ -114,7 +119,11 @@ public class UIManager : MonoBehaviour
         ler=false;
     }
     public void panelFinalTrue(int soma, int bonus, int erro, int total, string acertos){
+
+
         panelFinal.SetActive(true);
+        ShowUi();
+        //HideUi();
         somaUI.text+= soma.ToString()+",00";
         erroUI.text+= erro.ToString()+",00";
         totalUI.text+= total.ToString()+",00";
@@ -127,6 +136,36 @@ public class UIManager : MonoBehaviour
     }
     public void mudarCena(int i){
          SceneManager.LoadScene(i);
+    }
+
+
+    public void ShowUi()
+    {
+
+        fadeIn = true;
+
+    }
+
+    public void HideUi()
+    {
+
+        fadeOut = true;
+
+    }
+
+    private void Update()
+    {
+
+        if(fadeIn == true)
+        {
+
+            telfinalgrupo.alpha += Time.deltaTime;
+            if(telfinalgrupo.alpha >= 1) { fadeIn = false; }
+
+        }
+
+
+        
     }
 }
  
