@@ -39,7 +39,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.55}
+  m_AnchoredPosition: {x: 0, y: 1.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1016011715034804282
@@ -136,7 +136,7 @@ Transform:
   m_GameObject: {fileID: 1016011715390866406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.7649624, y: 1.148737, z: -1.6132523}
-  m_LocalScale: {x: 1.277238, y: 0.07, z: 1.560021}
+  m_LocalScale: {x: 1.277238, y: 0.03, z: 1.560021}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1016011715034804423}
@@ -248,13 +248,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageDocumento:
-  - {fileID: 21300000, guid: c92ddd6d96358554f9a62b33f1e75abf, type: 3}
-  - {fileID: 21300000, guid: 0b28dd8616a61f042931e3145eccd2ca, type: 3}
-  - {fileID: 21300000, guid: c92ddd6d96358554f9a62b33f1e75abf, type: 3}
+  - {fileID: 21300000, guid: 8598ba7e00a03fc449fe955a5cf49d53, type: 3}
+  - {fileID: 21300000, guid: cfb8e9900232f044eb08aae9ea3bfbec, type: 3}
   textosDocumento:
-  - teste folha 1 pagina 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  - "Mensagem de requerimento do Autor:  Chegou ao nosso entendimento, que h\xE1
+    um cantor que utiliza o nome art\xEDstico \" MC Donald\" . Como o McDonald's
+    det\xE9m os direitos de propriedade intelectual sobre a marca \"McDonald's\",
+    decidimos tomar medidas legais contra esse uso indevido de nossa marca.  Estamos
+    cientes de que o cantor de funk em quest\xE3o n\xE3o tem qualquer rela\xE7\xE3o
+    com nossa empresa. n\xE3o podemos permitir que ele continue utilizando nossa
+    marca de forma indevida e associando-a a um estilo musical que n\xE3o est\xE1
+    alinhado com os valores do McDonald's.  Por isso, estamos processando o cantor
+    de funk por viola\xE7\xE3o de marca registrada.  Resposta do Acusado: \u201Dirm\xE3o\u2026
+    que fita \xE9 essa? geral usa MC no nome, MC \xE9 de\u2026 sla, algo art\xEDstico,
+    sacou? nem vou nesses restaurantes ai n\xE3o, eles t\xE3o \xE9 querendo tirar
+    o que eu conquistei.\u201D \u201Csobre o meu nome n\xE3o ser Donald, e sim Carlos
+    ai \xE9 porque o meu apelido de Inf\xE2ncia era por causa de um famoso pato\u2026
+    Mas a\xED \xE9 papo para outro processo\u201D"
   - teste folha 1 pagina 2 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-  - teste folha 1 pagina 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
   plagioAceito: 0
   plagioNegado: 0
   respostaCerta: Aceito
@@ -263,6 +274,7 @@ MonoBehaviour:
   plagio: {fileID: 3830680014203159336}
   naoPlagio: {fileID: 3830680014622574353}
   dentroImpressora: 0
+  regras: 0
 --- !u!114 &1016011715390866398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,7 +458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c92ddd6d96358554f9a62b33f1e75abf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8598ba7e00a03fc449fe955a5cf49d53, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
