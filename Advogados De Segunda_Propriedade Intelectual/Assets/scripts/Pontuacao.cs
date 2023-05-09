@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pontuacao : MonoBehaviour
 {
+    public static Pontuacao Instance;
     AudioSource audioEnvelope;
     public AudioSource audioRelogio;
     public List<Documento> docs;
@@ -20,6 +21,7 @@ public class Pontuacao : MonoBehaviour
     void Start()
     {
         audioEnvelope = GetComponent<AudioSource>();
+        Instance =this;
     }
 
     // Update is called once per frame
@@ -88,5 +90,15 @@ public class Pontuacao : MonoBehaviour
         UIManager.Instance.panelFinalTrue(soma,bonus,erros,total,acertos);
         fim=true;
         audioRelogio.Stop();
+    }
+    public void resetaPontuacao(){
+        Pontos=0;
+        soma=0;
+        erros=0;
+        fim=false;
+        bonus=0;
+        total=0;
+        docs = new List<Documento>();
+        audioRelogio.Play();
     }
 }

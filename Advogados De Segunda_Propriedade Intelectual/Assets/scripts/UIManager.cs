@@ -134,6 +134,15 @@ public class UIManager : MonoBehaviour
         }
         
     }
+    public void resetaDia(){
+        somaUI.text = "R$ ";
+        erroUI.text = "R$ ";
+        totalUI.text = "R$ ";
+        bonuUI.text= "R$ ";
+        HideUi();
+        panelFinal.SetActive(false);
+         bonuObj.SetActive(false);
+    }
     public void mudarCena(int i){
          SceneManager.LoadScene(i);
     }

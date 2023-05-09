@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Impressora : MonoBehaviour
 {
-    [SerializeField] GameObject[] folhas;
+    public static Impressora Instance;
+    public List<GameObject> folhas;
     [SerializeField] GameObject folhaBranca;
     [SerializeField] GameObject folhaBrancaDefault;
     public Material[] materiais;
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     public GameObject capsulee;
     AudioSource audioImpressora;
-    int id=-1;
+    [HideInInspector]
+    public int id=-1;
     private IEnumerator coroutine;
     public bool aux, jogar, boolJogar;
     Coroutine currentCourotine;
@@ -28,6 +30,7 @@ public class Impressora : MonoBehaviour
         inicialTransP=transFolhaBranca.position;
         inicialTransR=transFolhaBranca.rotation;
         rgFolhaBranca= folhaBranca.GetComponent<Rigidbody>();
+        Instance = this;
     }
 
     // Update is called once per frame
@@ -40,13 +43,13 @@ public class Impressora : MonoBehaviour
                  folhas[id].GetComponent<Documento>().dentroImpressora=false;
                 jogar=false;
                 rgFolhaBranca.useGravity=false;
-                 if(id<folhas.Length-1){
+                 if(id<folhas.Count-1){
                     transFolhaBranca.position=inicialTransP;
                     transFolhaBranca.rotation=inicialTransR;
                  }else{
                     transFolhaBranca.gameObject.SetActive(false);
                  }
-                if(id==folhas.Length-2)folhaBrancaDefault.SetActive(false);
+                if(id==folhas.Count-2)folhaBrancaDefault.SetActive(false);
                  coroutine = esperaEmudaCor(esperaTime2);
                 StartCoroutine(coroutine);
             }
@@ -64,7 +67,7 @@ public class Impressora : MonoBehaviour
         boolJogar=false;
     }
     public void lancarFolha(){
-        if(id<folhas.Length-1&&boolJogar==false){
+        if(id<folhas.Count-1&&boolJogar==false){
             boolJogar=true;
             id++;
             audioImpressora.Play();
@@ -90,6 +93,13 @@ public class Impressora : MonoBehaviour
 
             }
         }
+    }
+    public void resetaImpressora(){
+        id=-1;
+         transFolhaBranca.position=inicialTransP;
+        transFolhaBranca.rotation=inicialTransR;
+         transFolhaBranca.gameObject.SetActive(true);
+         folhaBrancaDefault.SetActive(true);
     }
     
 }

@@ -10,16 +10,22 @@ public class Documento : MonoBehaviour
     [TextArea(100,10000)]
     public string[] textosDocumento;
     AudioSource audioFolha;
-    public bool plagioAceito;
-    public bool plagioNegado;
+    public bool plagioAceito=false;
+    public bool plagioNegado=false;
     public string respostaCerta;
+    [HideInInspector]
     public string resposta;
     public Image imagem;
     public GameObject plagio;
     public GameObject naoPlagio;
+    [HideInInspector]
      public bool dentroImpressora;
      private Rigidbody rb;
     public bool regras;
+    public bool dia1;
+    public bool dia2;
+    public bool dia3;
+
     private void Start()
     {
         if(!regras){
