@@ -13,13 +13,13 @@ public class FasesManager : MonoBehaviour
     };
     // Start is called before the first frame update
     public Fases fases;
-    Documento[] documentos;
+    public Documento[] documentos;
     public Impressora impressora;
     public Pontuacao pontucao;
     [SerializeField] TMP_Text diaText;
     void Start()
     {
-        documentos = FindObjectsOfType<Documento>();
+       // documentos = FindObjectsOfType<Documento>();
         updatePageFases();
         Debug.Log(impressora.esperaTime);
     }
