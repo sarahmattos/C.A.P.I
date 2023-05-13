@@ -43,6 +43,7 @@ public class Impressora : MonoBehaviour
                  folhas[id].GetComponent<Documento>().dentroImpressora=false;
                 jogar=false;
                 rgFolhaBranca.useGravity=false;
+                rgFolhaBranca.isKinematic=true;
                  if(id<folhas.Count-1){
                     transFolhaBranca.position=inicialTransP;
                     transFolhaBranca.rotation=inicialTransR;
@@ -73,6 +74,7 @@ public class Impressora : MonoBehaviour
             audioImpressora.Play();
             capsulee.GetComponent<Renderer>().material =materiais[1];
             rgFolhaBranca.useGravity=true;
+             rgFolhaBranca.isKinematic=false;
             coroutine = esperaEvai(esperaTime);
             StartCoroutine(coroutine);
         }
