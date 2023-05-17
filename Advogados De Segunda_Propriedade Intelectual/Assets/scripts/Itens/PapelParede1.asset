@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f580e19e3337126499a9211a111d4dbc, type: 3}
-  m_Name: PapelParede
+  m_Name: PapelParede1
   m_EditorClassIdentifier: 
-  NomeItem: Papel de Parede
+  NomeItem: PapelParede1
   valorItem: 20
+  presente: 0

@@ -13,7 +13,7 @@ public class Compra : MonoBehaviour
     [SerializeField] GameObject papelParede2;
     public botoesCompra[] btnsCompra;
     public List<botoesCompra> todosBotoes;
-     botoesCompra btnAtual;
+    public Eventos evento;
     bool equipar;
     // Start is called before the first frame update
     void Start()
@@ -31,11 +31,22 @@ public class Compra : MonoBehaviour
     {
         
     }
-    public void Comprar(Itens item){
-        Pontuacao.Instance.totalFinal -= item.valorItem;
-        if(item.presente==true)itemPresente.Add(item);
-        mudarInterface(item);
-        checarBotoesDinheiro();
+    public void Comprar(botoesCompra btnCompra){
+        if(!btnCompra.comprado){
+             Pontuacao.Instance.totalFinal -= btnCompra.item.valorItem;
+             mudarInterface(btnCompra);
+            checarBotoesDinheiro();
+            if(btnCompra.item.presente==true){
+                itemPresente.Add(btnCompra.item);
+            }else{
+                equiparItem(btnCompra);
+            }
+        }else{
+            if(!btnCompra.item.presente){
+                equiparItem(btnCompra);
+            }
+        }
+        btnCompra.comprado=true;
         
     }
     public void checarBotoesDinheiro(){
@@ -47,7 +58,7 @@ public class Compra : MonoBehaviour
     public void enviarPresente(){
         //no proximo dia chegar um presente
         checarBotoesDinheiro();
-        if(itemPresente!=null){
+        if(itemPresente.Count>0){
              presente.SetActive(true);
         }
     }
@@ -62,41 +73,42 @@ public class Compra : MonoBehaviour
         }
         
         presente.SetActive(false);
+         evento.aviso.SetActive(false);
         itemPresente = new List<Itens>();
         
     }
-     public void mudarInterface(Itens item){
+     public void mudarInterface(botoesCompra btnCompra){
         for(int i=0;i<todosBotoes.Count;i++){
-            if(todosBotoes[i].item == item){
-                btnAtual = todosBotoes[i];
+            if(todosBotoes[i].item.NomeItem == btnCompra.item.NomeItem){
                 todosBotoes.Remove(todosBotoes[i]);
             }
         }
-        if(!item.presente){
-            btnAtual.texto.text = "Equipar";
-            
-        }else{
-            btnAtual.texto.text = "Comprado";
-            btnAtual.btn.interactable=false;
-            btnAtual.btn.image.color = Color.red;
+        if(btnCompra.item.presente){
+            btnCompra.texto.text = "Comprado";
+            btnCompra.btn.interactable=false;
+            btnCompra.btn.image.color = Color.red;
         }
+            
+        
     }
-    public void equiparItem(Itens item){
+    public void equiparItem(botoesCompra btnCompra){
         equipar = !equipar;
         if(equipar){
-            if(item.NomeItem=="PapelParede1"){
+            if(btnCompra.item.NomeItem=="PapelParede1"){
                 papelParede1.SetActive(true);
             }
-            if(item.NomeItem=="PapelParede2"){
+            if(btnCompra.item.NomeItem=="PapelParede2"){
                 papelParede2.SetActive(true);
             }
+             btnCompra.texto.text = "Desquipar";
         }else{
-            if(item.NomeItem=="PapelParede1"){
+            if(btnCompra.item.NomeItem=="PapelParede1"){
                 papelParede1.SetActive(false);
             }
-            if(item.NomeItem=="PapelParede2"){
+            if(btnCompra.item.NomeItem=="PapelParede2"){
                 papelParede2.SetActive(false);
             }
+            btnCompra.texto.text = "Equipar";
         }
     }
 }
