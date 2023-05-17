@@ -10,6 +10,7 @@ public class Selecionador : MonoBehaviour, ISelectHandler
     public bool Sairselecinado = false;
     public bool Creditoselecinado = false;
     public bool Opcoeselecinado = false;
+    public bool teste = false;
 
 
     //public GameObject opcoes;
@@ -18,6 +19,7 @@ public class Selecionador : MonoBehaviour, ISelectHandler
     public Animator sair;
     public Animator jogar;
 
+    public int Clicou = 0;
 
 
     public void OnSelect(BaseEventData eventData)
@@ -39,26 +41,58 @@ public class Selecionador : MonoBehaviour, ISelectHandler
                 creditos.Play("CreditoDescerPouco");
                 sair.Play("SairDescerPouco");
                 jogar.Play("JogoAlto");
+
+           
                 
                 break;
 
             case "opcoes":
-                // Ação para o Button2
-                Debug.Log("Button2 was selected");
 
-                opcoes.Play("OpcoesSubirPouco");
-                creditos.Play("CreditoDescerPouco");
-                sair.Play("SairDescerPouco");
-                jogar.Play("JogoBaixo");
+                if (Clicou == 0)
+                {
+
+                    // Ação para o Button2
+                    Debug.Log("Button2 was selected");
+
+                    opcoes.Play("OpcoesSubirPouco");
+                    creditos.Play("CreditoDescerPouco");
+                    sair.Play("SairDescerPouco");
+                    jogar.Play("JogoBaixo");
+
+                }
+                   
+
+
+                if (Clicou == 1)
+                {
+
+                    //opcoes.Play("OpcoesCima");
+                    Clicou = 0;
+
+                }
                 break;
 
             case "credito":
-                // Ação para o Button3
-                Debug.Log("Button3 was selected");
+
+                if (Clicou == 0)
+                {
+                    // Ação para o Button3
+                    Debug.Log("Button3 was selected");
                 opcoes.Play("OpcoesDescerPouco");
                 creditos.Play("CreditoSubirPouco");
                 sair.Play("SairDescerPouco");
                 jogar.Play("JogoBaixo");
+                }
+
+
+                if (Clicou == 1)
+                {
+
+                    
+                    Clicou = 0;
+
+                }
+
                 break;
 
             case "sair":
@@ -78,5 +112,43 @@ public class Selecionador : MonoBehaviour, ISelectHandler
         }
 
         }
+   
+
+    public void cliclouverdadeiro()
+    {
+        teste = !teste;
+        if (teste)
+        {
+            Debug.Log("subir");
+            opcoes.Play("OpcoesCima");
+            Clicou = 1;
+        }
+        else
+        {
+            Debug.Log("deescer");
+            opcoes.Play("OpcoesBaixo");
+           Clicou = 0;
+        }
+
+    }
+
+
+    public void cliclouverdadeiro2()
+    {
+        teste = !teste;
+        if (teste)
+        {
+            Debug.Log("subir");
+            creditos.Play("CreditosCima");
+            Clicou = 1;
+        }
+        else
+        {
+            Debug.Log("deescer");
+            creditos.Play("CreditosBaixo");
+            Clicou = 0;
+        }
+
+    }
 
 }
