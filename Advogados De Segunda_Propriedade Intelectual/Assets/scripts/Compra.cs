@@ -9,13 +9,13 @@ public class Compra : MonoBehaviour
     //itens
     [SerializeField] GameObject ventilador;
     [SerializeField] GameObject poltrona;
-    [SerializeField] GameObject papelParede1;
-    [SerializeField] GameObject papelParede2;
+    [SerializeField] Material defaultMaterial;
     [SerializeField] Material pp1;
     [SerializeField] Material pp2;
-    [SerializeField] GameObject[] parede;
+    [SerializeField] Renderer[] parede;
     public botoesCompra[] btnsCompra;
     public List<botoesCompra> todosBotoes;
+    public List<botoesCompra> botoesPP;
     public Eventos evento;
     bool equipar;
     // Start is called before the first frame update
@@ -95,21 +95,40 @@ public class Compra : MonoBehaviour
         
     }
     public void equiparItem(botoesCompra btnCompra){
-        equipar = !equipar;
-        if(equipar){
+        //equipar = !equipar;
+        btnCompra.equipado = !btnCompra.equipado;
+        if(btnCompra.equipado){
+            for(int i=0;i<botoesPP.Count;i++){
+                Debug.Log("entrou1");
+                if(botoesPP[i].item.NomeItem != btnCompra.item.NomeItem){
+                    Debug.Log(botoesPP[i].item.NomeItem);
+                    botoesPP[i].equipado=false;
+                    botoesPP[i].texto.text = "Equipar";
+                }
+             }
+            //desequipa todos os outros
             if(btnCompra.item.NomeItem=="PapelParede1"){
-                papelParede1.SetActive(true);
+                for(int i=0;i<parede.Length;i++){
+                    parede[i].material = pp1;
+                }
+
             }
             if(btnCompra.item.NomeItem=="PapelParede2"){
-                papelParede2.SetActive(true);
+                for(int i=0;i<parede.Length;i++){
+                    parede[i].material = pp2;
+                }
             }
              btnCompra.texto.text = "Desquipar";
         }else{
             if(btnCompra.item.NomeItem=="PapelParede1"){
-                papelParede1.SetActive(false);
+                for(int i=0;i<parede.Length;i++){
+                    parede[i].material = defaultMaterial;
+                }
             }
             if(btnCompra.item.NomeItem=="PapelParede2"){
-                papelParede2.SetActive(false);
+                for(int i=0;i<parede.Length;i++){
+                    parede[i].material = defaultMaterial;
+                }
             }
             btnCompra.texto.text = "Equipar";
         }

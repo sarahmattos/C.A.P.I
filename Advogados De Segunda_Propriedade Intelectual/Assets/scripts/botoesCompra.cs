@@ -12,6 +12,7 @@ public class botoesCompra : MonoBehaviour
     [HideInInspector]
     public Button btn;
     public bool comprado;
+    public bool equipado;
     void Start()
     {
         texto = GetComponentInChildren<TMP_Text>();

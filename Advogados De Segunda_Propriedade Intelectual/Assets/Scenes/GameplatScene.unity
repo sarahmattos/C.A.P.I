@@ -262,8 +262,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.8, y: 1.44, z: 3.06}
-  m_Center: {x: 0.36, y: -0.94, z: 3.92}
+  m_Size: {x: 5.22, y: 1.44, z: 1.84}
+  m_Center: {x: 0.32, y: -0.94, z: 3.92}
 --- !u!1 &217032265
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +509,7 @@ MonoBehaviour:
   texto: {fileID: 1294204301}
   btn: {fileID: 227453931}
   comprado: 0
+  equipado: 0
 --- !u!1 &260399153
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,8 +909,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.99999994, z: 2}
-  m_Center: {x: 0.00000047683716, y: 0.000000014901161, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 2.5}
+  m_Center: {x: 0, y: 0, z: 1.5}
 --- !u!114 &429201285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,7 +976,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7, y: 1, z: 1.71}
+  m_Size: {x: 0.8, y: 1, z: 0.8}
   m_Center: {x: 0, y: -0.29, z: 0}
 --- !u!1 &481563131
 GameObject:
@@ -1518,6 +1519,7 @@ MonoBehaviour:
   texto: {fileID: 0}
   btn: {fileID: 0}
   comprado: 0
+  equipado: 0
 --- !u!1 &745784600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1660,7 @@ MonoBehaviour:
   texto: {fileID: 0}
   btn: {fileID: 0}
   comprado: 0
+  equipado: 0
 --- !u!114 &761013234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3144,6 +3147,7 @@ MonoBehaviour:
   texto: {fileID: 1206042346}
   btn: {fileID: 1271670860}
   comprado: 0
+  equipado: 0
 --- !u!114 &1271670860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4573,18 +4577,22 @@ MonoBehaviour:
   presente: {fileID: 909076574}
   ventilador: {fileID: 659250619}
   poltrona: {fileID: 1539631750}
-  papelParede1: {fileID: 1334368290}
-  papelParede2: {fileID: 794932868}
+  defaultMaterial: {fileID: 2100000, guid: 54b26ba3d7ea22441a5c3089611e261e, type: 2}
+  pp1: {fileID: 2100000, guid: 8c7b66c487e75dd42a2ca29998e96ae6, type: 2}
+  pp2: {fileID: 2100000, guid: c5f4d1e494c9165419571a4c594081b3, type: 2}
   parede:
-  - {fileID: 1581874999667902096}
-  - {fileID: 7397693334637229284}
-  - {fileID: 193063003353864325}
-  - {fileID: 1525146337}
-  - {fileID: 831153255418094742}
-  - {fileID: 745784600}
-  - {fileID: 1892307865}
+  - {fileID: 2413879880917033531}
+  - {fileID: 8487024408987883237}
+  - {fileID: 7686120332467658122}
+  - {fileID: 1525146339}
+  - {fileID: 3823737033972028594}
+  - {fileID: 745784602}
+  - {fileID: 1892307867}
   btnsCompra: []
   todosBotoes: []
+  botoesPP:
+  - {fileID: 1271670859}
+  - {fileID: 761013233}
   evento: {fileID: 429201285}
 --- !u!114 &1647189662
 MonoBehaviour:
@@ -5344,7 +5352,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.02, z: 0.008964034}
+  m_Size: {x: 0.01, y: 0.01, z: 0.008964034}
   m_Center: {x: -4.6566134e-10, y: -1.8948149e-11, z: 0.004537613}
 --- !u!1 &1892307865
 GameObject:
