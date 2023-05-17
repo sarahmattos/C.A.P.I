@@ -9,7 +9,8 @@ public class botoesCompra : MonoBehaviour
     public Itens item;
     [HideInInspector]
     public TMP_Text texto;
-    [HideInInspector]
+    public TMP_Text textoDinheiro;
+    //[HideInInspector]
     public Button btn;
     public bool comprado;
     public bool equipado;
@@ -22,11 +23,11 @@ public class botoesCompra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        textoDinheiro.text = item.NomeItem+" - R$"+item.valorItem.ToString()+",00";
     }
     public void checaDinheiro(){
         if(item.valorItem> Pontuacao.Instance.totalFinal){
-            btn.interactable=false;
+            if(!comprado)btn.interactable=false;
         }else{
              btn.interactable=true;
         }

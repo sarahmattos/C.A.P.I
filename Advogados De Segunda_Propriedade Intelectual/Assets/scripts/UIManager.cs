@@ -23,6 +23,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] TMP_Text erroUI;
     [SerializeField] TMP_Text totalUI;
     [SerializeField] TMP_Text quantidade;
+    [SerializeField] TMP_Text dinheiro;
+    [SerializeField] GameObject panelCompra;
+    [SerializeField] GameObject panelCompraObjeto;
+    [SerializeField] GameObject panelCompraPapeis;
 
    [SerializeField] private CanvasGroup telfinalgrupo ;
 
@@ -37,6 +41,8 @@ public class UIManager : MonoBehaviour
     int id;
     bool ler=false;
     public bool zoomON;
+    public bool compraON;
+    public Compra compra;
     private void Start()
     {
         Instance=this;
@@ -172,9 +178,28 @@ public class UIManager : MonoBehaviour
             if(telfinalgrupo.alpha >= 1) { fadeIn = false; }
 
         }
-
-
+        if(Input.GetKeyDown(KeyCode.C)){
+            compraON = !compraON;
+            if(compraON){
+                compra.checarBotoesDinheiro();
+                panelCompra.SetActive(true);
+                panelCompraObjeto.SetActive(true);
+                panelCompraPapeis.SetActive(false);
+            }else{
+                if(!compraON)panelCompra.SetActive(false);
+            }
+            
+        }
+        dinheiro.text ="R$"+Pontuacao.Instance.totalFinal.ToString()+",00";
         
+    }
+    public void panelObjetoCompra(){
+        panelCompraObjeto.SetActive(true);
+        panelCompraPapeis.SetActive(false);
+    }
+    public void panelPapeisCompra(){
+        panelCompraObjeto.SetActive(false);
+        panelCompraPapeis.SetActive(true);
     }
 }
  

@@ -9,6 +9,8 @@ public class Compra : MonoBehaviour
     //itens
     [SerializeField] GameObject ventilador;
     [SerializeField] GameObject poltrona;
+    [SerializeField] GameObject tapete;
+    [SerializeField] GameObject quadro;
     [SerializeField] Material defaultMaterial;
     [SerializeField] Material pp1;
     [SerializeField] Material pp2;
@@ -26,7 +28,6 @@ public class Compra : MonoBehaviour
         {
             todosBotoes.Add(botoes);
         }
-        checarBotoesDinheiro();
     }
 
     // Update is called once per frame
@@ -36,6 +37,7 @@ public class Compra : MonoBehaviour
     }
     public void Comprar(botoesCompra btnCompra){
         if(!btnCompra.comprado){
+             btnCompra.comprado=true;
              Pontuacao.Instance.totalFinal -= btnCompra.item.valorItem;
              mudarInterface(btnCompra);
             checarBotoesDinheiro();
@@ -49,11 +51,15 @@ public class Compra : MonoBehaviour
                 equiparItem(btnCompra);
             }
         }
-        btnCompra.comprado=true;
+       
         
     }
     public void checarBotoesDinheiro(){
         foreach (botoesCompra botoes in todosBotoes)
+        {
+           botoes.checaDinheiro();
+        }
+        foreach (botoesCompra botoes in botoesPP)
         {
            botoes.checaDinheiro();
         }
@@ -73,10 +79,17 @@ public class Compra : MonoBehaviour
             if(itemPresente[i].NomeItem=="Poltrona"){
                 poltrona.SetActive(true);
             }
+            if(itemPresente[i].NomeItem=="Tapete"){
+                tapete.SetActive(true);
+            }
+            if(itemPresente[i].NomeItem=="Quadro"){
+                quadro.SetActive(true);
+            }
         }
         
         presente.SetActive(false);
          evento.aviso.SetActive(false);
+         evento.presenteOn=false;
         itemPresente = new List<Itens>();
         
     }
@@ -99,9 +112,7 @@ public class Compra : MonoBehaviour
         btnCompra.equipado = !btnCompra.equipado;
         if(btnCompra.equipado){
             for(int i=0;i<botoesPP.Count;i++){
-                Debug.Log("entrou1");
-                if(botoesPP[i].item.NomeItem != btnCompra.item.NomeItem){
-                    Debug.Log(botoesPP[i].item.NomeItem);
+                if(botoesPP[i].item.NomeItem != btnCompra.item.NomeItem && botoesPP[i].comprado){
                     botoesPP[i].equipado=false;
                     botoesPP[i].texto.text = "Equipar";
                 }
