@@ -39,7 +39,7 @@ public class Pontuacao : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if(other.tag!="Folha"){
+        if(other.tag!="Folha"&& other.tag!="Player"){
             MoverObject mov = other.gameObject.GetComponent<MoverObject>();
                 if(mov.isDragging==false)other.gameObject.transform.position = spawn2;
         }

@@ -8,6 +8,9 @@ TagManager:
   - SFX
   - Musicas
   - a4
+  - Mesa
+  - Globo
+  - Radio
   layers:
   - Default
   - TransparentFX

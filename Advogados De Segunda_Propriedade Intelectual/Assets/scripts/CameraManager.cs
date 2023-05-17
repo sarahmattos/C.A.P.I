@@ -14,6 +14,8 @@ public class CameraManager : MonoBehaviour
     public Quaternion rotationCamera;
     public Quaternion rotationPlayer;
     public PlayerController pc;
+
+    public Eventos evento;
     void Start()
     {
         posicaoCamera = cameraAndando.transform.position;
@@ -26,7 +28,7 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)&& troca){
+        if(Input.GetKeyDown(KeyCode.E)&& troca && evento.mesaOn){
             sentado = !sentado;
             mudarCamera();
             troca=false;
@@ -39,6 +41,7 @@ public class CameraManager : MonoBehaviour
     public void mudarCamera(){
         
         if(sentado){
+            evento.aviso.SetActive(false);
             cameraSentado.SetActive(true);
             cameraAndando.SetActive(false);
 

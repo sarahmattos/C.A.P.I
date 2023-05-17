@@ -11,7 +11,7 @@ public class BotaoRadio : MonoBehaviour
     {
         audioRadio = GetComponent<AudioSource>();
     }
-   private void OnMouseDown()
+   public void PlayMusic()
     {
         valor = !valor;
         audioRadio.mute=valor;
