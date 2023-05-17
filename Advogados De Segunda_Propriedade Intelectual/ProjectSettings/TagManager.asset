@@ -11,6 +11,7 @@ TagManager:
   - Mesa
   - Globo
   - Radio
+  - Presente
   layers:
   - Default
   - TransparentFX

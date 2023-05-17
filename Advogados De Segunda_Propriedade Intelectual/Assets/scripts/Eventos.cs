@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class Eventos : MonoBehaviour
 {
-    public bool globoOn, radioOn, mesaOn;
+    public bool globoOn, radioOn, mesaOn, presenteOn;
     public BotaoRadio btnRadio;
     public GameObject aviso;
     public CameraManager cm;
+    public Compra compra;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class Eventos : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E)){
             if(radioOn)btnRadio.PlayMusic();
+            if(presenteOn)compra.abrirPresente();
         
         }
 
@@ -38,6 +40,10 @@ public class Eventos : MonoBehaviour
             radioOn=true;
             aviso.SetActive(true);
         }
+        if (other.gameObject.tag == "Presente") {
+            presenteOn=true;
+            aviso.SetActive(true);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
@@ -51,6 +57,10 @@ public class Eventos : MonoBehaviour
         }
         if (other.gameObject.tag == "Radio") {
             radioOn=false;
+            aviso.SetActive(false);
+        }
+        if (other.gameObject.tag == "Presente") {
+            presenteOn=false;
             aviso.SetActive(false);
         }
     }

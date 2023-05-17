@@ -13,6 +13,7 @@ public class FasesManager : MonoBehaviour
     };
     // Start is called before the first frame update
     public Fases fases;
+    public Compra compra;
     public Documento[] documentos;
     public Impressora impressora;
     public Pontuacao pontucao;
@@ -39,6 +40,7 @@ public class FasesManager : MonoBehaviour
             this.fases = Fases.DIA1;
             break;
         }
+        compra.enviarPresente();
         updatePageFases();
         impressora.resetaImpressora();
         pontucao.resetaPontuacao();

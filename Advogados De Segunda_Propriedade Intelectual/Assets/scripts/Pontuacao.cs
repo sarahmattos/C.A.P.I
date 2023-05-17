@@ -16,12 +16,14 @@ public class Pontuacao : MonoBehaviour
     public int bonus;
     public int erros;
     public int total;
+    public int totalFinal;
     public bool fim;
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     void Start()
     {
         audioEnvelope = GetComponent<AudioSource>();
         Instance =this;
+        totalFinal=200;
     }
 
     // Update is called once per frame
@@ -90,6 +92,7 @@ public class Pontuacao : MonoBehaviour
         UIManager.Instance.panelFinalTrue(soma,bonus,erros,total,acertos);
         fim=true;
         audioRelogio.Stop();
+        totalFinal += total;
     }
     public void resetaPontuacao(){
         Pontos=0;
