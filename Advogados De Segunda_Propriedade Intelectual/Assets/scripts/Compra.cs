@@ -11,11 +11,19 @@ public class Compra : MonoBehaviour
     [SerializeField] GameObject poltrona;
     [SerializeField] GameObject papelParede1;
     [SerializeField] GameObject papelParede2;
+    public botoesCompra[] btnsCompra;
+    public List<botoesCompra> todosBotoes;
+     botoesCompra btnAtual;
     bool equipar;
     // Start is called before the first frame update
     void Start()
     {
-        
+        btnsCompra =FindObjectsOfType<botoesCompra>();
+        foreach (botoesCompra botoes in btnsCompra)
+        {
+            todosBotoes.Add(botoes);
+        }
+        checarBotoesDinheiro();
     }
 
     // Update is called once per frame
@@ -27,9 +35,18 @@ public class Compra : MonoBehaviour
         Pontuacao.Instance.totalFinal -= item.valorItem;
         if(item.presente==true)itemPresente.Add(item);
         mudarInterface(item);
+        checarBotoesDinheiro();
+        
+    }
+    public void checarBotoesDinheiro(){
+        foreach (botoesCompra botoes in todosBotoes)
+        {
+           botoes.checaDinheiro();
+        }
     }
     public void enviarPresente(){
         //no proximo dia chegar um presente
+        checarBotoesDinheiro();
         if(itemPresente!=null){
              presente.SetActive(true);
         }
@@ -49,11 +66,19 @@ public class Compra : MonoBehaviour
         
     }
      public void mudarInterface(Itens item){
+        for(int i=0;i<todosBotoes.Count;i++){
+            if(todosBotoes[i].item == item){
+                btnAtual = todosBotoes[i];
+                todosBotoes.Remove(todosBotoes[i]);
+            }
+        }
         if(!item.presente){
-            //mudar para equipar e desaquipar
+            btnAtual.texto.text = "Equipar";
             
         }else{
-            //mudar para comprado
+            btnAtual.texto.text = "Comprado";
+            btnAtual.btn.interactable=false;
+            btnAtual.btn.image.color = Color.red;
         }
     }
     public void equiparItem(Itens item){

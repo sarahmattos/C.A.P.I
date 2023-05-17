@@ -23,7 +23,7 @@ public class Pontuacao : MonoBehaviour
     {
         audioEnvelope = GetComponent<AudioSource>();
         Instance =this;
-        totalFinal=200;
+        totalFinal=80;
     }
 
     // Update is called once per frame

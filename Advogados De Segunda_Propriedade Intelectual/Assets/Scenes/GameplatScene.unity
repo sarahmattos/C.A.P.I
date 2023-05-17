@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 227453933}
   - component: {fileID: 227453932}
   - component: {fileID: 227453931}
+  - component: {fileID: 227453934}
   m_Layer: 5
   m_Name: ventBtn
   m_TagString: Untagged
@@ -492,6 +493,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227453929}
   m_CullTransparentMesh: 1
+--- !u!114 &227453934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227453929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019b2abf0ffbb884ebff5135f2907c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 89935c0d8d4331f42be24a0e32af7231, type: 2}
+  texto: {fileID: 1294204301}
+  btn: {fileID: 227453931}
 --- !u!1 &260399153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1378,7 @@ GameObject:
   - component: {fileID: 743752222}
   - component: {fileID: 743752221}
   - component: {fileID: 743752220}
+  - component: {fileID: 743752223}
   m_Layer: 5
   m_Name: PoltBtn
   m_TagString: Untagged
@@ -1484,6 +1501,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743752218}
   m_CullTransparentMesh: 1
+--- !u!114 &743752223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743752218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019b2abf0ffbb884ebff5135f2907c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: db1cc5444534a58468abf9180c8ec3b9, type: 2}
+  texto: {fileID: 0}
+  btn: {fileID: 0}
 --- !u!1 &745784600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +3845,8 @@ MonoBehaviour:
   poltrona: {fileID: 1539631750}
   papelParede1: {fileID: 0}
   papelParede2: {fileID: 0}
+  btnsCompra: []
+  todosBotoes: []
 --- !u!114 &1647189662
 MonoBehaviour:
   m_ObjectHideFlags: 0
