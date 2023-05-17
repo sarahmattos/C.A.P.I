@@ -317,10 +317,12 @@ MonoBehaviour:
   Sairselecinado: 0
   Creditoselecinado: 0
   Opcoeselecinado: 0
+  teste: 0
   opcoes: {fileID: 1802459142}
   creditos: {fileID: 1118679683}
   sair: {fileID: 893763857}
   jogar: {fileID: 935791174}
+  Clicou: 0
 --- !u!1 &293844252
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 293844255}
   - component: {fileID: 293844254}
-  - component: {fileID: 293844253}
+  - component: {fileID: 293844256}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -339,26 +341,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &293844253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293844252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &293844254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,6 +371,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293844256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293844252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259b50129dbe24d44afb31f466d5c885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
 --- !u!1 &311432959
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,9 +475,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1985815489}
-        m_TargetAssemblyTypeName: TriggerCreditos, Assembly-CSharp
-        m_MethodName: Clicou
+      - m_Target: {fileID: 311432964}
+        m_TargetAssemblyTypeName: Selecionador, Assembly-CSharp
+        m_MethodName: cliclouverdadeiro2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -539,10 +541,12 @@ MonoBehaviour:
   Sairselecinado: 0
   Creditoselecinado: 0
   Opcoeselecinado: 0
+  teste: 0
   opcoes: {fileID: 1802459142}
   creditos: {fileID: 1118679683}
   sair: {fileID: 893763857}
   jogar: {fileID: 935791174}
+  Clicou: 0
 --- !u!1 &431093973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,9 +1441,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1985815487}
-        m_TargetAssemblyTypeName: TriggerOpcoes, Assembly-CSharp
-        m_MethodName: Clicou
+      - m_Target: {fileID: 1107687107}
+        m_TargetAssemblyTypeName: Selecionador, Assembly-CSharp
+        m_MethodName: cliclouverdadeiro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1503,10 +1507,12 @@ MonoBehaviour:
   Sairselecinado: 0
   Creditoselecinado: 0
   Opcoeselecinado: 0
+  teste: 0
   opcoes: {fileID: 1802459142}
   creditos: {fileID: 1118679683}
   sair: {fileID: 893763857}
   jogar: {fileID: 935791174}
+  Clicou: 1
 --- !u!1 &1118679679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,10 +2213,12 @@ MonoBehaviour:
   Sairselecinado: 0
   Creditoselecinado: 0
   Opcoeselecinado: 0
+  teste: 0
   opcoes: {fileID: 1802459142}
   creditos: {fileID: 1118679683}
   sair: {fileID: 893763857}
   jogar: {fileID: 935791174}
+  Clicou: 0
 --- !u!1 &1491403724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2707,6 +2715,7 @@ GameObject:
   - component: {fileID: 1985815489}
   - component: {fileID: 1985815490}
   - component: {fileID: 1985815491}
+  - component: {fileID: 1985815492}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2782,6 +2791,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d07bd43ec8dc66c4088301106fa6e7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1985815492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985815486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65a1f6248026db42b29adaa0001f7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &26844663375177249
