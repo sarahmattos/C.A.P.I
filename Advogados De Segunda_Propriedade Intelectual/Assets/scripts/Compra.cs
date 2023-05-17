@@ -11,6 +11,9 @@ public class Compra : MonoBehaviour
     [SerializeField] GameObject poltrona;
     [SerializeField] GameObject papelParede1;
     [SerializeField] GameObject papelParede2;
+    [SerializeField] Material pp1;
+    [SerializeField] Material pp2;
+    [SerializeField] GameObject[] parede;
     public botoesCompra[] btnsCompra;
     public List<botoesCompra> todosBotoes;
     public Eventos evento;
