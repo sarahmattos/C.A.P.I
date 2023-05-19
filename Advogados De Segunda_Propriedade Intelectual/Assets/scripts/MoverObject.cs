@@ -80,6 +80,8 @@ private void OnMouseDrag()
         curPosition.z = Mathf.Clamp(curPosition.z, minZ, maxZ);
         curPosition.y = Mathf.Clamp(curPosition.y, minY, maxY);
         transform.position = new Vector3(curPosition.x,transform.position.y,curPosition.z);
+        //Vector3 movement = new Vector3(curPosition.x,transform.position.y,curPosition.z);
+        //rb.AddForce(movement * 1f);
         }
         
     }else{

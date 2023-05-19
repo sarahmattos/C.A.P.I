@@ -12,6 +12,7 @@ TagManager:
   - Globo
   - Radio
   - Presente
+  - botao
   layers:
   - Default
   - TransparentFX
