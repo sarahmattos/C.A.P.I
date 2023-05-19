@@ -2634,7 +2634,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: add2a6c01222e2e4aa0921d390e191fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6249,6 +6249,7 @@ GameObject:
   - component: {fileID: 8583948218468522227}
   - component: {fileID: 496058514312932355}
   - component: {fileID: 2612344235716349211}
+  - component: {fileID: 8583948218468522228}
   m_Layer: 0
   m_Name: Globo
   m_TagString: Untagged
@@ -6443,7 +6444,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 14e9a44a89cf35840aa033f58dab5bea, type: 2}
+  - {fileID: 2100000, guid: add2a6c01222e2e4aa0921d390e191fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7043,7 +7044,7 @@ GameObject:
   - component: {fileID: 6864116931905412781}
   - component: {fileID: 2630586637938327649}
   m_Layer: 0
-  m_Name: Cube.048
+  m_Name: "InterruptorBot\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9557,7 +9558,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 14e9a44a89cf35840aa033f58dab5bea, type: 2}
+  - {fileID: 2100000, guid: add2a6c01222e2e4aa0921d390e191fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11611,6 +11612,26 @@ Transform:
   m_Father: {fileID: 441462992}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -192.181, z: 0}
+--- !u!95 &8583948218468522228
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658859435158886098}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 590e84c3b90a3844ea39f0940c1a8940, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &8608354310829860119
 Transform:
   m_ObjectHideFlags: 0
