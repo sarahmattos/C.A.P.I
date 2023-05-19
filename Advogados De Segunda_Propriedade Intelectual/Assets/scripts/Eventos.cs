@@ -10,6 +10,7 @@ public class Eventos : MonoBehaviour
     public GameObject aviso;
     public CameraManager cm;
     public Compra compra;
+    public Animator globo;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,10 @@ public class Eventos : MonoBehaviour
             if(radioOn)btnRadio.PlayMusic();
             if(presenteOn)compra.abrirPresente();
             if(mesaOn)cm.mudarCamera();
+            if(globoOn){
+                globo.Play("GloboGirando");
+                Debug.Log("rodou");
+            }
         }
 
     }

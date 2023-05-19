@@ -262,7 +262,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.22, y: 1.44, z: 1.84}
+  m_Size: {x: 5.22, y: 0.92, z: 1.84}
   m_Center: {x: 0.32, y: -0.94, z: 3.92}
 --- !u!1 &217032265
 GameObject:
@@ -380,7 +380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &298565017
 AudioListener:
   m_ObjectHideFlags: 0
@@ -649,6 +649,7 @@ MonoBehaviour:
   aviso: {fileID: 260399153}
   cm: {fileID: 613263149}
   compra: {fileID: 1647189661}
+  globo: {fileID: 8583948218468522228}
 --- !u!1 &441462991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,7 +1634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &909076575
 Transform:
   m_ObjectHideFlags: 0
@@ -2436,6 +2437,7 @@ GameObject:
   - component: {fileID: 1364463397}
   - component: {fileID: 1364463399}
   - component: {fileID: 1364463398}
+  - component: {fileID: 1364463400}
   m_Layer: 0
   m_Name: Porta_Caneta.002 (1)
   m_TagString: Untagged
@@ -2451,7 +2453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364463396}
   m_LocalRotation: {x: -0.54925567, y: -0.26271573, z: 0.25424, w: 0.75143903}
-  m_LocalPosition: {x: 0.13399982, y: 0.077, z: 0.007}
+  m_LocalPosition: {x: 0.47, y: -0.174, z: -0.247}
   m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2508,6 +2510,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364463396}
   m_Mesh: {fileID: 816714013445203061, guid: aa247c44f428ebb4c8fa0084eacf84de, type: 3}
+--- !u!65 &1364463400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364463396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.061242353, y: 0.51928365, z: 0.22731608}
+  m_Center: {x: -0.19025807, y: 0.29153076, z: 0.101097085}
 --- !u!1001 &1392613838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5974,6 +5989,7 @@ GameObject:
   - component: {fileID: 6825630882144083518}
   - component: {fileID: 1807149569717952251}
   - component: {fileID: 7676583280388847711}
+  - component: {fileID: 7676583280388847712}
   m_Layer: 0
   m_Name: Porta_Caneta.002
   m_TagString: Untagged
@@ -6265,7 +6281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2747580054984555370}
   m_LocalRotation: {x: 0.000000035474063, y: 0.9999956, z: 0.000000073329964, w: -0.0029846723}
-  m_LocalPosition: {x: -0.042712003, y: -0.3658331, z: -0.339653}
+  m_LocalPosition: {x: -0.217, y: -0.3658331, z: -0.339653}
   m_LocalScale: {x: 0.81357133, y: 5, z: 1.3872484}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6370,7 +6386,7 @@ GameObject:
   - component: {fileID: 6443499129919317815}
   - component: {fileID: 6562167462382172056}
   - component: {fileID: 5330127184193398503}
-  - component: {fileID: 6562167462382172057}
+  - component: {fileID: 6562167462382172058}
   m_Layer: 0
   m_Name: Porta_Caneta
   m_TagString: Untagged
@@ -9821,7 +9837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2762273608939755922}
   m_LocalRotation: {x: -0.37881008, y: 0, z: -0, w: 0.92547446}
-  m_LocalPosition: {x: 0.49, y: -0.186, z: -0.255}
+  m_LocalPosition: {x: 0.49, y: -0.344, z: -0.417}
   m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9869,7 +9885,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2762273608939755922}
   m_Mesh: {fileID: -75522847286714233, guid: aa247c44f428ebb4c8fa0084eacf84de, type: 3}
---- !u!65 &6562167462382172057
+--- !u!65 &6562167462382172058
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9880,8 +9896,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.74276173, y: 0.27369392, z: 0.3283066}
-  m_Center: {x: -0.000000029802322, y: 0.13684782, z: -0.0000016661699}
+  m_Size: {x: 0.7427619, y: 0.273694, z: 0.32830667}
+  m_Center: {x: -0.00000027965928, y: 0.13684781, z: -0.0000016112555}
 --- !u!4 &6595887435632321697
 Transform:
   m_ObjectHideFlags: 0
@@ -10014,7 +10030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2314584895100097613}
   m_LocalRotation: {x: -0.37881008, y: 0, z: -0, w: 0.92547446}
-  m_LocalPosition: {x: 0.13399982, y: -0.12140928, z: -0.19477122}
+  m_LocalPosition: {x: 0.47, y: -0.374, z: -0.447}
   m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10775,6 +10791,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7676583280388847712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2314584895100097613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.061242364, y: 0.5192838, z: 0.22731616}
+  m_Center: {x: -0.19025813, y: 0.2915309, z: 0.10109707}
 --- !u!23 &7686120332467658122
 MeshRenderer:
   m_ObjectHideFlags: 0

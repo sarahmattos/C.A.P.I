@@ -22,7 +22,7 @@ public class CameraManager : MonoBehaviour
         rotationCamera = cameraAndando.transform.rotation;
         rotationPlayer =  pc.transform.rotation;
         posicaoPlayer =  pc.transform.position;
-        mudarCamera();
+        //mudarCamera();
     }
 
     // Update is called once per frame
@@ -53,6 +53,7 @@ public class CameraManager : MonoBehaviour
              pc.transform.rotation = rotationPlayer;
             cameraAndando.transform.position = posicaoCamera;
             cameraAndando.transform.rotation = rotationCamera;
+            evento.mesaOn=false;
             
         }
     }
