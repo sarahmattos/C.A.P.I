@@ -22,7 +22,7 @@ public class Eventos : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(radioOn)btnRadio.PlayMusic();
             if(presenteOn)compra.abrirPresente();
-        
+            if(mesaOn)cm.mudarCamera();
         }
 
     }

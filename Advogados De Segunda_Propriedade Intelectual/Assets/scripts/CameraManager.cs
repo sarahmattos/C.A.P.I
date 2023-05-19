@@ -28,18 +28,19 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)&& troca && evento.mesaOn){
-            sentado = !sentado;
-            mudarCamera();
-            troca=false;
+        //if(Input.GetKeyDown(KeyCode.E)&& troca && evento.mesaOn){
+          //  sentado = !sentado;
+           // mudarCamera();
+           // troca=false;
             
-        }
-        if(Input.GetKeyUp(KeyCode.E)&& troca==false){
-            troca = true;
-        }
+       // }
+       // if(Input.GetKeyUp(KeyCode.E)&& troca==false && evento.mesaOn==false){
+        //    troca = true;
+        //}
     }
     public void mudarCamera(){
-        
+        Debug.Log("mudou camera");
+         sentado = !sentado;
         if(sentado){
             evento.aviso.SetActive(false);
             cameraSentado.SetActive(true);
