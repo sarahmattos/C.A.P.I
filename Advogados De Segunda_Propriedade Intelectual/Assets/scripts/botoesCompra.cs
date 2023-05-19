@@ -23,7 +23,7 @@ public class botoesCompra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textoDinheiro.text = item.NomeItem+" - R$"+item.valorItem.ToString()+",00";
+        textoDinheiro.text = item.NomeItem+"\n"+"R$"+item.valorItem.ToString()+",00";
     }
     public void checaDinheiro(){
         if(item.valorItem> Pontuacao.Instance.totalFinal){

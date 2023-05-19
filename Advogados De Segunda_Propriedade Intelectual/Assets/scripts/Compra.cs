@@ -100,9 +100,8 @@ public class Compra : MonoBehaviour
             }
         }
         if(btnCompra.item.presente){
-            btnCompra.texto.text = "Comprado";
             btnCompra.btn.interactable=false;
-            btnCompra.btn.image.color = Color.red;
+            btnCompra.btn.image.sprite = UIManager.Instance.compradoImage;
         }
             
         
@@ -114,7 +113,8 @@ public class Compra : MonoBehaviour
             for(int i=0;i<botoesPP.Count;i++){
                 if(botoesPP[i].item.NomeItem != btnCompra.item.NomeItem && botoesPP[i].comprado){
                     botoesPP[i].equipado=false;
-                    botoesPP[i].texto.text = "Equipar";
+                    //botoesPP[i].texto.text = "Equipar";
+                    botoesPP[i].btn.image.sprite = UIManager.Instance.equiparImage;
                 }
              }
             //desequipa todos os outros
@@ -129,7 +129,8 @@ public class Compra : MonoBehaviour
                     parede[i].material = pp2;
                 }
             }
-             btnCompra.texto.text = "Desquipar";
+             //btnCompra.texto.text = "Desquipar";
+             btnCompra.btn.image.sprite = UIManager.Instance.desequiparImage;
         }else{
             if(btnCompra.item.NomeItem=="PapelParede1"){
                 for(int i=0;i<parede.Length;i++){
@@ -141,7 +142,8 @@ public class Compra : MonoBehaviour
                     parede[i].material = defaultMaterial;
                 }
             }
-            btnCompra.texto.text = "Equipar";
+            //btnCompra.texto.text = "Equipar";
+           btnCompra.btn.image.sprite = UIManager.Instance.equiparImage;
         }
     }
 }

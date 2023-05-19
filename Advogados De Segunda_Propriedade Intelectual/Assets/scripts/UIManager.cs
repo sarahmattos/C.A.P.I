@@ -8,10 +8,13 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     public Texture2D[] cursorTexture;
+    public Sprite compradoImage, equiparImage, desequiparImage;
     Vector2 hotspot;
     [SerializeField] Sprite defaultSprite;
     [SerializeField] TMP_Text textoDocumento;
     [SerializeField] GameObject panelUiDocumento;
+    [SerializeField] GameObject seta1;
+    [SerializeField] GameObject seta2;
     [SerializeField] GameObject esquerdaSeta;
     [SerializeField] GameObject direitaSeta;
     [SerializeField] GameObject zoomTexto;
@@ -193,13 +196,23 @@ public class UIManager : MonoBehaviour
         dinheiro.text ="R$"+Pontuacao.Instance.totalFinal.ToString()+",00";
         
     }
+    public void fechar(){
+        compraON = !compraON;
+        if(!compraON){
+            panelCompra.SetActive(false);
+        }
+    }
     public void panelObjetoCompra(){
         panelCompraObjeto.SetActive(true);
         panelCompraPapeis.SetActive(false);
+        seta1.SetActive(true);
+        seta2.SetActive(false);
     }
     public void panelPapeisCompra(){
         panelCompraObjeto.SetActive(false);
         panelCompraPapeis.SetActive(true);
+        seta1.SetActive(false);
+        seta2.SetActive(true);
     }
 }
  
