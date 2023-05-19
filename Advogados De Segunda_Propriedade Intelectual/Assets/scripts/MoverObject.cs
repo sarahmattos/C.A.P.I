@@ -37,9 +37,9 @@ private void Update()
     }
         
     }
-    if(transform.position.y<-10){
-        transform.position=spawn;
-    }
+    //if(transform.position.y<10){
+       // transform.position=spawn;
+   // }
     rb.freezeRotation =true;
 }
 private void Start()
@@ -117,5 +117,11 @@ private void OnMouseExit()
        //UIManager.Instance.resetaIda();
      }
 }
+private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("chao")){
+            transform.position=spawn;
+        }
+    }
 
 }

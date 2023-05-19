@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
         playerRigidbody = GetComponent<Rigidbody>();
        rb = GetComponent<Rigidbody>();
     }
-
+    /*
     private void Update()
     {
         if(!cm.sentado){
@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
      }
     
 }
+*/
     private void OnColisionEnter(Collider other)
     {
         if (other.gameObject.tag == "a4") {

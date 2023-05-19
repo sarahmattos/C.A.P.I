@@ -13,6 +13,7 @@ TagManager:
   - Radio
   - Presente
   - botao
+  - chao
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Water
   - UI
   - IgnoreCollision
-  - 
+  - whatIsGround
   - 
   - 
   - 
