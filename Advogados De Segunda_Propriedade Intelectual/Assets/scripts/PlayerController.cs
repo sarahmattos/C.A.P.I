@@ -11,11 +11,11 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = false;
     public Vector3 transformPlayer;
     public CameraManager cm;
-
+    Rigidbody rb;
     private void Start()
     {
         playerRigidbody = GetComponent<Rigidbody>();
-       
+       rb = GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -56,9 +56,9 @@ public class PlayerController : MonoBehaviour
         movement.y = 0f; // Garante que o personagem não se mova verticalmente
 
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
-
+       // rb.AddForce(movement * 10f);
         // Posicionamento da câmera
-        //transformPlayer = transform.position;
+        transformPlayer = transform.position;
         cameraTransform.position =transform.position;
      }
     
