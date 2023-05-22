@@ -12897,6 +12897,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1647189661}
     - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: imgIpCor
+      value: 
+      objectReference: {fileID: 1011525179}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: buttonCorIp
       value: 
       objectReference: {fileID: 1011525176}
@@ -12912,6 +12916,22 @@ PrefabInstance:
       propertyPath: compradoImage
       value: 
       objectReference: {fileID: 21300000, guid: 1ff5b824bd740144786f93472700a4fb, type: 3}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: coreIPDefalut.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: coreIPDefalut.b
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: coreIPDefalut.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: coreIPDefalut.r
+      value: 0.69803923
+      objectReference: {fileID: 0}
     - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: desequiparImage
       value: 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoverObject : MonoBehaviour
 {
@@ -26,6 +27,10 @@ private void Update()
                     keyDown=true;
                     documento.playSound();  
                     UIManager.Instance.zoomON=true;
+                    if(documento.corId == -1){
+                        UIManager.Instance.imgIpCor.color= UIManager.Instance.coreIPDefalut;
+                    }
+                      
                  }
             }else{
                  UIManager.Instance.setActive(false);
@@ -37,6 +42,7 @@ private void Update()
     }
         
     }
+    
     //if(transform.position.y<10){
        // transform.position=spawn;
    // }

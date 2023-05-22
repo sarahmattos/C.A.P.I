@@ -31,8 +31,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelCompra;
     [SerializeField] GameObject panelCompraObjeto;
     [SerializeField] GameObject panelCompraPapeis;
-    [SerializeField] Color[]   coresIP;
-   [SerializeField] private CanvasGroup telfinalgrupo ;
+    [SerializeField] Color[] coresIP;
+    [SerializeField]public  Color coreIPDefalut;
+    public Image imgIpCor;
+   [SerializeField] private CanvasGroup telfinalgrupo;
 
     [SerializeField] private bool fadeIn = false;
     [SerializeField] private bool fadeOut = false;
@@ -57,7 +59,7 @@ public class UIManager : MonoBehaviour
     public void setActive(bool valor){
         panelUiDocumento.SetActive(valor);
         
-    }
+    }   
     
     public void configuracaoSetas(){
         if(recebeTamanho>1){
@@ -192,8 +194,7 @@ public class UIManager : MonoBehaviour
             if(compraON){
                 compra.checarBotoesDinheiro();
                 panelCompra.SetActive(true);
-                panelCompraObjeto.SetActive(true);
-                panelCompraPapeis.SetActive(false);
+                panelObjetoCompra();
             }
     }
     public void fechar(){
