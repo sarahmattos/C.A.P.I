@@ -18,6 +18,8 @@ public class Pontuacao : MonoBehaviour
     public int total;
     public int totalFinal;
     public bool fim;
+    
+    public bool ipOn;
     Vector3 spawn2= new Vector3(-0.08f,0.66f,-1.5f);
     void Start()
     {
@@ -84,6 +86,15 @@ public class Pontuacao : MonoBehaviour
             }else{
                 erros+=10;
             }
+            if(ipOn){
+                 if(doc.pontuarId()){
+                soma+=5;
+
+                }else{
+                    erros+=5;
+                }
+            }
+           
         }
         if(Pontos==maxDocumentos)bonus = 20;
         total = bonus + soma - erros;

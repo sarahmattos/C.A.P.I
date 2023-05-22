@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Image documentoImage;
     [SerializeField] GameObject bonuObj;
     [SerializeField] GameObject panelFinal;
+    [SerializeField] public GameObject buttonCorIp;
     [SerializeField] TMP_Text bonuUI;
     [SerializeField] TMP_Text somaUI;
     [SerializeField] TMP_Text erroUI;
@@ -30,7 +31,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelCompra;
     [SerializeField] GameObject panelCompraObjeto;
     [SerializeField] GameObject panelCompraPapeis;
-
+    [SerializeField] Color[]   coresIP;
    [SerializeField] private CanvasGroup telfinalgrupo ;
 
     [SerializeField] private bool fadeIn = false;
@@ -42,6 +43,7 @@ public class UIManager : MonoBehaviour
     int recebeTamanho;
     public Documento doc;
     int id;
+    int auxcor;
     bool ler=false;
     public bool zoomON;
     public bool compraON;
@@ -211,6 +213,17 @@ public class UIManager : MonoBehaviour
         panelCompraPapeis.SetActive(true);
         seta1.SetActive(false);
         seta2.SetActive(true);
+    }
+    public void mudaCor(Image img){
+        img.color= coresIP[auxcor];
+        doc.corId = auxcor;
+        auxcor++;
+        if(auxcor>=coresIP.Length){
+            auxcor=0;
+        }
+       
+        
+        
     }
 }
  

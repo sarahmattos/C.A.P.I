@@ -12,6 +12,8 @@ public class Documento : MonoBehaviour
     AudioSource audioFolha;
     public bool plagioAceito=false;
     public bool plagioNegado=false;
+    public int corId=-1;
+    public int idCerto;
     public string respostaCerta;
     [HideInInspector]
     public string resposta;
@@ -25,6 +27,8 @@ public class Documento : MonoBehaviour
     public bool dia1;
     public bool dia2;
     public bool dia3;
+    public bool dia4;
+    public bool dia5;
 
     private void Start()
     {
@@ -53,6 +57,13 @@ public class Documento : MonoBehaviour
     }
     public bool pontuar(){
         if(resposta == respostaCerta){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    public bool pontuarId(){
+        if(corId == idCerto){
             return true;
         }else{
             return false;

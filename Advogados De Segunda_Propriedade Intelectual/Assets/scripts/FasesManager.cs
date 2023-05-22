@@ -10,6 +10,8 @@ public class FasesManager : MonoBehaviour
         DIA1,
         DIA2,
         DIA3,
+        DIA4,
+        DIA5,
     };
     // Start is called before the first frame update
     public Fases fases;
@@ -38,7 +40,13 @@ public class FasesManager : MonoBehaviour
             this.fases = Fases.DIA3;
             break;
             case Fases.DIA3:
-            this.fases = Fases.DIA1;
+            this.fases = Fases.DIA4;
+            break;
+            case Fases.DIA4:
+            this.fases = Fases.DIA5;
+            break;
+            case Fases.DIA5:
+            UIManager.Instance.mudarCena(1);
             break;
         }
         compra.enviarPresente();
@@ -73,6 +81,8 @@ public class FasesManager : MonoBehaviour
             break;
 
             case Fases.DIA3:
+            pontucao.ipOn=true;
+            UIManager.Instance.buttonCorIp.SetActive(true);
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {
@@ -80,6 +90,24 @@ public class FasesManager : MonoBehaviour
 
             }
             pontucao.maxDocumentos= impressora.folhas.Count;
+            break;
+            case Fases.DIA4:
+            impressora.folhas = new List<GameObject>();
+            foreach (Documento doc in documentos)
+            {
+                if(doc.dia4) impressora.folhas.Add(doc.gameObject);
+
+            }
+           pontucao.maxDocumentos= impressora.folhas.Count;
+            break;
+            case Fases.DIA5:
+            impressora.folhas = new List<GameObject>();
+            foreach (Documento doc in documentos)
+            {
+                if(doc.dia5) impressora.folhas.Add(doc.gameObject);
+
+            }
+           pontucao.maxDocumentos= impressora.folhas.Count;
             break;
         }
     }
