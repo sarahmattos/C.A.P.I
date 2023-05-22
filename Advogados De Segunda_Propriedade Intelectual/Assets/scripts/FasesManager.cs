@@ -17,6 +17,7 @@ public class FasesManager : MonoBehaviour
     public Documento[] documentos;
     public Impressora impressora;
     public Pontuacao pontucao;
+    [SerializeField] GameObject computador;
     [SerializeField] TMP_Text diaText;
     void Start()
     {
@@ -61,6 +62,7 @@ public class FasesManager : MonoBehaviour
             break;
 
             case Fases.DIA2:
+            computador.SetActive(true);
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {

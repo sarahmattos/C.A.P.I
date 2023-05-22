@@ -39,14 +39,17 @@ public class CameraManager : MonoBehaviour
         //}
     }
     public void mudarCamera(){
-        Debug.Log("mudou camera");
          sentado = !sentado;
         if(sentado){
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             evento.aviso.SetActive(false);
             cameraSentado.SetActive(true);
             cameraAndando.SetActive(false);
 
         }else{
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             cameraSentado.SetActive(false);
             cameraAndando.SetActive(true);
              pc.transform.position = posicaoPlayer;

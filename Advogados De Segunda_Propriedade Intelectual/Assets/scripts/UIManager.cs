@@ -181,20 +181,18 @@ public class UIManager : MonoBehaviour
             if(telfinalgrupo.alpha >= 1) { fadeIn = false; }
 
         }
-        if(Input.GetKeyDown(KeyCode.C)){
-            compraON = !compraON;
+       
+        dinheiro.text ="R$"+Pontuacao.Instance.totalFinal.ToString()+",00";
+        
+    }
+    public void abrirCompras(){
+        compraON = !compraON;
             if(compraON){
                 compra.checarBotoesDinheiro();
                 panelCompra.SetActive(true);
                 panelCompraObjeto.SetActive(true);
                 panelCompraPapeis.SetActive(false);
-            }else{
-                if(!compraON)panelCompra.SetActive(false);
             }
-            
-        }
-        dinheiro.text ="R$"+Pontuacao.Instance.totalFinal.ToString()+",00";
-        
     }
     public void fechar(){
         compraON = !compraON;
