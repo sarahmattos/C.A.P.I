@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class Eventos : MonoBehaviour
 {
-    public bool globoOn, radioOn, mesaOn, presenteOn;
+    public bool globoOn, radioOn, mesaOn, presenteOn, armarioOn;
     public BotaoRadio btnRadio;
     public GameObject aviso;
     public CameraManager cm;
     public Compra compra;
+    public armarioUi armario;
     public Animator globo;
+    public bool armarioaux;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class Eventos : MonoBehaviour
                 globo.Play("GloboGirando");
                 Debug.Log("rodou");
             }
+            if(armarioOn)armario.interfaceArmario();
         }
 
     }
@@ -49,6 +52,10 @@ public class Eventos : MonoBehaviour
             presenteOn=true;
             aviso.SetActive(true);
         }
+        if (other.gameObject.tag == "Armario") {
+            armarioOn=true;
+            aviso.SetActive(true);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
@@ -66,6 +73,10 @@ public class Eventos : MonoBehaviour
         }
         if (other.gameObject.tag == "Presente") {
             presenteOn=false;
+            aviso.SetActive(false);
+        }
+        if (other.gameObject.tag == "Armario") {
+            armarioOn=false;
             aviso.SetActive(false);
         }
     }

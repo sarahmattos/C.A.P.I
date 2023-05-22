@@ -14,6 +14,7 @@ TagManager:
   - Presente
   - botao
   - chao
+  - Armario
   layers:
   - Default
   - TransparentFX

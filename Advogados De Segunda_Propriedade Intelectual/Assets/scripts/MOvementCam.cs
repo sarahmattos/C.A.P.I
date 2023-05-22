@@ -10,6 +10,7 @@ public class MOvementCam : MonoBehaviour
     public Transform orientation;
     float xRotation;
     float yRotation;
+    public Eventos evento;
     void Start()
     {
         
@@ -18,6 +19,10 @@ public class MOvementCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!evento.armarioaux)sens();
+    
+    }
+    public void sens(){
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
     
@@ -27,6 +32,5 @@ public class MOvementCam : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation,0);
         orientation.rotation =Quaternion.Euler(0, yRotation,0);
-    
     }
 }

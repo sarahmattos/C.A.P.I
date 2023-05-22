@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MovementPlayer : MonoBehaviour
 {
-    public float moveSpeed;
+    public float moveSpeed, moveSpeedDefault;
+    
     public float gorundDrag;
     public float PlayerHeight;
     public LayerMask whatIsGround;
@@ -20,6 +21,7 @@ public class MovementPlayer : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        moveSpeedDefault = moveSpeed;
         //rb.freezeRotation =true;
     }
 
