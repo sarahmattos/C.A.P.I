@@ -279,6 +279,8 @@ MonoBehaviour:
     por causa de um famoso pato\u2026 Mas a\xED \xE9 papo para outro processo\u201D"
   plagioAceito: 0
   plagioNegado: 0
+  corId: -1
+  idCerto: 0
   respostaCerta: Aceito
   resposta: 
   imagem: {fileID: 1016011716570616616}
@@ -286,6 +288,12 @@ MonoBehaviour:
   naoPlagio: {fileID: 3830680014622574353}
   dentroImpressora: 0
   regras: 0
+  introducao: 0
+  dia1: 0
+  dia2: 0
+  dia3: 0
+  dia4: 0
+  dia5: 0
 --- !u!114 &1016011715390866398
 MonoBehaviour:
   m_ObjectHideFlags: 0
