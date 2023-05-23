@@ -11,6 +11,8 @@ public class Compra : MonoBehaviour
     [SerializeField] GameObject poltrona;
     [SerializeField] GameObject tapete;
     [SerializeField] GameObject quadro;
+    [SerializeField] GameObject abajur;
+    [SerializeField] GameObject cabide;
     [SerializeField] Material defaultMaterial;
     [SerializeField] Material pp1;
     [SerializeField] Material pp2;
@@ -85,6 +87,12 @@ public class Compra : MonoBehaviour
             }
             if(itemPresente[i].NomeItem=="Quadro"){
                 quadro.SetActive(true);
+            }
+            if(itemPresente[i].NomeItem=="Abajur"){
+                abajur.SetActive(true);
+            }
+            if(itemPresente[i].NomeItem=="Cabide"){
+                cabide.SetActive(true);
             }
         }
         

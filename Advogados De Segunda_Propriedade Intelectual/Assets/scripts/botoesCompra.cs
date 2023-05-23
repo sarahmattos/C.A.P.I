@@ -17,7 +17,7 @@ public class botoesCompra : MonoBehaviour
     void Start()
     {
         texto = GetComponentInChildren<TMP_Text>();
-        btn = GetComponent<Button>();
+        checaDinheiro();
     }
 
     // Update is called once per frame
