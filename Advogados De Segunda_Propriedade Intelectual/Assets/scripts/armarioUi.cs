@@ -11,6 +11,7 @@ public class armarioUi : MonoBehaviour
     [SerializeField] TMP_Text textoUI;
     public Eventos evento;
      [SerializeField] MovementPlayer movementPlayer;
+     public textoGrande geralTexto;
     bool valor;
     void Start()
     {
@@ -30,14 +31,15 @@ public class armarioUi : MonoBehaviour
         }
         setas[aux].SetActive(true);
     }
-    public void escolherCategoriaTexto(string textoIp){
-        textoUI.text= textoIp;
+    public void escolherCategoriaTexto(textoGrande textoIp){
+        textoUI.text= textoIp.textosArmario;
     }
     public void interfaceArmario(){
         valor = !valor;
         armarioPanel.SetActive(valor);
         if(valor){
             escolherCategoriaSeta(0);
+            escolherCategoriaTexto(geralTexto);
             movementPlayer.moveSpeed=0;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -49,6 +51,6 @@ public class armarioUi : MonoBehaviour
             evento.armarioaux = false;
         }
        
-        escolherCategoriaTexto("Dica geral: Lorem ipsum dolor sit amet. Vel consequatur delectus sit voluptatem nemo ut alias provident hic quam eveniet qui molestiae tenetur. Est quae soluta sit asperiores molestiae vel enim suscipit.Eos voluptatibus corrupti ut odit animi a impedit nihil. Ea cumque exercitationem id omnis odit id neque error? Et voluptatem illo ut veniam fugit 33 maxime tempora id quis vero qui galisum omnis.Vel eveniet repellat et eaque galisum est molestiae quis. Vel facilis delectus vel magnam commodi et fugit perspiciatis.");
+        
     }
 }

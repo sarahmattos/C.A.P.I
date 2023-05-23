@@ -20,6 +20,7 @@ public class FasesManager : MonoBehaviour
     public Impressora impressora;
     public Pontuacao pontucao;
     [SerializeField] GameObject computador;
+    [SerializeField] GameObject regras;
     [SerializeField] TMP_Text diaText;
     void Start()
     {
@@ -51,6 +52,8 @@ public class FasesManager : MonoBehaviour
         }
         compra.enviarPresente();
         updatePageFases();
+        
+        UIManager.Instance.changeIntroducao();
         impressora.resetaImpressora();
         pontucao.resetaPontuacao();
         UIManager.Instance.resetaDia();
@@ -60,6 +63,7 @@ public class FasesManager : MonoBehaviour
         diaText.text =fases.ToString();
         switch(fases){
             case Fases.DIA1:
+            UIManager.Instance.idFase=1;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {
@@ -70,7 +74,9 @@ public class FasesManager : MonoBehaviour
             break;
 
             case Fases.DIA2:
+            UIManager.Instance.idFase=2;
             computador.SetActive(true);
+            regras.SetActive(false);
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {
@@ -81,6 +87,7 @@ public class FasesManager : MonoBehaviour
             break;
 
             case Fases.DIA3:
+            UIManager.Instance.idFase=3;
             pontucao.ipOn=true;
             UIManager.Instance.buttonCorIp.SetActive(true);
             impressora.folhas = new List<GameObject>();
@@ -92,6 +99,7 @@ public class FasesManager : MonoBehaviour
             pontucao.maxDocumentos= impressora.folhas.Count;
             break;
             case Fases.DIA4:
+            UIManager.Instance.idFase=4;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {
@@ -101,6 +109,7 @@ public class FasesManager : MonoBehaviour
            pontucao.maxDocumentos= impressora.folhas.Count;
             break;
             case Fases.DIA5:
+            UIManager.Instance.idFase=5;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {

@@ -510,8 +510,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210552621
 MonoBehaviour:
@@ -560,8 +560,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1351,6 +1351,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407150910}
   m_CullTransparentMesh: 1
+--- !u!1 &422835063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3319920641179406511, guid: 68d80ccbff82b0640878086101f302e2, type: 3}
+  m_PrefabInstance: {fileID: 2308978259021365047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &429201277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -570.4, y: 162.89996}
+  m_AnchoredPosition: {x: -577.7, y: 162.89996}
   m_SizeDelta: {x: 40, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445992316
@@ -2012,8 +2017,9 @@ GameObject:
   - component: {fileID: 624817367}
   - component: {fileID: 624817366}
   - component: {fileID: 624817365}
+  - component: {fileID: 624817368}
   m_Layer: 5
-  m_Name: Papeis (2)
+  m_Name: segredos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2037,7 +2043,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -180}
+  m_AnchoredPosition: {x: 109.73999, y: -180}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624817365
@@ -2099,20 +2105,43 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 624817368}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Segredos comerciais: Lorem ipsum dolor sit amet. Vel
-            consequatur delectus sit voluptatem nemo ut alias provident hic quam
-            eveniet qui molestiae tenetur. Est quae soluta sit asperiores molestiae
-            vel enim suscipit.Eos voluptatibus corrupti ut odit animi a impedit nihil.
-            Ea cumque exercitationem id omnis odit id neque error? Et voluptatem
-            illo ut veniam fugit 33 maxime tempora id quis vero qui galisum omnis.Vel
-            eveniet repellat et eaque galisum est molestiae quis. Vel facilis delectus
-            vel magnam commodi et fugit perspiciatis.'
+          m_StringArgument: "Segredos Comerciais : Vermelho  Segredos comerciais
+            s\xE3o informa\xE7\xF5es confidenciais e n\xE3o divulgadas que conferem
+            uma vantagem competitiva a uma empresa ou neg\xF3cio. Eles s\xE3o informa\xE7\xF5es
+            valiosas e exclusivas que n\xE3o s\xE3o de conhecimento p\xFAblico e
+            que s\xE3o mantidas em segredo para proteger os interesses comerciais
+            da empresa.  Os segredos comerciais podem abranger uma ampla gama de
+            informa\xE7\xF5es, como:  F\xF3rmulas, processos de fabrica\xE7\xE3o,
+            m\xE9todos operacionais.  Estrat\xE9gias de neg\xF3cios, listas de clientes,
+            planos de marketing.  Informa\xE7\xF5es financeiras, bancos de dados,
+            algoritmos. Designs e outros segredos propriet\xE1rios que fornecem \xE0
+            empresa uma vantagem competitiva no mercado. A dura\xE7\xE3o de um segredo
+            comercial pode variar dependendo da natureza das informa\xE7\xF5es e
+            das leis de prote\xE7\xE3o de segredos comerciais de cada pa\xEDs.   
+            Exemplo de pl\xE1gios em segredos comerciais:  Roubo de informa\xE7\xF5es
+            confidenciais: A aquisi\xE7\xE3o n\xE3o autorizada de segredos comerciais
+            por meio de m\xE9todos il\xEDcitos, como hacking, espionagem industrial,
+            suborno ou acesso n\xE3o autorizado a sistemas ou documentos confidenciais. 
+            Uso n\xE3o autorizado de informa\xE7\xF5es confidenciais: O uso direto
+            ou indireto de segredos comerciais obtidos de forma il\xEDcita para obter
+            uma vantagem competitiva injusta.  Divulga\xE7\xE3o n\xE3o autorizada:
+            A divulga\xE7\xE3o n\xE3o autorizada de segredos comerciais por parte
+            de funcion\xE1rios, ex-funcion\xE1rios, parceiros de neg\xF3cios ou qualquer
+            outra pessoa que tenha acesso a essas informa\xE7\xF5es por meio de um
+            relacionamento de confian\xE7a.  Uso indevido de informa\xE7\xF5es confidenciais:
+            A utiliza\xE7\xE3o de informa\xE7\xF5es confidenciais de uma empresa
+            para desenvolver produtos ou servi\xE7os semelhantes ou para tomar decis\xF5es
+            estrat\xE9gicas com base nessas informa\xE7\xF5es sem a devida autoriza\xE7\xE3o. 
+            Viola\xE7\xE3o de acordos de confidencialidade: A quebra de acordos de
+            confidencialidade ou contratos que estabelecem a prote\xE7\xE3o e a confidencialidade
+            dos segredos comerciais, resultando na divulga\xE7\xE3o n\xE3o autorizada
+            dessas informa\xE7\xF5es. "
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &624817366
@@ -2153,6 +2182,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624817363}
   m_CullTransparentMesh: 1
+--- !u!114 &624817368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624817363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Segredos Comerciais : Vermelho\r\n\r\nSegredos comerciais s\xE3o
+    informa\xE7\xF5es confidenciais e n\xE3o divulgadas que conferem uma vantagem
+    competitiva a uma empresa ou neg\xF3cio. Eles s\xE3o informa\xE7\xF5es valiosas
+    e exclusivas que n\xE3o s\xE3o de conhecimento p\xFAblico e que s\xE3o mantidas
+    em segredo para proteger os interesses comerciais da empresa.\r\n\r\nOs segredos
+    comerciais podem abranger uma ampla gama de informa\xE7\xF5es, como:\r\n F\xF3rmulas,
+    processos de fabrica\xE7\xE3o, m\xE9todos operacionais.\r\n Estrat\xE9gias de
+    neg\xF3cios, listas de clientes, planos de marketing.\r\n Informa\xE7\xF5es financeiras,
+    bancos de dados, algoritmos.\r\nDesigns e outros segredos propriet\xE1rios que
+    fornecem \xE0 empresa uma vantagem competitiva no mercado.\r\nA dura\xE7\xE3o
+    de um segredo comercial pode variar dependendo da natureza das informa\xE7\xF5es
+    e das leis de prote\xE7\xE3o de segredos comerciais de cada pa\xEDs. \r\n\r\nExemplo
+    de pl\xE1gios em segredos comerciais:\r\n\r\nRoubo de informa\xE7\xF5es confidenciais:
+    A aquisi\xE7\xE3o n\xE3o autorizada de segredos comerciais por meio de m\xE9todos
+    il\xEDcitos, como hacking, espionagem industrial, suborno ou acesso n\xE3o autorizado
+    a sistemas ou documentos confidenciais.\r\n\r\nUso n\xE3o autorizado de informa\xE7\xF5es
+    confidenciais: O uso direto ou indireto de segredos comerciais obtidos de forma
+    il\xEDcita para obter uma vantagem competitiva injusta.\r\n\r\nDivulga\xE7\xE3o
+    n\xE3o autorizada: A divulga\xE7\xE3o n\xE3o autorizada de segredos comerciais
+    por parte de funcion\xE1rios, ex-funcion\xE1rios, parceiros de neg\xF3cios ou
+    qualquer outra pessoa que tenha acesso a essas informa\xE7\xF5es por meio de
+    um relacionamento de confian\xE7a.\r\n\r\nUso indevido de informa\xE7\xF5es confidenciais:
+    A utiliza\xE7\xE3o de informa\xE7\xF5es confidenciais de uma empresa para desenvolver
+    produtos ou servi\xE7os semelhantes ou para tomar decis\xF5es estrat\xE9gicas
+    com base nessas informa\xE7\xF5es sem a devida autoriza\xE7\xE3o.\r\n\r\nViola\xE7\xE3o
+    de acordos de confidencialidade: A quebra de acordos de confidencialidade ou
+    contratos que estabelecem a prote\xE7\xE3o e a confidencialidade dos segredos
+    comerciais, resultando na divulga\xE7\xE3o n\xE3o autorizada dessas informa\xE7\xF5es.\r\n"
 --- !u!1 &659250619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2287,8 +2356,9 @@ GameObject:
   - component: {fileID: 714810314}
   - component: {fileID: 714810313}
   - component: {fileID: 714810312}
+  - component: {fileID: 714810315}
   m_Layer: 5
-  m_Name: Papeis (1)
+  m_Name: Patente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2312,7 +2382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -140}
+  m_AnchoredPosition: {x: 109.73999, y: -140}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714810312
@@ -2374,20 +2444,46 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 714810315}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Patente: Lorem ipsum dolor sit amet. Vel consequatur
-            delectus sit voluptatem nemo ut alias provident hic quam eveniet qui
-            molestiae tenetur. Est quae soluta sit asperiores molestiae vel enim
-            suscipit.Eos voluptatibus corrupti ut odit animi a impedit nihil. Ea
-            cumque exercitationem id omnis odit id neque error? Et voluptatem illo
-            ut veniam fugit 33 maxime tempora id quis vero qui galisum omnis.Vel
-            eveniet repellat et eaque galisum est molestiae quis. Vel facilis delectus
-            vel magnam commodi et fugit perspiciatis.'
+          m_StringArgument: "Patente: Azul   Patente \xE9 um t\xEDtulo de propriedade
+            tempor\xE1ria sobre uma inven\xE7\xE3o ou modelo de utilidade, outorgado
+            pelo Estado aos inventores ou autores ou outras pessoas f\xEDsicas ou
+            jur\xEDdicas detentoras de direitos sobre a cria\xE7\xE3o. Com este direito,
+            o inventor ou o detentor da patente tem o direito de impedir terceiros,
+            sem o seu consentimento, de produzir, usar, vender ou importar produto
+            objeto de sua patente e/ ou processo ou produto obtido diretamente por
+            processo por ele patenteado. Em contrapartida, o inventor se obriga a
+            revelar detalhadamente todo o conte\xFAdo t\xE9cnico da mat\xE9ria protegida
+            pela patente.  Patentes e prazo de validade:  Patente de Inven\xE7\xE3o
+            (PI): Produtos ou processos que atendam aos requisitos de atividade inventiva,
+            novidade e aplica\xE7\xE3o industrial. Sua validade \xE9 de 20 anos a
+            partir da data do dep\xF3sito. \t Patente de Modelo de Utilidade (MU):
+            Objeto de uso pr\xE1tico, ou parte deste, suscet\xEDvel de aplica\xE7\xE3o
+            industrial, que apresente nova forma ou disposi\xE7\xE3o, envolvendo
+            ato inventivo, que resulte em melhoria funcional no seu uso ou em sua
+            fabrica\xE7\xE3o. Sua validade \xE9 de 15 anos a partir da data do dep\xF3sito. 
+            Certificado de Adi\xE7\xE3o de Inven\xE7\xE3o (C): Aperfei\xE7oamento
+            ou desenvolvimento introduzido no objeto da inven\xE7\xE3o, mesmo que
+            destitu\xEDdo de atividade inventiva, por\xE9m ainda dentro do mesmo
+            conceito inventivo. O certificado ser\xE1 acess\xF3rio \xE0 patente e
+            com mesma data final de vig\xEAncia desta.   N\xE3o se pode patentear
+            uma ideia.    Exemplo de pl\xE1gios em patentes:  Reprodu\xE7\xE3o exata:
+            Copiar ou reproduzir completamente uma inven\xE7\xE3o patenteada, sem
+            qualquer modifica\xE7\xE3o ou adi\xE7\xE3o.  Modifica\xE7\xE3o m\xEDnima:
+            Fazer pequenas altera\xE7\xF5es em uma inven\xE7\xE3o patenteada, de
+            forma a contornar a prote\xE7\xE3o concedida pela patente.  Uso comercial
+            n\xE3o autorizado: Fabricar, vender ou importar produtos que incorporem
+            uma inven\xE7\xE3o patenteada sem a permiss\xE3o do titular da patente. 
+            Uso n\xE3o autorizado do processo patenteado: Utilizar um processo ou
+            m\xE9todo patenteado sem obter a devida autoriza\xE7\xE3o do titular
+            da patente.  Utiliza\xE7\xE3o de uma parte essencial: Utilizar uma parte
+            fundamental ou componente central de uma inven\xE7\xE3o patenteada sem
+            permiss\xE3o. "
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &714810313
@@ -2428,6 +2524,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714810310}
   m_CullTransparentMesh: 1
+--- !u!114 &714810315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714810310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Patente: Azul\r\n\r\nPatente \xE9 um t\xEDtulo de propriedade tempor\xE1ria
+    sobre uma inven\xE7\xE3o ou modelo de utilidade, outorgado pelo Estado aos inventores
+    ou autores ou outras pessoas f\xEDsicas ou jur\xEDdicas detentoras de direitos
+    sobre a cria\xE7\xE3o. Com este direito, o inventor ou o detentor da patente
+    tem o direito de impedir terceiros, sem o seu consentimento, de produzir, usar,
+    vender ou importar produto objeto de sua patente e/ ou processo ou produto obtido
+    diretamente por processo por ele patenteado. Em contrapartida, o inventor se
+    obriga a revelar detalhadamente todo o conte\xFAdo t\xE9cnico da mat\xE9ria protegida
+    pela patente.\r\n\r\nPatentes e prazo de validade:\r\n\r\nPatente de Inven\xE7\xE3o
+    (PI): Produtos ou processos que atendam aos requisitos de atividade inventiva,
+    novidade e aplica\xE7\xE3o industrial. Sua validade \xE9 de 20 anos a partir
+    da data do dep\xF3sito.\r\n\t\r\nPatente de Modelo de Utilidade (MU): Objeto
+    de uso pr\xE1tico, ou parte deste, suscet\xEDvel de aplica\xE7\xE3o industrial,
+    que apresente nova forma ou disposi\xE7\xE3o, envolvendo ato inventivo, que resulte
+    em melhoria funcional no seu uso ou em sua fabrica\xE7\xE3o. Sua validade \xE9
+    de 15 anos a partir da data do dep\xF3sito.\r\n\r\nCertificado de Adi\xE7\xE3o
+    de Inven\xE7\xE3o (C): Aperfei\xE7oamento ou desenvolvimento introduzido no objeto
+    da inven\xE7\xE3o, mesmo que destitu\xEDdo de atividade inventiva, por\xE9m ainda
+    dentro do mesmo conceito inventivo. O certificado ser\xE1 acess\xF3rio \xE0 patente
+    e com mesma data final de vig\xEAncia desta.\r\n\r\nN\xE3o se pode patentear
+    uma ideia. \r\n\r\nExemplo de pl\xE1gios em patentes:\r\n\r\nReprodu\xE7\xE3o
+    exata: Copiar ou reproduzir completamente uma inven\xE7\xE3o patenteada, sem
+    qualquer modifica\xE7\xE3o ou adi\xE7\xE3o.\r\n\r\nModifica\xE7\xE3o m\xEDnima:
+    Fazer pequenas altera\xE7\xF5es em uma inven\xE7\xE3o patenteada, de forma a
+    contornar a prote\xE7\xE3o concedida pela patente.\r\n\r\nUso comercial n\xE3o
+    autorizado: Fabricar, vender ou importar produtos que incorporem uma inven\xE7\xE3o
+    patenteada sem a permiss\xE3o do titular da patente.\r\n\r\nUso n\xE3o autorizado
+    do processo patenteado: Utilizar um processo ou m\xE9todo patenteado sem obter
+    a devida autoriza\xE7\xE3o do titular da patente.\r\n\r\nUtiliza\xE7\xE3o de
+    uma parte essencial: Utilizar uma parte fundamental ou componente central de
+    uma inven\xE7\xE3o patenteada sem permiss\xE3o.\r\n"
 --- !u!1 &745784600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,8 +3980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037000020
 MonoBehaviour:
@@ -3891,8 +4030,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3958,7 +4097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1037583199
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4263,8 +4402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077300169
 MonoBehaviour:
@@ -4313,8 +4452,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4696,6 +4835,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176705134}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1182988503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+  m_PrefabInstance: {fileID: 2732653367491885917}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e696d0d0f739ca4789a93dc32e4a6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1196210105
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4846,7 +4996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1277429435
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5891,7 +6041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1403107115
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6436,7 +6586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1476684408
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6832,8 +6982,9 @@ GameObject:
   - component: {fileID: 1544467143}
   - component: {fileID: 1544467142}
   - component: {fileID: 1544467141}
+  - component: {fileID: 1544467144}
   m_Layer: 5
-  m_Name: Papeis (4)
+  m_Name: bibliograficos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6857,7 +7008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -260}
+  m_AnchoredPosition: {x: 109.73999, y: -260}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544467141
@@ -6919,20 +7070,16 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1544467144}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Ap\xEAndice bibliogr\xE1fico:  Lorem ipsum dolor sit
-            amet. Vel consequatur delectus sit voluptatem nemo ut alias provident
-            hic quam eveniet qui molestiae tenetur. Est quae soluta sit asperiores
-            molestiae vel enim suscipit.Eos voluptatibus corrupti ut odit animi a
-            impedit nihil. Ea cumque exercitationem id omnis odit id neque error?
-            Et voluptatem illo ut veniam fugit 33 maxime tempora id quis vero qui
-            galisum omnis.Vel eveniet repellat et eaque galisum est molestiae quis.
-            Vel facilis delectus vel magnam commodi et fugit perspiciatis."
+          m_StringArgument: "Ap\xEAndice bibliogr\xE1fico:  Instituto Nacional da
+            Propriedade Industrial https://www.gov.br/inpi/pt-br     LEI N\xBA 9.279,
+            DE 14 DE MAIO DE 1996 https://www.planalto.gov.br/ccivil_03/leis/l9279.htm 
+            LEI N\xBA 9.610, DE 19 DE FEVEREIRO DE 1998. https://www.planalto.gov.br/ccivil_03/leis/l9610.htm "
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1544467142
@@ -6973,6 +7120,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544467139}
   m_CullTransparentMesh: 1
+--- !u!114 &1544467144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544467139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Ap\xEAndice bibliogr\xE1fico:\r\n\r\nInstituto Nacional da Propriedade
+    Industrial\r\nhttps://www.gov.br/inpi/pt-br\n\nLEI N\xBA 9.279, DE 14 DE MAIO
+    DE 1996\r\nhttps://www.planalto.gov.br/ccivil_03/leis/l9279.htm\r\n\r\nLEI N\xBA
+    9.610, DE 19 DE FEVEREIRO DE 1998.\r\nhttps://www.planalto.gov.br/ccivil_03/leis/l9610.htm\r\n"
 --- !u!1 &1564502816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7144,8 +7307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658788077
 MonoBehaviour:
@@ -7194,8 +7357,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7581,7 +7744,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -7641,7 +7804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1746356463
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9153,6 +9316,7 @@ MonoBehaviour:
   impressora: {fileID: 705574668}
   pontucao: {fileID: 1003105370}
   computador: {fileID: 7954800089158101506}
+  regras: {fileID: 422835063}
   diaText: {fileID: 1717088221}
 --- !u!4 &2104970542
 Transform:
@@ -9181,8 +9345,9 @@ GameObject:
   - component: {fileID: 2115421025}
   - component: {fileID: 2115421024}
   - component: {fileID: 2115421023}
+  - component: {fileID: 2115421026}
   m_Layer: 5
-  m_Name: Papeis (3)
+  m_Name: ObrasProtegidas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9206,7 +9371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -220}
+  m_AnchoredPosition: {x: 109.73999, y: -220}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115421023
@@ -9268,20 +9433,42 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2115421026}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Obras protegidas: Lorem ipsum dolor sit amet. Vel consequatur
-            delectus sit voluptatem nemo ut alias provident hic quam eveniet qui
-            molestiae tenetur. Est quae soluta sit asperiores molestiae vel enim
-            suscipit.Eos voluptatibus corrupti ut odit animi a impedit nihil. Ea
-            cumque exercitationem id omnis odit id neque error? Et voluptatem illo
-            ut veniam fugit 33 maxime tempora id quis vero qui galisum omnis.Vel
-            eveniet repellat et eaque galisum est molestiae quis. Vel facilis delectus
-            vel magnam commodi et fugit perspiciatis.'
+          m_StringArgument: "Obras Protegidas: Verde  S\xE3o obras intelectuais protegidas
+            as cria\xE7\xF5es do esp\xEDrito, expressas por qualquer meio ou fixadas
+            em qualquer suporte, tang\xEDvel ou intang\xEDvel, conhecido ou que se
+            invente no futuro, tais como:  Textos de obras liter\xE1rias, art\xEDsticas
+            ou cient\xEDficas; M\xFAsicas, sejam obras dram\xE1ticas, composi\xE7\xF5es
+            tendo ou n\xE3o letras. Confer\xEAncias, serm\xF5es, obras coreogr\xE1ficas.
+            Obras audiovisuais, sonorizadas ou n\xE3o, inclusive cinematogr\xE1ficas. 
+            Obras fotogr\xE1ficas, obras de desenho, pintura, gravura e outros. Projetos,
+            esbo\xE7os, obras pl\xE1sticas, engenharia, topografia e outros. Tradu\xE7\xF5es,
+            obras originais e outros.   Cabe ao autor o direito exclusivo de utilizar,
+            desfrutar e dispor da obra liter\xE1ria, art\xEDstica ou cient\xEDfica. 
+            - Em morte do autor, transmitem-se a seus sucessores os direitos a que
+            se referem.  - O prazo de prote\xE7\xE3o aos direitos patrimoniais sobre
+            obras audiovisuais e fotogr\xE1ficas ser\xE1 de setenta anos, a contar
+            de 1\xB0 de janeiro do ano subsequente ao de sua divulga\xE7\xE3o.  
+            Depende de autoriza\xE7\xE3o pr\xE9via e expressa do autor a utiliza\xE7\xE3o
+            da obra, por quaisquer modalidades, tais como:  A reprodu\xE7\xE3o parcial
+            ou integral. Edi\xE7\xE3o. Adapta\xE7\xE3o. Tradu\xE7\xE3o. Produ\xE7\xE3o
+            audiovisual. A distribui\xE7\xE3o, quando n\xE3o intr\xEDnseca ao contrato
+            firmado pelo autor com terceiros para uso ou explora\xE7\xE3o da obra;  
+            Exemplo de pl\xE1gios em obras protegidas:  Texto escrito: Copiar par\xE1grafos,
+            frases ou ideias de um texto original e apresent\xE1-los como se fossem
+            de autoria pr\xF3pria, sem citar a fonte ou obter permiss\xE3o.  M\xFAsica:
+            Copiar ou reproduzir trechos musicais, como melodias, acordes ou letras,
+            de uma m\xFAsica original sem autoriza\xE7\xE3o, e apresent\xE1-los como
+            cria\xE7\xE3o pr\xF3pria.  Arte visual: Copiar, reproduzir ou modificar
+            uma obra de arte visual, como pinturas, fotografias ou ilustra\xE7\xF5es,
+            sem a permiss\xE3o do autor original.  Filmes e v\xEDdeos: Copiar, distribuir
+            ou exibir trechos significativos de filmes, v\xEDdeos ou produ\xE7\xF5es
+            audiovisuais protegidas por direitos autorais sem a devida autoriza\xE7\xE3o. "
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2115421024
@@ -9322,6 +9509,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115421021}
   m_CullTransparentMesh: 1
+--- !u!114 &2115421026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115421021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Obras Protegidas: Verde\r\n\r\nS\xE3o obras intelectuais protegidas
+    as cria\xE7\xF5es do esp\xEDrito, expressas por qualquer meio ou fixadas em qualquer
+    suporte, tang\xEDvel ou intang\xEDvel, conhecido ou que se invente no futuro,
+    tais como:\r\n\r\nTextos de obras liter\xE1rias, art\xEDsticas ou cient\xEDficas;\r\nM\xFAsicas,
+    sejam obras dram\xE1ticas, composi\xE7\xF5es tendo ou n\xE3o letras.\r\nConfer\xEAncias,
+    serm\xF5es, obras coreogr\xE1ficas.\r\nObras audiovisuais, sonorizadas ou n\xE3o,
+    inclusive cinematogr\xE1ficas. \r\nObras fotogr\xE1ficas, obras de desenho, pintura,
+    gravura e outros.\r\nProjetos, esbo\xE7os, obras pl\xE1sticas, engenharia, topografia
+    e outros.\r\nTradu\xE7\xF5es, obras originais e outros.\n\nCabe ao autor o direito
+    exclusivo de utilizar, desfrutar e dispor da obra liter\xE1ria, art\xEDstica
+    ou cient\xEDfica.\r\n\r\n- Em morte do autor, transmitem-se a seus sucessores
+    os direitos a que se referem.\r\n\r\n- O prazo de prote\xE7\xE3o aos direitos
+    patrimoniais sobre obras audiovisuais e fotogr\xE1ficas ser\xE1 de setenta anos,
+    a contar de 1\xB0 de janeiro do ano subsequente ao de sua divulga\xE7\xE3o.\r\n\r\n\r\nDepende
+    de autoriza\xE7\xE3o pr\xE9via e expressa do autor a utiliza\xE7\xE3o da obra,
+    por quaisquer modalidades, tais como:\r\n\r\nA reprodu\xE7\xE3o parcial ou integral.\r\nEdi\xE7\xE3o.\r\nAdapta\xE7\xE3o.\r\nTradu\xE7\xE3o.\r\nProdu\xE7\xE3o
+    audiovisual.\r\nA distribui\xE7\xE3o, quando n\xE3o intr\xEDnseca ao contrato
+    firmado pelo autor com terceiros para uso ou explora\xE7\xE3o da obra;\r\n\r\nExemplo
+    de pl\xE1gios em obras protegidas:\r\n\r\nTexto escrito: Copiar par\xE1grafos,
+    frases ou ideias de um texto original e apresent\xE1-los como se fossem de autoria
+    pr\xF3pria, sem citar a fonte ou obter permiss\xE3o.\r\n\r\nM\xFAsica: Copiar
+    ou reproduzir trechos musicais, como melodias, acordes ou letras, de uma m\xFAsica
+    original sem autoriza\xE7\xE3o, e apresent\xE1-los como cria\xE7\xE3o pr\xF3pria.\r\n\r\nArte
+    visual: Copiar, reproduzir ou modificar uma obra de arte visual, como pinturas,
+    fotografias ou ilustra\xE7\xF5es, sem a permiss\xE3o do autor original.\r\n\r\nFilmes
+    e v\xEDdeos: Copiar, distribuir ou exibir trechos significativos de filmes, v\xEDdeos
+    ou produ\xE7\xF5es audiovisuais protegidas por direitos autorais sem a devida
+    autoriza\xE7\xE3o.\r\n"
+--- !u!114 &2127916907 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2732653367015867723, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+  m_PrefabInstance: {fileID: 2732653367491885917}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2138049165
 GameObject:
   m_ObjectHideFlags: 0
@@ -10216,7 +10454,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062940030644716517}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10228,7 +10466,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 155.5, y: -70.98074}
-  m_SizeDelta: {x: -311, y: -141.9614}
+  m_SizeDelta: {x: -311, y: -141.96143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062940030644716517
 GameObject:
@@ -10412,7 +10650,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "husadiasbd8dbynaisudhyaduna\nasiduasiudgasuydtgsiyhdgti7dugyd\nasdiuasgdbjasgudytausgdydtgdhbgyhbgyubnmkjuikl,.ki8ol\xE7."
+  m_text: "Regras Gerais.\r\n\r\nInstru\xE7\xF5es gerais para o bem-estar no escrit\xF3rio:\r\n\r\nQuando
+    a luz do fax estiver verde, significa que h\xE1 um novo caso para voc\xEA. Clique
+    no bot\xE3o do fax e o papel sair\xE1 para que voc\xEA avalie. Use o bom senso
+    e as regras abaixo para avaliar e, em seguida, carimbe o papel com o bot\xE3o
+    verde para um caso de n\xE3o pl\xE1gio e o vermelho para um caso de pl\xE1gio.
+    Sua perman\xEAncia neste trabalho depende da precis\xE3o, portanto, aprenda rapidamente,
+    voc\xEA ser\xE1 avaliado no final da semana.\r\n\r\nQuando o papel estiver carimbado,
+    coloque-o no porta-pap\xE9is. Realize todos os casos para finalizar seu expediente.\"\r\n\r\nExistem
+    diversos tipos de propriedade intelectual (PI), e todos eles podem ser tratados
+    pela nossa filial, cada um tem sua nuance de detalhes, caso o bom senso n\xE3o
+    seja o bastante ou fique na d\xFAvida recorra \xE0s regras extras no arm\xE1rio
+    de livros.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 777e3163083e73d46a3390c09b9eeae0, type: 2}
   m_sharedMaterial: {fileID: -7056097239000225314, guid: 777e3163083e73d46a3390c09b9eeae0, type: 2}
@@ -10439,8 +10688,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10574,8 +10823,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10633,8 +10882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062940031383813603
 GameObject:
@@ -10748,7 +10997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: -60
+    m_Left: -90
     m_Right: 0
     m_Top: 40
     m_Bottom: 0
@@ -10933,20 +11182,47 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1062940031808719128}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Marca: Lorem ipsum dolor sit amet. Vel consequatur delectus
-            sit voluptatem nemo ut alias provident hic quam eveniet qui molestiae
-            tenetur. Est quae soluta sit asperiores molestiae vel enim suscipit.Eos
-            voluptatibus corrupti ut odit animi a impedit nihil. Ea cumque exercitationem
-            id omnis odit id neque error? Et voluptatem illo ut veniam fugit 33 maxime
-            tempora id quis vero qui galisum omnis.Vel eveniet repellat et eaque
-            galisum est molestiae quis. Vel facilis delectus vel magnam commodi et
-            fugit perspiciatis.'
+          m_StringArgument: "Marca: Roxo Marca \xE9 um sinal distintivo cujas fun\xE7\xF5es
+            principais s\xE3o identificar a origem e distinguir produtos ou servi\xE7os
+            de outros id\xEAnticos, semelhantes ou afins de origem diversa.  De acordo
+            com a legisla\xE7\xE3o brasileira, s\xE3o pass\xEDveis de registro como
+            marca, todos os sinais distintivos visualmente percept\xEDveis, n\xE3o
+            compreendidos nas proibi\xE7\xF5es legais.   As marcas s\xE3o classificadas
+            como de produto ou servi\xE7o, coletiva e de certifica\xE7\xE3o.   Marca
+            de Produto ou Servi\xE7o Marca de produto ou servi\xE7o \xE9 aquela usada
+            para distinguir produto ou servi\xE7o de outros id\xEAnticos, semelhantes
+            ou afins, de origem diversa.  Marca Coletiva  A marca coletiva possui
+            finalidade distinta da marca de produto ou servi\xE7o. O objetivo da
+            marca coletiva \xE9 indicar ao consumidor que aquele produto ou servi\xE7o
+            prov\xE9m de membros de uma determinada entidade.  Portanto, podem utilizar
+            da marca coletiva os membros da entidade detentora do registro, sem necessidade
+            de licen\xE7a de uso, desde que estejam previstos no regulamento de utiliza\xE7\xE3o
+            da marca.  Marca de Certifica\xE7\xE3o  - A marca de certifica\xE7\xE3o
+            possui finalidade distinta da marca de produto ou servi\xE7o. O objetivo
+            principal da marca de certifica\xE7\xE3o \xE9 informar ao p\xFAblico
+            que o produto ou servi\xE7o distinguido pela marca est\xE1 de acordo
+            com normas ou padr\xF5es t\xE9cnicos espec\xEDficos.   O registro de
+            marca vigora pelo prazo de dez anos, contados da data da concess\xE3o,
+            prorrog\xE1veis por per\xEDodos iguais e sucessivos. O pedido de prorroga\xE7\xE3o
+            dever\xE1 ser formulado durante o \xFAltimo ano de vig\xEAncia do registro,
+            mediante pagamento.  Exemplo de pl\xE1gios em Marcas:  Logotipo: Copiar
+            ou imitar diretamente o logotipo de outra marca, tornando-o confund\xEDvel
+            com o original.  Nome: Usar um nome de marca id\xEAntico ou semelhante
+            ao de uma marca j\xE1 existente, causando confus\xE3o entre os consumidores. 
+            Slogan: Copiar ou reproduzir um slogan distintivo que j\xE1 est\xE1 associado
+            a outra marca.  Embalagem: Imitar a embalagem de um produto de outra
+            marca, de modo a confundir os consumidores sobre a origem do produto. 
+            Design: Copiar o design ou a apar\xEAncia visual de produtos de outra
+            marca, resultando em produtos que s\xE3o facilmente confundidos com os
+            originais.  Conte\xFAdo: Copiar textos, imagens, v\xEDdeos ou outros
+            conte\xFAdos protegidos por direitos autorais de outra marca sem a devida
+            permiss\xE3o. "
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &1062940031808719114
@@ -10967,7 +11243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -100}
+  m_AnchoredPosition: {x: 109.73999, y: -100}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062940031808719115
@@ -10982,8 +11258,9 @@ GameObject:
   - component: {fileID: 1062940031808719127}
   - component: {fileID: 1062940031808719112}
   - component: {fileID: 1062940031808719113}
+  - component: {fileID: 1062940031808719128}
   m_Layer: 5
-  m_Name: Papeis
+  m_Name: Marca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10997,6 +11274,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062940031808719115}
   m_CullTransparentMesh: 1
+--- !u!114 &1062940031808719128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062940031808719115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Marca: Roxo\r\n\r\nMarca \xE9 um sinal distintivo cujas fun\xE7\xF5es
+    principais s\xE3o identificar a origem e distinguir produtos ou servi\xE7os de
+    outros id\xEAnticos, semelhantes ou afins de origem diversa.\r\n\r\nDe acordo
+    com a legisla\xE7\xE3o brasileira, s\xE3o pass\xEDveis de registro como marca,
+    todos os sinais distintivos visualmente percept\xEDveis, n\xE3o compreendidos
+    nas proibi\xE7\xF5es legais.\r\n\r\n As marcas s\xE3o classificadas como de produto
+    ou servi\xE7o, coletiva e de certifica\xE7\xE3o.\r\n\r\nMarca de Produto ou Servi\xE7o\r\nMarca
+    de produto ou servi\xE7o \xE9 aquela usada para distinguir produto ou servi\xE7o
+    de outros id\xEAnticos, semelhantes ou afins, de origem diversa.\r\n\r\nMarca
+    Coletiva\r\n\r\nA marca coletiva possui finalidade distinta da marca de produto
+    ou servi\xE7o. O objetivo da marca coletiva \xE9 indicar ao consumidor que aquele
+    produto ou servi\xE7o prov\xE9m de membros de uma determinada entidade.\r\n\r\nPortanto,
+    podem utilizar da marca coletiva os membros da entidade detentora do registro,
+    sem necessidade de licen\xE7a de uso, desde que estejam previstos no regulamento
+    de utiliza\xE7\xE3o da marca.\r\n\r\nMarca de Certifica\xE7\xE3o\r\n\r\n- A marca
+    de certifica\xE7\xE3o possui finalidade distinta da marca de produto ou servi\xE7o.
+    O objetivo principal da marca de certifica\xE7\xE3o \xE9 informar ao p\xFAblico
+    que o produto ou servi\xE7o distinguido pela marca est\xE1 de acordo com normas
+    ou padr\xF5es t\xE9cnicos espec\xEDficos.\n\nO registro de marca vigora pelo
+    prazo de dez anos, contados da data da concess\xE3o, prorrog\xE1veis por per\xEDodos
+    iguais e sucessivos. O pedido de prorroga\xE7\xE3o dever\xE1 ser formulado durante
+    o \xFAltimo ano de vig\xEAncia do registro, mediante pagamento.\r\n\r\nExemplo
+    de pl\xE1gios em Marcas:\r\n\r\nLogotipo: Copiar ou imitar diretamente o logotipo
+    de outra marca, tornando-o confund\xEDvel com o original.\r\n\r\nNome: Usar um
+    nome de marca id\xEAntico ou semelhante ao de uma marca j\xE1 existente, causando
+    confus\xE3o entre os consumidores.\r\n\r\nSlogan: Copiar ou reproduzir um slogan
+    distintivo que j\xE1 est\xE1 associado a outra marca.\r\n\r\nEmbalagem: Imitar
+    a embalagem de um produto de outra marca, de modo a confundir os consumidores
+    sobre a origem do produto.\r\n\r\nDesign: Copiar o design ou a apar\xEAncia visual
+    de produtos de outra marca, resultando em produtos que s\xE3o facilmente confundidos
+    com os originais.\r\n\r\nConte\xFAdo: Copiar textos, imagens, v\xEDdeos ou outros
+    conte\xFAdos protegidos por direitos autorais de outra marca sem a devida permiss\xE3o.\r\n"
 --- !u!224 &1062940032511397168
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11015,7 +11336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.73999, y: -60}
+  m_AnchoredPosition: {x: 109.73999, y: -60}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062940032511397169
@@ -11030,8 +11351,9 @@ GameObject:
   - component: {fileID: 1062940032511397181}
   - component: {fileID: 1062940032511397182}
   - component: {fileID: 1062940032511397183}
+  - component: {fileID: 1062940032511397184}
   m_Layer: 5
-  m_Name: Objetos
+  m_Name: Geral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11134,22 +11456,51 @@ MonoBehaviour:
       - m_Target: {fileID: 1062940032637076125}
         m_TargetAssemblyTypeName: armarioUi, Assembly-CSharp
         m_MethodName: escolherCategoriaTexto
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1062940032511397184}
+          m_ObjectArgumentAssemblyTypeName: textoGrande, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Dica geral: Lorem ipsum dolor sit amet. Vel consequatur
-            delectus sit voluptatem nemo ut alias provident hic quam eveniet qui
-            molestiae tenetur. Est quae soluta sit asperiores molestiae vel enim
-            suscipit.Eos voluptatibus corrupti ut odit animi a impedit nihil. Ea
-            cumque exercitationem id omnis odit id neque error? Et voluptatem illo
-            ut veniam fugit 33 maxime tempora id quis vero qui galisum omnis.Vel
-            eveniet repellat et eaque galisum est molestiae quis. Vel facilis delectus
-            vel magnam commodi et fugit perspiciatis.'
+          m_StringArgument: "Regras Gerais: Instru\xE7\xF5es gerais para o bem-estar
+            no escrit\xF3rio:  Quando a luz do fax estiver verde, significa que h\xE1
+            um novo caso para voc\xEA. Clique no bot\xE3o do fax e o papel sair\xE1
+            para que voc\xEA avalie. Use o bom senso e as regras abaixo para avaliar
+            e, em seguida, carimbe o papel com o bot\xE3o verde para um caso de n\xE3o
+            pl\xE1gio e o vermelho para um caso de pl\xE1gio. Sua perman\xEAncia
+            neste trabalho depende da precis\xE3o, portanto, aprenda rapidamente,
+            voc\xEA ser\xE1 avaliado no final da semana.  Quando o papel estiver
+            carimbado, coloque-o no porta-pap\xE9is. Realize todos os casos para
+            finalizar seu expediente.\"  \u200C  Existem diversos tipos de propriedade
+            intelectual (PI), e todos eles podem ser tratados pela nossa filial,
+            cada um tem sua nuance de detalhes, caso o bom senso n\xE3o seja o bastante
+            ou fique na d\xFAvida recorra \xE0s regras extras no arm\xE1rio de livros. "
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1062940032511397184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062940032511397169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc174e0968d1364fbf62a4c7cc67d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textosArmario: "Regras Gerais.\r\n\r\nInstru\xE7\xF5es gerais para o bem-estar
+    no escrit\xF3rio:\r\n\r\nQuando a luz do fax estiver verde, significa que h\xE1
+    um novo caso para voc\xEA. Clique no bot\xE3o do fax e o papel sair\xE1 para
+    que voc\xEA avalie. Use o bom senso e as regras abaixo para avaliar e, em seguida,
+    carimbe o papel com o bot\xE3o verde para um caso de n\xE3o pl\xE1gio e o vermelho
+    para um caso de pl\xE1gio. Sua perman\xEAncia neste trabalho depende da precis\xE3o,
+    portanto, aprenda rapidamente, voc\xEA ser\xE1 avaliado no final da semana.\r\n\r\nQuando
+    o papel estiver carimbado, coloque-o no porta-pap\xE9is. Realize todos os casos
+    para finalizar seu expediente.\"\r\n\r\nExistem diversos tipos de propriedade
+    intelectual (PI), e todos eles podem ser tratados pela nossa filial, cada um
+    tem sua nuance de detalhes, caso o bom senso n\xE3o seja o bastante ou fique
+    na d\xFAvida recorra \xE0s regras extras no arm\xE1rio de livros.\r\n"
 --- !u!222 &1062940032513811616
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11205,8 +11556,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11264,8 +11615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.867981, y: 0}
-  m_SizeDelta: {x: 57.736, y: 0}
+  m_AnchoredPosition: {x: 62.519104, y: 0}
+  m_SizeDelta: {x: 125.0382, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062940032513811619
 GameObject:
@@ -11386,6 +11737,7 @@ MonoBehaviour:
   textoUI: {fileID: 1062940031162221500}
   evento: {fileID: 429201285}
   movementPlayer: {fileID: 429201286}
+  geralTexto: {fileID: 1062940032511397184}
 --- !u!33 &1086993736298293138
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12512,6 +12864,81 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: introducao
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0aca50e9195e4e04e942b6ce8eb518a9, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c89f8cfd974c5544b2e26b7df17b076, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: be340a165cb9c8d4cb50f1deeb51d4ea, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b80de9adf9150204996d84d9445ef4a2, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: imageDocumento.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 99fe03efbed3d6e419d608daf7fa83aa, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "Ol\xE1 meu caro, \xE9 o Sobs, espero que tenha tido um bom primeiro
+        dia ontem, lembrando que vou checar se voc\xEA fez bem o seu trabalho no
+        final da semana, l\xE1 eu decido se continua com o trabalho ou n\xE3o. Dito
+        isso, o RH me disse que eu devia deixar um computador, para voc\xEA ter um\u2026
+        Enfim, eu sei que deve estar pensando que ele \xE9 antigo e ruim, e de fato
+        \xE9, mas \xE9 o que voc\xEA ter\xE1 por enquanto."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[2]
+      value: "Eae de novo, Sobs aqui, o RH disse que a papelada t\xE1 muito confusa,
+        e que n\xE3o sabe de que classifica\xE7\xE3o os pap\xE9is s\xE3o, ent\xE3o
+        mandei uns post its para voc\xEA e um papel de instru\xE7\xF5es, voc\xEA
+        s\xF3 tem que colocar a cor referente ao caso no papel antes enviar, j\xE1
+        deve ser o bastante para o RH ficar feliz.\r\n\r\n\r\nPapel de instru\xE7\xF5es:\r\nMarca:
+        Roxo\r\nPatente: Azul\r\nSegredos Comerciais: Vermelho\r\nObras Protegidas:
+        Verde\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[3]
+      value: "Eae de novo, Sobs aqui, o RH disse que a papelada t\xE1 muito confusa,
+        e que n\xE3o sabe de que classifica\xE7\xE3o os pap\xE9is s\xE3o, ent\xE3o
+        mandei uns post its para voc\xEA e um papel de instru\xE7\xF5es, voc\xEA
+        s\xF3 tem que colocar a cor referente ao caso no papel antes enviar, j\xE1
+        deve ser o bastante para o RH ficar feliz.\r\n\r\n\r\nPapel de instru\xE7\xF5es:\r\nMarca:
+        Roxo\r\nPatente: Azul\r\nSegredos Comerciais: Vermelho\r\nObras Protegidas:
+        Verde\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[4]
+      value: "  O \xFAltimo dia da semana chegou, sextou! Enfim \xE9 o Sobs, ontem
+        eu tirei um dia de folga, quando cheguei estava cheio de mensagem reclamando
+        que os post its n\xE3o significam nada\u2026 Mas eu sou o chefe e pode continuar
+        com eles sem nenhum problema :). Eles tamb\xE9m pediram para colocar uma
+        classifica\xE7\xE3o do caso, do que se trata o problema, ent\xE3o independe
+        de ser ou n\xE3o um caso aprovado, cole o porqu\xEA do problema ser ou n\xE3o
+        aprovado.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149586, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: m_Volume
       value: 1
@@ -12523,6 +12950,10 @@ PrefabInstance:
     - target: {fileID: 2732653365825149587, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: m_Name
       value: Introducao
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732653365825149587, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
@@ -16161,6 +16592,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9d6fbcc23d667ee41abac2c1bc061563, type: 3}
     - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: spriteIntroducao
+      value: 
+      objectReference: {fileID: 2127916907}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: panelCompraObjeto
       value: 
       objectReference: {fileID: 542866741}
@@ -16172,6 +16607,10 @@ PrefabInstance:
       propertyPath: coresIP.Array.size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: documentoIntroducao
+      value: 
+      objectReference: {fileID: 1182988503}
     - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: coresIP.Array.data[0].a
       value: 1

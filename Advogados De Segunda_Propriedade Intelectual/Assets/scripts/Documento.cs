@@ -24,6 +24,7 @@ public class Documento : MonoBehaviour
      public bool dentroImpressora;
      private Rigidbody rb;
     public bool regras;
+    public bool introducao;
     public bool dia1;
     public bool dia2;
     public bool dia3;

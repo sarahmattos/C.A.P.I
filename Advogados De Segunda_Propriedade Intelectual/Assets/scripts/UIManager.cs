@@ -41,15 +41,18 @@ public class UIManager : MonoBehaviour
 
     string[] recebeTextos;
     Sprite[] imagenDefault;
+    [SerializeField] Image spriteIntroducao;
     public bool reseta=true;
     int recebeTamanho;
     public Documento doc;
     int id;
+    public int idFase;
     int auxcor;
     bool ler=false;
     public bool zoomON;
     public bool compraON;
     public Compra compra;
+    public Documento documentoIntroducao;
     private void Start()
     {
         Instance=this;
@@ -114,10 +117,24 @@ public class UIManager : MonoBehaviour
         id--;
         chamarCerto();
     }
+    public void changeIntroducao(){
+       spriteIntroducao.sprite =documentoIntroducao.imageDocumento[idFase-1];
+    }
     public void paginas(Documento documento){
-        recebeTextos =documento.textosDocumento;
-        recebeTamanho=documento.imageDocumento.Length;
-        imagenDefault=documento.imageDocumento;
+        
+        if(!documento.introducao){
+            recebeTextos =documento.textosDocumento;
+            recebeTamanho=documento.imageDocumento.Length;
+            imagenDefault=documento.imageDocumento;
+        }else{
+            
+            recebeTamanho=1;
+            recebeTextos= new string[recebeTamanho];
+            recebeTextos[0] =documento.textosDocumento[0];
+            imagenDefault = new Sprite[recebeTamanho];
+            imagenDefault[0]=documento.imageDocumento[idFase-1];
+        }
+        
         doc=documento;
         setImage();
         chamarCerto();
