@@ -5,7 +5,7 @@ using UnityEngine;
 public class textoGrande : MonoBehaviour
 {
     [TextArea(100,100)]
-    public string textosArmario;
+    public string []textosArmario;
     void Start()
     {
         

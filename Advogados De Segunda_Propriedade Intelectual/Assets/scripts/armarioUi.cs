@@ -12,7 +12,12 @@ public class armarioUi : MonoBehaviour
     public Eventos evento;
      [SerializeField] MovementPlayer movementPlayer;
      public textoGrande geralTexto;
+     public textoGrande atualTexto;
+     [SerializeField] GameObject direitaBtn;
+     [SerializeField] GameObject esquerdaBtn;
+
     bool valor;
+    int id;
     void Start()
     {
         
@@ -32,7 +37,40 @@ public class armarioUi : MonoBehaviour
         setas[aux].SetActive(true);
     }
     public void escolherCategoriaTexto(textoGrande textoIp){
-        textoUI.text= textoIp.textosArmario;
+        textoUI.text= textoIp.textosArmario[id];
+        atualTexto =textoIp;
+        if(id==0){
+            if(textoIp.textosArmario.Length>1){
+            direitaBtn.SetActive(true);
+            esquerdaBtn.SetActive(false);
+        }else{
+             direitaBtn.SetActive(false);
+             esquerdaBtn.SetActive(false);
+        }
+        }
+        
+    }
+    public void resteId(){
+        id=0;
+    }
+    public void direita(){
+         esquerdaBtn.SetActive(true);
+            id++;
+            escolherCategoriaTexto(atualTexto);
+             if(id==atualTexto.textosArmario.Length-1){
+                direitaBtn.SetActive(false);
+             }
+             
+        
+        
+    }
+    public void esquerda(){
+         direitaBtn.SetActive(true);
+        id--;
+        escolherCategoriaTexto(atualTexto);
+        if(id==0){
+                esquerdaBtn.SetActive(false);
+             }
     }
     public void interfaceArmario(){
         valor = !valor;
