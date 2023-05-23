@@ -542,8 +542,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4281150908
+  m_fontColor: {r: 0.735849, g: 0.17702027, b: 0.17702027, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4308,8 +4308,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4285193554
+  m_fontColor: {r: 0.3234247, g: 0.8679245, b: 0.4170855, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7916,8 +7916,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290532162
+  m_fontColor: {r: 0.26032394, g: 0.32371727, b: 0.735849, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11396,8 +11396,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4289750175
+  m_fontColor: {r: 0.62341225, g: 0.3930669, b: 0.6886792, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11896,8 +11896,8 @@ MonoBehaviour:
     s\xE3o identificar a origem e distinguir produtos ou servi\xE7os de outros id\xEAnticos,
     semelhantes ou afins de origem diversa.\r\n\r\nDe acordo com a legisla\xE7\xE3o
     brasileira, s\xE3o pass\xEDveis de registro como marca, todos os sinais distintivos
-    visualmente percept\xEDveis, n\xE3o compreendidos nas proibi\xE7\xF5es legais.\r\n\r\n
-    As marcas s\xE3o classificadas como de produto ou servi\xE7o, coletiva e de certifica\xE7\xE3o.\r\n\r\nMarca
+    visualmente percept\xEDveis, n\xE3o compreendidos nas proibi\xE7\xF5es legais.\r\n\r\nAs
+    marcas s\xE3o classificadas como de produto ou servi\xE7o, coletiva e de certifica\xE7\xE3o.\r\n\r\nMarca
     de Produto ou Servi\xE7o\r\n\nMarca de produto ou servi\xE7o \xE9 aquela usada
     para distinguir produto ou servi\xE7o de outros id\xEAnticos, semelhantes ou
     afins, de origem diversa.\r\n\r\n\n"
@@ -12158,8 +12158,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4280098077
+  m_fontColor: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16163,7 +16163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8416272008488402386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 1865, z: -0}
+  m_LocalPosition: {x: -0, y: 1859, z: -58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16304,6 +16304,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 159161886, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260399153, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539092033, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
@@ -17717,7 +17721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7333631254338462053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 1865, z: -50}
+  m_LocalPosition: {x: 0, y: 1859, z: -108}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
