@@ -111,6 +111,7 @@ public class FasesManager : MonoBehaviour
             break;
             case Fases.DIA5:
             UIManager.Instance.idFase=5;
+            UIManager.Instance.botaoProximoPontuacao.sprite=  UIManager.Instance.botaoProximoDiaPontuacaoSprite;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {

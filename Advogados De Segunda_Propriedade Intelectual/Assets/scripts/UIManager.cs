@@ -42,6 +42,8 @@ public class UIManager : MonoBehaviour
 
     string[] recebeTextos;
     Sprite[] imagenDefault;
+    [SerializeField] public Sprite botaoProximoDiaPontuacaoSprite;
+    [SerializeField] public Image botaoProximoPontuacao;
     [SerializeField] Image spriteIntroducao;
     public bool reseta=true;
     int recebeTamanho;
