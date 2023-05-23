@@ -14,6 +14,7 @@ public class Compra : MonoBehaviour
     [SerializeField] Material defaultMaterial;
     [SerializeField] Material pp1;
     [SerializeField] Material pp2;
+    [SerializeField] Material pp3;
     [SerializeField] Renderer[] parede;
     public botoesCompra[] btnsCompra;
     public List<botoesCompra> todosBotoes;
@@ -129,8 +130,16 @@ public class Compra : MonoBehaviour
                     parede[i].material = pp2;
                 }
             }
-             //btnCompra.texto.text = "Desquipar";
-             btnCompra.btn.image.sprite = UIManager.Instance.desequiparImage;
+
+            if (btnCompra.item.NomeItem == "PapelParede3")
+            {
+                for (int i = 0; i < parede.Length; i++)
+                {
+                    parede[i].material = pp3;
+                }
+            }
+            //btnCompra.texto.text = "Desquipar";
+            btnCompra.btn.image.sprite = UIManager.Instance.desequiparImage;
         }else{
             if(btnCompra.item.NomeItem=="PapelParede1"){
                 for(int i=0;i<parede.Length;i++){
@@ -142,8 +151,16 @@ public class Compra : MonoBehaviour
                     parede[i].material = defaultMaterial;
                 }
             }
+
+            if (btnCompra.item.NomeItem == "PapelParede3")
+            {
+                for (int i = 0; i < parede.Length; i++)
+                {
+                    parede[i].material = defaultMaterial;
+                }
+            }
             //btnCompra.texto.text = "Equipar";
-           btnCompra.btn.image.sprite = UIManager.Instance.equiparImage;
+            btnCompra.btn.image.sprite = UIManager.Instance.equiparImage;
         }
     }
 }
