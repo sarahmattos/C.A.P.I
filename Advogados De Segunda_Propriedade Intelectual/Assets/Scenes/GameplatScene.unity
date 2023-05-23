@@ -517,377 +517,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66117997}
   m_CullTransparentMesh: 1
---- !u!1 &130537511
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 130537512}
-  - component: {fileID: 130537520}
-  - component: {fileID: 130537519}
-  - component: {fileID: 130537518}
-  - component: {fileID: 130537517}
-  - component: {fileID: 130537516}
-  - component: {fileID: 130537515}
-  - component: {fileID: 130537514}
-  - component: {fileID: 130537513}
-  m_Layer: 0
-  m_Name: Folha (12)asda
-  m_TagString: Folha
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &130537512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7649624, y: 1.148737, z: -1.6132523}
-  m_LocalScale: {x: 1.277238, y: 0.03, z: 1.560021}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1617286135}
-  m_Father: {fileID: 1965590343}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &130537513
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b8af6ebc85ad053478066b9b60556a30, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &130537514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39555ec17cad4f4baaae1f864c7804b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDragging: 0
-  documento: {fileID: 0}
-  enterMouse: 0
-  maxX: 5.6
-  maxZ: 1.1
-  minX: -5.7
-  minZ: -2
-  minY: 0.61
-  maxY: 0.7
---- !u!114 &130537515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e696d0d0f739ca4789a93dc32e4a6b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageDocumento:
-  - {fileID: 21300000, guid: 95f02e71f5c77db49803c7fda4d2d7c3, type: 3}
-  - {fileID: 21300000, guid: 3eb15f771466d8247aac21023685d85d, type: 3}
-  textosDocumento:
-  - "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
-    J\xFAlio Alves\r\n\r\nInforma\xE7\xF5es do autor\r\nMarco, 54, Revisor de artigos.\r\n\r\nInforma\xE7\xF5es
-    do acusado\r\nJ\xFAlio Alves, 32 anos, formado em rela\xE7\xF5es internacionais,
-    trabalha em uma universidade escrevendo artigos.\r\n\r\nMensagem de requerimento
-    do processo:\r\n1. Obra original: Artigo publicado por J\xFAlio\r\n2. Obra plagiada:
-    Artigo publicado por J\xFAlio\r\n3. Semelhan\xE7as: Artigo\r\n4. Pedido de a\xE7\xE3o:
-    Retirada de obra ou colocar refer\xEAncias"
-  - "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
-    J\xFAlio Alves\r\n\r\nMensagem de requerimento do Autor:Foi encontrado um artigo
-    publicado por J\xFAlio Alves em uma confer\xEAncia cient\xEDfica em 2018, republicada
-    em uma revista cient\xEDfica sem ter citado a publica\xE7\xE3o anterior\r\n\r\nResposta
-    do Acusado:\r\n\u201CN\xE3o me foi noticiado que citar meu pr\xF3prio artigo
-    era necess\xE1rio. E sinceramente, nem faz sentido! N\xE3o aceito esta den\xFAncia\u201D"
-  plagioAceito: 0
-  plagioNegado: 0
-  corId: -1
-  idCerto: 0
-  respostaCerta: Negado
-  resposta: 
-  imagem: {fileID: 1981474592}
-  plagio: {fileID: 991245035}
-  naoPlagio: {fileID: 2021744460}
-  dentroImpressora: 0
-  regras: 0
-  introducao: 0
-  dia1: 0
-  dia2: 0
-  dia3: 0
-  dia4: 0
-  dia5: 0
---- !u!54 &130537516
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!65 &130537517
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 6.25, z: 1}
-  m_Center: {x: 0, y: 0.08535406, z: 0}
---- !u!65 &130537518
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &130537519
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: fe3bb4ffda7c7084c96e6e97cb75857f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &130537520
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130537511}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &133233773
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 133233774}
-  - component: {fileID: 133233776}
-  - component: {fileID: 133233775}
-  m_Layer: 0
-  m_Name: Image (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &133233774
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133233773}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 991245036}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &133233775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133233773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &133233776
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133233773}
-  m_CullTransparentMesh: 1
 --- !u!1 &157155121
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,82 +593,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157155121}
   m_CullTransparentMesh: 1
---- !u!1 &161972359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 161972360}
-  - component: {fileID: 161972362}
-  - component: {fileID: 161972361}
-  m_Layer: 0
-  m_Name: Image (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &161972360
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161972359}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1214965709}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &161972361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161972359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &161972362
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161972359}
-  m_CullTransparentMesh: 1
 --- !u!1 &175579722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +640,74 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.22, y: 0.92, z: 1.84}
   m_Center: {x: 0.32, y: -0.94, z: 3.92}
+--- !u!1001 &188806118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574852, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574909, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_Name
+      value: "Folha (11)Laur\xEDcio"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574910, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/07/2023\r\nAutor: Laur\xEDcio
+        de Souza\r\nAcusado: Francisco Nunes\n\r\nInforma\xE7\xF5es do autor: \r\n\nLaur\xEDcio
+        de Souza tem 24 anos e \xE9 freelancer de desenhos digitais.\r\n\r\nInforma\xE7\xF5es
+        do acusado:\r\n\t\r\nFrancisco Nunes tem 32 anos e \xE9 dono de uma gr\xE1fica
+        de bairro famosa por vender camisas tem\xE1ticas.\r\n\n\nMensagem de requerimento
+        do processo:\r\n\nObra original: Arte de Laur\xEDcio.\r\nObra plagiada: Camisa
+        de Francisco.\r\nSemelhan\xE7a: Imagem usada na camisa e arte feita por Laur\xEDcio.\r\nPedido
+        de a\xE7\xE3o: Retirada do produto e indeniza\xE7\xE3o.\r\n\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
 --- !u!1 &210552619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,301 +976,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &231625816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 231625825}
-  - component: {fileID: 231625824}
-  - component: {fileID: 231625823}
-  - component: {fileID: 231625822}
-  - component: {fileID: 231625821}
-  - component: {fileID: 231625820}
-  - component: {fileID: 231625819}
-  - component: {fileID: 231625818}
-  - component: {fileID: 231625817}
-  m_Layer: 0
-  m_Name: "Folha (11)Laur\xEDcio"
-  m_TagString: Folha
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &231625817
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b8af6ebc85ad053478066b9b60556a30, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &231625818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39555ec17cad4f4baaae1f864c7804b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDragging: 0
-  documento: {fileID: 0}
-  enterMouse: 0
-  maxX: 5.6
-  maxZ: 1.1
-  minX: -5.7
-  minZ: -2
-  minY: 0.61
-  maxY: 0.7
---- !u!114 &231625819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e696d0d0f739ca4789a93dc32e4a6b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageDocumento:
-  - {fileID: 21300000, guid: 95f02e71f5c77db49803c7fda4d2d7c3, type: 3}
-  - {fileID: 21300000, guid: 3eb15f771466d8247aac21023685d85d, type: 3}
-  textosDocumento:
-  - "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
-    J\xFAlio Alves\r\n\r\nInforma\xE7\xF5es do autor\r\nMarco, 54, Revisor de artigos.\r\n\r\nInforma\xE7\xF5es
-    do acusado\r\nJ\xFAlio Alves, 32 anos, formado em rela\xE7\xF5es internacionais,
-    trabalha em uma universidade escrevendo artigos.\r\n\r\nMensagem de requerimento
-    do processo:\r\n1. Obra original: Artigo publicado por J\xFAlio\r\n2. Obra plagiada:
-    Artigo publicado por J\xFAlio\r\n3. Semelhan\xE7as: Artigo\r\n4. Pedido de a\xE7\xE3o:
-    Retirada de obra ou colocar refer\xEAncias"
-  - "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
-    J\xFAlio Alves\r\n\r\nMensagem de requerimento do Autor:Foi encontrado um artigo
-    publicado por J\xFAlio Alves em uma confer\xEAncia cient\xEDfica em 2018, republicada
-    em uma revista cient\xEDfica sem ter citado a publica\xE7\xE3o anterior\r\n\r\nResposta
-    do Acusado:\r\n\u201CN\xE3o me foi noticiado que citar meu pr\xF3prio artigo
-    era necess\xE1rio. E sinceramente, nem faz sentido! N\xE3o aceito esta den\xFAncia\u201D"
-  plagioAceito: 0
-  plagioNegado: 0
-  corId: -1
-  idCerto: 0
-  respostaCerta: Negado
-  resposta: 
-  imagem: {fileID: 624137539}
-  plagio: {fileID: 845607198}
-  naoPlagio: {fileID: 1214965708}
-  dentroImpressora: 0
-  regras: 0
-  introducao: 0
-  dia1: 0
-  dia2: 0
-  dia3: 0
-  dia4: 0
-  dia5: 0
---- !u!54 &231625820
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!65 &231625821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 6.25, z: 1}
-  m_Center: {x: 0, y: 0.08535406, z: 0}
---- !u!65 &231625822
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &231625823
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: fe3bb4ffda7c7084c96e6e97cb75857f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &231625824
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &231625825
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231625816}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7649624, y: 1.148737, z: -1.6132523}
-  m_LocalScale: {x: 1.277238, y: 0.03, z: 1.560021}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 291334545}
-  m_Father: {fileID: 1965590343}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246715590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,109 +1222,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288213998}
   m_CullTransparentMesh: 1
---- !u!1 &291334544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 291334545}
-  - component: {fileID: 291334548}
-  - component: {fileID: 291334547}
-  - component: {fileID: 291334546}
-  m_Layer: 0
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &291334545
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291334544}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.010008135, y: 0.010044108, z: 0.037367128}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 624137537}
-  - {fileID: 1214965709}
-  - {fileID: 845607199}
-  m_Father: {fileID: 231625825}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.6}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &291334546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291334544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &291334547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291334544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!223 &291334548
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291334544}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &293590350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,6 +1440,104 @@ Transform:
   m_Father: {fileID: 613263150}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 44.52, y: 0, z: 0}
+--- !u!1001 &312357603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Name
+      value: 'Folha (17)MamSung '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 43ea794cf1e10cb4d925d6c150f7bb85, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 43ea794cf1e10cb4d925d6c150f7bb85, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: d34a52e70707ba740849f7967e0fa0b8, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 22/05/2023\r\nAutor:  Abacate
+        \r\nAcusado: MamSung\r\n\u200C\r\nInforma\xE7\xF5es do autor:\r\n\r\n\xC9
+        uma empresa multinacional de tecnologia conhecida por seus produtos inovadores,
+        como o iBacate.\r\n\r\nInforma\xE7\xF5es do acusado:\r\n\r\n\xC9 uma empresa
+        global de tecnologia que produz uma ampla gama de produtos eletr\xF4nicos,
+        incluindo celulares espertos e caixa de assistir coisas.\r\n\n\nMensagem
+        de requerimento do processo:\r\n\nObra original: Dispositivos Abacate\r\nObra
+        plagiada: Dispositivos MamSung\r\nSemelhan\xE7a: Layout de \xEDcones, telas
+        sens\xEDveis ao toque e outros.\r\nPedido de a\xE7\xE3o: Exclusividade de
+        uso dos mesmos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 22/05/2023\r\nAutor:  Abacate
+        \r\nAcusado: MamSung\r\n\nMensagem de requerimento do Autor:\r\n\r\nN\xF3s
+        da Abacate acusamos a Mamsung de copiar nossas caracter\xEDsticas como a
+        apar\xEAncia e o design das telas sens\xEDveis ao toque, o layout dos \xEDcones
+        e os recursos de deslizar para desbloquear em seus pr\xF3prios dispositivos
+        port\xE1teis. \r\n\r\nResposta do Acusado:\r\n\r\nA Abacate est\xE1 buscando
+        prote\xE7\xE3o excessiva e monopolista sobre elementos b\xE1sicos e amplamente
+        utilizados na ind\xFAstria de dispositivos m\xF3veis. Os recursos em quest\xE3o,
+        como telas sens\xEDveis ao toque e layouts de \xEDcones, eram avan\xE7os
+        tecnol\xF3gicos naturais e evolutivos, e n\xE3o inova\xE7\xF5es exclusivas
+        da Abacate. Muitas das caracter\xEDsticas em disputa j\xE1 estavam presentes
+        em dispositivos anteriores de outros fabricantes, inclusive os nossos, o
+        que evidenciava o car\xE1ter comum e n\xE3o exclusivo desses recursos.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
 --- !u!1 &328344618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,82 +2548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &517007143
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 517007144}
-  - component: {fileID: 517007146}
-  - component: {fileID: 517007145}
-  m_Layer: 0
-  m_Name: Image (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &517007144
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517007143}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 991245036}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &517007145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517007143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &517007146
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517007143}
-  m_CullTransparentMesh: 1
 --- !u!1 &527328887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,82 +2759,16 @@ Transform:
   m_Father: {fileID: 429201278}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &586580968
+--- !u!1 &556740834 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7090282951774574909, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+  m_PrefabInstance: {fileID: 188806118}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 586580969}
-  - component: {fileID: 586580971}
-  - component: {fileID: 586580970}
-  m_Layer: 0
-  m_Name: Image (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &586580969
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &589113322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+  m_PrefabInstance: {fileID: 784340649}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586580968}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2021744461}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &586580970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586580968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &586580971
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586580968}
-  m_CullTransparentMesh: 1
 --- !u!1 &613263148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,6 +2824,96 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &620292491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Name
+      value: Folha (15)Restaurante
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a50a0e2bf2da36642b966db2487536ba, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: a50a0e2bf2da36642b966db2487536ba, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 478d3561ee416ec48a3159e2db727504, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Restaurante
+        Doce Vida\r\nAcusado: Restaurante Boca Gulosa\r\n\u200C\r\nInforma\xE7\xF5es
+        do autor:\r\n\r\nDoce Vida \xE9 uma marca de restaurante que vende comidas
+        tradicionais brasileiras salgadas e doces.\r\n\r\nInforma\xE7\xF5es do acusado:\r\n\r\nBoca
+        Gulosa \xE9 um restaurante com foco em comidas tradicionais brasileiras.\r\n\n\nMensagem
+        de requerimento do processo:\r\n\nObra original: Arrozada de restaurante
+        Doce Vida.\r\nObra plagiada: Pote de Arroz de restaurante Boca Gulosa.\r\nSemelhan\xE7a:
+        Ingredientes e receita.\r\nPedido de a\xE7\xE3o: Cr\xE9ditos e indeniza\xE7\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Restaurante
+        Doce Vida\r\nAcusado: Restaurante Boca Gulosa\r\n\nMensagem de requerimento
+        do Autor:\r\n\r\nAp\xF3s Doce Vida criar um prato com nome de Arrozada -
+        um estilo de feijoada por\xE9m ao em vez de feij\xE3o, se usa arroz -, a
+        marca Boca Gulosa passou a vender um prato com a mesma premissa com o nome
+        Pote de Arroz.\r\n\r\nResposta do Acusado:\r\n\r\nO acusado n\xE3o se pronunciou
+        em resposta ao acusador.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
 --- !u!64 &623687992
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3659,82 +2928,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8678823145569952518, guid: 30144994a53ed61439120cce0fcffc81, type: 3}
---- !u!1 &624137536
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 624137537}
-  - component: {fileID: 624137538}
-  - component: {fileID: 624137539}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &624137537
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624137536}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 291334545}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &624137538
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624137536}
-  m_CullTransparentMesh: 1
---- !u!114 &624137539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624137536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 95f02e71f5c77db49803c7fda4d2d7c3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &624817363
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,6 +3692,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &770672559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+  m_PrefabInstance: {fileID: 1179441376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &784340649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Name
+      value: Folha (16)MC Sinfonia
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c705f6f5aa06dda48a4597dad82f7906, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c705f6f5aa06dda48a4597dad82f7906, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c3863ffc83947d549a9d039756c9f407, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 04/05/2023\r\nAutor:  Representante
+        da Pequena Anriaa \r\nAcusado: MC Sinfonia\r\n\u200C\r\nInforma\xE7\xF5es
+        do autor:\r\n\r\nPequena Anriaa \xE9 uma renomada cantora e atriz, conhecida
+        por sua poderosa voz e estilo pop contempor\xE2neo, conquistando sucesso
+        global com hits como \u201CMe Desculpe\u201D e  \"6 Colares\".\r\n\r\n\r\nInforma\xE7\xF5es
+        do acusado:\r\n\r\nMC Sinfonia \xE9 uma cantora conhecida por sua participa\xE7\xE3o
+        no g\xEAnero musical funk. Ela alcan\xE7ou visibilidade nas redes sociais
+        em uma idade jovem por quebrar vidros de carros com o poder de sua voz.\r\n\n\nMensagem
+        de requerimento do processo:\r\n\nObra original: locomo\xE7\xE3o (m\xFAsica
+        pequena Anriaa).\r\nObra plagiada: Contrabando Cauteloso (MC Sinfonia).\r\nSemelhan\xE7a:
+        Vocal da M\xFAsica.\r\nPedido de a\xE7\xE3o: Dinheiro referente aos 10 meses
+        sem credita\xE7\xE3o.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 04/05/2023\r\nAutor:  Representante
+        da Pequena Anriaa \r\nAcusado: MC Sinfonia\r\n\nMensagem de requerimento
+        do Autor:\r\n\r\nA cantora brasileira est\xE1 plagiando uma das m\xFAsicas
+        da do \xE1lbum da minha cliente, usando sem permiss\xE3o, e sem a devida
+        credita\xE7\xE3o, o caso gerou pol\xEAmica e levantou debates na internet,
+        s\xF3 ap\xF3s isso a cantora mudou o t\xEDtulo para adapta\xE7\xE3o e creditou
+        a minha cliente, mas s\xF3 ap\xF3s 10 meses de m\xFAsica no ar.\r\n\r\nResposta
+        do Acusado:\r\n\r\n\u201CA culpa foi dos meus assessores, esses in\xFAteis
+        n\xE3o fizeram o trabalho direito, foi um errinho besta, j\xE1 t\xE1 mudado
+        e credenciado, est\xE1 tudo certinho agora, beijos beijos\u201D\r.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
 --- !u!1 &822173108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4582,45 +3877,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822173108}
   m_Mesh: {fileID: 74035684675926018, guid: d692d677a2d86f34eb4bd54ed1d5f0ac, type: 3}
---- !u!1 &845607198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 845607199}
-  m_Layer: 0
-  m_Name: Plagio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &845607199
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845607198}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 980963653}
-  - {fileID: 1173070134}
-  - {fileID: 1950880325}
-  m_Father: {fileID: 291334545}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &860133759
 GameObject:
   m_ObjectHideFlags: 0
@@ -5256,6 +4512,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.97, y: 0.99999994, z: 0.99}
   m_Center: {x: -0.00000023841858, y: 0, z: -0.00000047683716}
+--- !u!1 &928212117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+  m_PrefabInstance: {fileID: 1534609402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &962059357
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,197 +4690,6 @@ Transform:
   m_Father: {fileID: 405569035}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 123.18, y: 0, z: 0}
---- !u!1 &980963652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 980963653}
-  - component: {fileID: 980963655}
-  - component: {fileID: 980963654}
-  m_Layer: 0
-  m_Name: Image (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &980963653
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980963652}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 845607199}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &980963654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980963652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &980963655
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980963652}
-  m_CullTransparentMesh: 1
---- !u!1 &990294640
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 990294641}
-  - component: {fileID: 990294643}
-  - component: {fileID: 990294642}
-  m_Layer: 0
-  m_Name: Image (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &990294641
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990294640}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2021744461}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &990294642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990294640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &990294643
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990294640}
-  m_CullTransparentMesh: 1
---- !u!1 &991245035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 991245036}
-  m_Layer: 0
-  m_Name: Plagio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &991245036
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991245035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1048496700}
-  - {fileID: 517007144}
-  - {fileID: 133233774}
-  m_Father: {fileID: 1617286135}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1003105365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6300,82 +5370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037583198}
   m_CullTransparentMesh: 1
---- !u!1 &1048496699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1048496700}
-  - component: {fileID: 1048496702}
-  - component: {fileID: 1048496701}
-  m_Layer: 0
-  m_Name: Image (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1048496700
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048496699}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 991245036}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1048496701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048496699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1048496702
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048496699}
-  m_CullTransparentMesh: 1
 --- !u!1 &1052225300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6958,82 +5952,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172971924}
   m_CullTransparentMesh: 1
---- !u!1 &1173070133
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1173070134}
-  - component: {fileID: 1173070136}
-  - component: {fileID: 1173070135}
-  m_Layer: 0
-  m_Name: Image (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1173070134
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173070133}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 845607199}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1173070135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173070133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1173070136
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173070133}
-  m_CullTransparentMesh: 1
 --- !u!1 &1176705134
 GameObject:
   m_ObjectHideFlags: 0
@@ -7131,6 +6049,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176705134}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1179441376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Name
+      value: Folha (13)FlipFlop
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6030465c14dbe514da64e33fba22e03c, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Sand Flipflop\r\nAcusado:
+        Run Shoes\r\n\u200C\r\nInforma\xE7\xF5es do autor:\r\n\r\nSand Flipflop \xE9
+        uma marca de sand\xE1lias e chinelos desde 2003.\r\n\r\nInforma\xE7\xF5es
+        do acusado:\r\n\r\nRun shoes \xE9 uma marca de cal\xE7ados variados, especialmente
+        esportivos desde 2010.\r\n\n\nMensagem de requerimento do processo:\r\n\nObra
+        original: Flipflop 3500 de Sand Flipflop.\r\nObra plagiada: Fast Run 29 de
+        Run Shoes.\r\nSemelhan\xE7a: Apar\xEAncia de produtos.\r\nPedido de a\xE7\xE3o:
+        Retirada de venda e indeniza\xE7\xE3o.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
 --- !u!114 &1182988503 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
@@ -7356,121 +6346,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198446500}
-  m_CullTransparentMesh: 1
---- !u!1 &1214965708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1214965709}
-  m_Layer: 0
-  m_Name: NaoPLagio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1214965709
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214965708}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1217200247}
-  - {fileID: 1898775175}
-  - {fileID: 161972360}
-  m_Father: {fileID: 291334545}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1217200246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1217200247}
-  - component: {fileID: 1217200249}
-  - component: {fileID: 1217200248}
-  m_Layer: 0
-  m_Name: Image (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1217200247
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217200246}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1214965709}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1217200248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217200246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1217200249
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217200246}
   m_CullTransparentMesh: 1
 --- !u!1001 &1236580381
 PrefabInstance:
@@ -9899,6 +8774,98 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5053925668127403250, guid: 30144994a53ed61439120cce0fcffc81, type: 3}
+--- !u!1001 &1534609402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Name
+      value: Folha (14)TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: afc81f374b29c974aa3bf281df8d35b8, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: afc81f374b29c974aa3bf281df8d35b8, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: imageDocumento.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 49942223b6742624dba05f99ce6175de, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Andressa
+        Alves \r\nAcusado: Iscey TV\n\nInforma\xE7\xF5es do autor: \r\n\r\nAndressa
+        Alves \xE9 bisneta do famoso cartunista Sergio Alves (1900 - 1953).\r\n\r\nInforma\xE7\xF5es
+        do acusado:\r\n\r\nIscey TV \xE9 uma emissora de TV que transmite desenhos
+        e seriados para crian\xE7as.\r\n\n\n\nMensagem de requerimento do processo:\r\n\nObra
+        original: Ver\xEDeis a Lua de S\xE9rgio Alves.\r\nObra plagiada: Na Lua Vizinha
+        de Iscey TV.\r\nSemelhan\xE7a: Narrativa e hist\xF3ria .\r\nPedido de a\xE7\xE3o:
+        Indeniza\xE7\xE3o e Credita\xE7\xE3o de obra.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Andressa
+        Alves \r\nAcusado: Iscey TV\r\n\nMensagem de requerimento do Autor:\r\n\r\nEstou
+        processando a Iscey TV por desenvolver e transmitir um desenho chamado \"Na
+        Lua Vizinha\", sem as permiss\xF5es legais do criador original dessa hist\xF3ria,
+        meu bisav\xF4 S\xE9rgio Alves (da obra \"Ver\xEDeis a Lua\").\r\n\r\nResposta
+        do Acusado:\r\n\r\nNossa emissora se responsabiliza pelo desenvolvimento
+        desta anima\xE7\xE3o e afirma o uso da hist\xF3ria original \"Ver\xEDeis
+        a Lua\" de S\xE9rgio Alves. N\xE3o aceitamos a den\xFAncia por motivo de
+        n\xE3o necessitarmos de tal permiss\xE3o legal.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764418935590083936, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
 --- !u!1 &1539631750
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,109 +9410,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611752290}
   m_CullTransparentMesh: 1
---- !u!1 &1617286134
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1617286135}
-  - component: {fileID: 1617286138}
-  - component: {fileID: 1617286137}
-  - component: {fileID: 1617286136}
-  m_Layer: 0
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1617286135
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617286134}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.010008135, y: 0.010044108, z: 0.037367128}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1981474591}
-  - {fileID: 2021744461}
-  - {fileID: 991245036}
-  m_Father: {fileID: 130537512}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.6}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1617286136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617286134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1617286137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617286134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!223 &1617286138
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617286134}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &1640742716
 GameObject:
   m_ObjectHideFlags: 0
@@ -11068,6 +9932,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1736951695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8580857106550910819, guid: f602a451fec7b144093d6817302cce38, type: 3}
+  m_PrefabInstance: {fileID: 1746402270}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1746000603
 GameObject:
   m_ObjectHideFlags: 0
@@ -11203,6 +10072,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746000603}
   m_CullTransparentMesh: 1
+--- !u!1 &1746226736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+  m_PrefabInstance: {fileID: 312357603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1746356462
 GameObject:
   m_ObjectHideFlags: 0
@@ -11279,6 +10153,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746356462}
   m_CullTransparentMesh: 1
+--- !u!1001 &1746402270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1965590343}
+    m_Modifications:
+    - target: {fileID: 8580857106550910819, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_Name
+      value: Folha (12)Blink
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7649624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.148737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6132523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910831, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/10/2021\r\nAutor: Blink Company
+        \r\nAcusado: Roberto Watson\r\n\u200C\r\nInforma\xE7\xF5es do autor:\r\n\r\nBlink
+        \xE9 uma marca que produz e vende \xF3culos de sol e arma\xE7\xF5es, fundada
+        em 2007.\r\n\r\nInforma\xE7\xF5es do acusado:\r\n\r\nRoberto Watson \xE9
+        dono de uma loja on-line chamada Plink, que vende \xF3culos, camisas e rel\xF3gios.\r\n\nMensagem
+        de requerimento do processo:\r\n\nObra original: \xD3culos de Blink Company.\r\nObra
+        plagiada: \xD3culos de Roberto Watson.\r\nSemelhan\xE7a: Arma\xE7\xE3o e
+        nome gravado em \xF3culos.\r\nPedido de a\xE7\xE3o: Retirada de produto e
+        indeniza\xE7\xE3o.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106839064676, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: de52d0b73eb6c824cab92aa4bfa06ed6, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f602a451fec7b144093d6817302cce38, type: 3}
 --- !u!1 &1778732028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11325,82 +10272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc6de3123d9c3f347ab0ed6ab21f3e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1787935391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1787935392}
-  - component: {fileID: 1787935394}
-  - component: {fileID: 1787935393}
-  m_Layer: 0
-  m_Name: Image (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1787935392
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787935391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2021744461}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1787935393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787935391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1787935394
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787935391}
-  m_CullTransparentMesh: 1
 --- !u!1 &1810495865
 GameObject:
   m_ObjectHideFlags: 0
@@ -12395,82 +11266,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897521905}
   m_CullTransparentMesh: 1
---- !u!1 &1898775174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1898775175}
-  - component: {fileID: 1898775177}
-  - component: {fileID: 1898775176}
-  m_Layer: 0
-  m_Name: Image (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1898775175
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898775174}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1214965709}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1898775176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898775174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dcc98ca370a7f8846ba79bb09edfd0fc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1898775177
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898775174}
-  m_CullTransparentMesh: 1
 --- !u!1 &1937143244
 GameObject:
   m_ObjectHideFlags: 0
@@ -12568,163 +11363,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 127.46234, y: 125.24278, z: 263.14316}
   m_Center: {x: 1.1468915, y: 40.55533, z: -2.052088}
---- !u!1 &1950880324
+--- !u!1 &1950762264 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+  m_PrefabInstance: {fileID: 620292491}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1950880325}
-  - component: {fileID: 1950880327}
-  - component: {fileID: 1950880326}
-  m_Layer: 0
-  m_Name: Image (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1950880325
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950880324}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000017546201}
-  m_LocalScale: {x: 1, y: 0.8999999, z: 0.19999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 845607199}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1950880326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950880324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd60a6fe2d905074fb0fe89a2b9427e5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1950880327
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950880324}
-  m_CullTransparentMesh: 1
 --- !u!4 &1965590343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7026727798937547053, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
   m_PrefabInstance: {fileID: 2848660412754286817}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1981474590
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1981474591}
-  - component: {fileID: 1981474593}
-  - component: {fileID: 1981474592}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1981474591
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981474590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1617286135}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1981474592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981474590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 95f02e71f5c77db49803c7fda4d2d7c3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1981474593
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981474590}
-  m_CullTransparentMesh: 1
 --- !u!224 &1984558518 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8810344051729896940, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
@@ -12990,45 +11638,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015216119}
   m_CullTransparentMesh: 1
---- !u!1 &2021744460
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2021744461}
-  m_Layer: 0
-  m_Name: NaoPLagio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2021744461
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021744460}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1787935392}
-  - {fileID: 586580969}
-  - {fileID: 990294641}
-  m_Father: {fileID: 1617286135}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2032028285 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8810344050120429518, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
@@ -16758,23 +15367,43 @@ PrefabInstance:
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 0aca50e9195e4e04e942b6ce8eb518a9, type: 3}
+      objectReference: {fileID: 21300000, guid: a9428bb68c3636a46b7f61935ebe1a01, type: 3}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 9c89f8cfd974c5544b2e26b7df17b076, type: 3}
+      objectReference: {fileID: 21300000, guid: 0ee87de5f431fb34fb1a1ae4f15e83da, type: 3}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: be340a165cb9c8d4cb50f1deeb51d4ea, type: 3}
+      objectReference: {fileID: 21300000, guid: c66cfb7a616363148b52e8c2c9e2fa1d, type: 3}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: b80de9adf9150204996d84d9445ef4a2, type: 3}
+      objectReference: {fileID: 21300000, guid: 7fe4124c4b2253546a8e321ddd87f924, type: 3}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 99fe03efbed3d6e419d608daf7fa83aa, type: 3}
+      objectReference: {fileID: 21300000, guid: 78642667d44850541ae6ba4dd967ea04, type: 3}
+    - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "Parab\xE9ns por conquistar o cargo disputado na equipe de advocacia
+        em propriedade intelectual em nossa filial de S\xE3o Flores. Uhull.\r\n\nMeu
+        nome \xE9 Sobs e serei seu chefe, mas n\xE3o se preocupe, n\xE3o estarei
+        na filial com frequ\xEAncia pois sofro de alergia \xE0 poeira, e a\xED est\xE1
+        horr\xEDvel. No entanto pedi para colocarem uma impressora a\xED, vou mandar
+        os pap\xE9is por ela.\r\n\nPara sua conveni\xEAncia, deixei algumas regras
+        b\xE1sicas em sua mesa, embora n\xE3o seja prov\xE1vel que precise delas
+        j\xE1 que disse que possui gradua\xE7\xE3o em direito, mas como n\xE3o tive
+        tempo de checar isso, pedi para deixarem a\xED mesmo assim.\r\n\nSua principal
+        tarefa ser\xE1 avaliar os casos que receber e decidir se h\xE1 ou n\xE3o
+        de fato, uma quest\xE3o de propriedade intelectual a ser considerada. Carimbo
+        Verde para se de fato h\xE1 algum problema a ser resolvido ou Vermelho para
+        se n\xE3o h\xE1 nada a ser resolvido.\r\n\nLembre-se de que sua avalia\xE7\xE3o
+        n\xE3o \xE9 definitiva, mas \xE9 importante para facilitar a tomada de decis\xF5es
+        pelos seus superiores, ent\xE3o n\xE3o erre ou eu vou saber. Estou confiante
+        de que far\xE1 um \xF3timo trabalho e contribuir\xE1 para o sucesso da nossa
+        equipe em S\xE3o Flores. :3\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[1]
       value: "Ol\xE1 meu caro, \xE9 o Sobs, espero que tenha tido um bom primeiro
@@ -16782,7 +15411,7 @@ PrefabInstance:
         final da semana, l\xE1 eu decido se continua com o trabalho ou n\xE3o. Dito
         isso, o RH me disse que eu devia deixar um computador, para voc\xEA ter um\u2026
         Enfim, eu sei que deve estar pensando que ele \xE9 antigo e ruim, e de fato
-        \xE9, mas \xE9 o que voc\xEA ter\xE1 por enquanto."
+        \xE9, mas \xE9 o que voc\xEA ter\xE1 por enquanto.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[2]
@@ -16796,13 +15425,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[3]
-      value: "Eae de novo, Sobs aqui, o RH disse que a papelada t\xE1 muito confusa,
-        e que n\xE3o sabe de que classifica\xE7\xE3o os pap\xE9is s\xE3o, ent\xE3o
-        mandei uns post its para voc\xEA e um papel de instru\xE7\xF5es, voc\xEA
-        s\xF3 tem que colocar a cor referente ao caso no papel antes enviar, j\xE1
-        deve ser o bastante para o RH ficar feliz.\r\n\r\n\r\nPapel de instru\xE7\xF5es:\r\nMarca:
-        Roxo\r\nPatente: Azul\r\nSegredos Comerciais: Vermelho\r\nObras Protegidas:
-        Verde\r\n"
+      value: "O Chefe n\xE3o apareceu hoje, mas avisou para voc\xEA trabalhar normal.
+        \r\n\tAss: Danilo do RH.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA
+        natureza n\xE3o agradece esse gasto de papel ;u;"
       objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[4]
@@ -17115,6 +15740,35 @@ PrefabInstance:
       propertyPath: dia3
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2995422379526064091, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Swin Animations\r\nAcusado:
+        Dolu Studios\r\n\r\nInforma\xE7\xF5es do autor\r\n\nEquipe independente que
+        posta em seu canal no Youtube semanalmente anima\xE7\xF5es. Uma das anima\xE7\xF5es
+        feitas, foi finalizada em Julho, se chama: \u201CO discreto e angustiante
+        mundo de Diana\u201D. Esta s\xE9rie j\xE1 foi visualizada 800 mil vezes em
+        m\xE9dia. E seu canal possui 1,5 milh\xE3o de inscritos.\r\n\r\nInforma\xE7\xF5es
+        do acusado\r\n\nDolu Studios \xE9 uma empresa de anima\xE7\xE3o que publica
+        suas anima\xE7\xF5es tamb\xE9m no Youtube, e possui aproximadamente 8 milh\xF5es
+        de inscritos, com m\xE9dia de 5 milh\xF5es de visualiza\xE7\xF5es em v\xEDdeos.
+        No m\xEAs de Julho foi contratada por um servi\xE7o de stream, que possui
+        em m\xE9dia 150 milh\xF5es de inscritos, e foi comprada uma anima\xE7\xE3o
+        autoral da empresa chamada: \u201CO discreto e angustiante mundo de Tiana\u201D.\r\n\r\n\nMensagem
+        de requerimento do processo:\r\n\n1. Obra original: T\xEDtulo de obra O discreto
+        e angustiante mundo de Diana\r\n2. Obra plagiada: T\xEDtulo de obra O discreto
+        e angustiante mundo de Tiana\r\n3. Semelhan\xE7as: Nome\r\n4. Pedido de a\xE7\xE3o:
+        Indeniza\xE7\xE3o e Mudan\xE7a de nome."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422379526064091, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Swin Animations\r\nAcusado:
+        Dolu Studios\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201C\xC9 um
+        canal muito mais conhecido que o nosso e mesmo assim tem ci\xEAncia de nossas
+        anima\xE7\xF5es. Esta foi inclusive uma anima\xE7\xE3o em que j\xE1 foi citado
+        por um v\xEDdeo do Dulu Studios, sendo comentado brevemente sobre uma das
+        nossas personagens.\u201D\r\n\r\nResposta do Acusado:\r\n\nO acusado n\xE3o
+        compareceu para defesa."
+      objectReference: {fileID: 0}
     - target: {fileID: 2995422379855366050, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17131,6 +15785,27 @@ PrefabInstance:
       propertyPath: dia3
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2995422379855366054, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
+        J\xFAlio Alves\r\n\r\nInforma\xE7\xF5es do autor\r\n\nMarco, 54, Revisor
+        de artigos.\r\n\r\nInforma\xE7\xF5es do acusado\r\n\nJ\xFAlio Alves, 32 anos,
+        formado em rela\xE7\xF5es internacionais, trabalha em uma universidade escrevendo
+        artigos.\r\n\r\n\nMensagem de requerimento do processo:\r\n\n1. Obra original:
+        Artigo publicado por J\xFAlio\r\n2. Obra plagiada: Artigo publicado por J\xFAlio\r\n3.
+        Semelhan\xE7as: Artigo\r\n4. Pedido de a\xE7\xE3o: Retirada de obra ou colocar
+        refer\xEAncias"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422379855366054, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 29/03/2023\r\nAutor:  Marco\r\nAcusado:
+        J\xFAlio Alves\r\n\r\nMensagem de requerimento do Autor:\n\nFoi encontrado
+        um artigo publicado por J\xFAlio Alves em uma confer\xEAncia cient\xEDfica
+        em 2018, republicada em uma revista cient\xEDfica sem ter citado a publica\xE7\xE3o
+        anterior\r\n\r\nResposta do Acusado:\r\n\n\u201CN\xE3o me foi noticiado que
+        citar meu pr\xF3prio artigo era necess\xE1rio. E sinceramente, nem faz sentido!
+        N\xE3o aceito esta den\xFAncia\u201D"
+      objectReference: {fileID: 0}
     - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -17142,6 +15817,37 @@ PrefabInstance:
     - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia3
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 3/3/2021\r\nAutor: Joana Miller\r\nAcusado:
+        Softer Entertainment\r\n\r\nInforma\xE7\xF5es do autor\r\n\nJoana Miller,
+        24, artista digital.\r\n\r\nInforma\xE7\xF5es do acusado\r\n\nSofter Entertainment,
+        criada em 2016, empresa de entretenimento digital, que desenvolve jogos e
+        aplicativos. Conhecida pelos seus jogos de multiverso e aplicativos de realidade
+        aumentada.\r\n\r\n\nMensagem de requerimento do processo:\r\n\n1. Obra original:
+        Jogo de luta\r\n2. Obra plagiada: Jogo de luta\r\n3. Semelhan\xE7as: Est\xE9tica
+        e jog\xE1bilidade\r\n4. Pedido de a\xE7\xE3o: Indeniza\xE7\xE3o e Retirada
+        de obra."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 3/3/2021\r\nAutor: Joana Miller\r\nAcusado:
+        Softer Entertainment\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201CSou
+        Joana Miller e estou procurando emprego. Contatei uma empresa que encontrei
+        em um site, e marquei uma reuni\xE3o para mostrar meu portif\xF3lio. No dia
+        mostrei alguns trabalhos que j\xE1 havia feito, inclusive um jogo que participei
+        e postei em um site de jogos independentes gratuitos. Um m\xEAs depois a
+        empresa divulgou um jogo com a mesma premissa: Um jogo de luta em que os
+        personagens s\xE3o frutas falantes. S\xF3 por serem uma empresa mais reconhecida,
+        n\xE3o significa que n\xE3o plagiam!\r\n\r\nNo dia o diretor e sua equipe
+        at\xE9 elogiaram este jogo, n\xE3o me parece coincid\xEAncia. Al\xE9m de
+        seus jogos n\xE3o terem foco no estilo luta.\u201D\r\n\r\nResposta do Acusado:\r\n\n\u201CSou
+        diretor da Softer Entertainment, e me recuso aceitar esta den\xFAncia. O
+        jogo em que ela mostra n\xE3o pode ser provada que foi fonte de inspira\xE7\xE3o
+        da equipe, e eu entrevisto tantas pessoas, n\xE3o \xE9 como se eu fosse lembrar
+        desta. Nos surgiu esta ideia, gostamos e produzimos. Calhou de ser logo depois
+        dessa entrevista.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 3693659157482217934, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Sprite
@@ -17231,6 +15937,56 @@ PrefabInstance:
       propertyPath: plagioNegado
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172741207662747, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/12/2019\r\nAutor: Vivendo\r\nAcusado:
+        Raiva\r\n\r\nInforma\xE7\xF5es do autor\r\n\nA Vivendo \xE9 uma empresa chinesa
+        de videogames fundada em 1890 como fabricante de cartas de baralho. Ao longo
+        dos anos, a empresa se tornou uma das l\xEDderes no mercado de jogos eletr\xF4nicos,
+        lan\xE7ando consoles como o Vivendo Elegante Suave (V.E.S).\r\n\r\nInforma\xE7\xF5es
+        do acusado\r\n\nO Raiva \xE9 uma plataforma de comunica\xE7\xE3o online que
+        permite aos usu\xE1rios se comunicar por meio de bate-papo por texto, voz
+        e v\xEDdeo. Ele foi originalmente criado para jogadores de futebol, mas hoje
+        \xE9 usado por pessoas de todas as \xE1reas.\r\n\r\n\nMensagem de requerimento
+        do processo:\n\r\n1. Obra original: Artbook exclusivo da Vivendo\r\n2. Obra
+        plagiada: Publica\xE7\xE3o indevida de artbook da Vivendo\r\n3. Semelhan\xE7as:
+        -\r\n4. Pedido de a\xE7\xE3o:  Retirada de conte\xFAdo divulgado e indeniza\xE7\xE3o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741207662747, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/12/2019\r\nAutor: Vivendo\r\nAcusado:
+        Raiva\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201C\xC9 com grande
+        pesar que informamos que a plataforma Raiva foi respons\xE1vel por vazar
+        um artbook exclusivo da Vivendo em um de seus servidores. um usu\xE1rio conhecido
+        como \u201CVivendoLover87\", publicou o artbook de um de nossos jogos, sem
+        permiss\xE3o em um canal da plataforma.\r\n\r\nAs a\xE7\xF5es imprudentes
+        do membro do Raiva, prejudicaram nossa empresa e nossa capacidade de proteger
+        nossos materiais confidenciais.\r\n\r\nPor isso, estamos processando a plataforma
+        Raiva por neglig\xEAncia e falta de seguran\xE7a em seus servidores. Exigimos
+        que a plataforma tome medidas imediatas para garantir que isso nunca mais
+        aconte\xE7a e para que as informa\xE7\xF5es confidenciais de outras empresas
+        e usu\xE1rios sejam protegidas.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741207662747, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[2]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/12/2019\r\nAutor: Vivendo\r\nAcusado:
+        Raiva\r\n\r\nResposta do Acusado:\r\n\n\u201CEm primeiro lugar, queremos
+        deixar claro que lamentamos profundamente o ocorrido e que estamos comprometidos
+        em proteger a privacidade e a seguran\xE7a de nossos usu\xE1rios. Assim que
+        tomamos conhecimento do vazamento, removemos imediatamente o conte\xFAdo
+        em quest\xE3o e encerramos a conta do usu\xE1rio respons\xE1vel.\r\n\r\nNo
+        entanto, n\xE3o podemos aceitar a alega\xE7\xE3o da Vivendo de que somos
+        respons\xE1veis pelo vazamento. Como uma plataforma de comunica\xE7\xE3o
+        online, n\xE3o podemos controlar totalmente as a\xE7\xF5es de nossos usu\xE1rios,
+        incluindo aqueles que decidem violar nossos termos de servi\xE7o e pol\xEDticas
+        de privacidade.\r\n\r\nAl\xE9m disso, \xE9 importante observar que o usu\xE1rio
+        que vazou o artbook, conhecido como \"VivendoLover87\", n\xE3o trabalha para
+        a Raiva e n\xE3o foi contratado por n\xF3s para realizar qualquer trabalho
+        relacionado \xE0 Vivendo ou a qualquer outra empresa.\r\n\r\n\u201CDe acordo
+        com os dados mais recentes a Raiva tem cerca de 150 milh\xF5es de usu\xE1rios
+        ativos di\xE1rios na plataforma. Est\xE3o nos processando por causa de 1
+        usu\xE1rio que publicou algo de voc\xEAs? Processa o usu\xE1rio n\xE3o n\xF3s.\u201D"
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172741207662751, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17254,6 +16010,42 @@ PrefabInstance:
     - target: {fileID: 5327172741589537426, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioAceito
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741589537426, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 02/06/2018\r\nAutor: Build-Mine\r\nAcusado:
+        Castle-Build\r\n\r\nInforma\xE7\xF5es do autor\r\n\nBuild-Mine \xE9 um jogo
+        eletr\xF4nico de aventura e sobreviv\xEAncia desenvolvido pela Studio Ginseng
+        e lan\xE7ado em 2010. O jogo \xE9 constru\xEDdo em torno de um mundo virtual
+        gerado aleatoriamente, composto por Tri\xE2ngulos tridimensionais, que os
+        jogadores podem explorar e modificar.\r\n\r\nInforma\xE7\xF5es do acusado\r\n\nO
+        desenvolvedor russo Skarrow lan\xE7ou um jogo chamado Castle-Build, em 2011
+        para PC. O jogo se passa em um mundo gerado aleatoriamente, composto por
+        Tri\xE2ngulos tridimensionais, que os jogadores podem explorar e modificar.\r\n\r\n\nMensagem
+        de requerimento do processo:\r\n\n1. Obra original:  Build-Mine\r\n2. Obra
+        plagiada:  Castle-Build\r\n3. Semelhan\xE7as: Mec\xE2nicas, est\xE9tica e
+        jog\xE1bilidade.\r\n4. Pedido de a\xE7\xE3o: Indeniza\xE7\xE3o e Retirada
+        de obra."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741589537426, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 02/06/2018\r\nAutor: Build-Mine\r\nAcusado:
+        Castle-Build\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201CEu, Studio
+        Ginseng, acuso o jogo Castle-Build de pl\xE1gio em rela\xE7\xE3o ao jogo
+        Build-Mine. \xC9 minha cren\xE7a que a empresa por tr\xE1s do  Castle-Build,
+        copiou elementos fundamentais da jog\xE1bilidade, est\xE9tica e mec\xE2nica
+        de jogo  Build-Mine, sem permiss\xE3o ou cr\xE9dito adequado. Em particular,
+        os elementos de constru\xE7\xE3o e sobreviv\xEAncia em mundo aberto, a mec\xE2nica
+        de constru\xE7\xE3o e coleta de recursos, e a constru\xE7\xE3o de estruturas
+        com Tri\xE2ngulos tridimensionais s\xE3o notavelmente semelhantes nos dois
+        jogos.\u201D\r\n\r\nResposta do Acusado:\r\n\n\u201CEntendemos que houve
+        algumas preocupa\xE7\xF5es em rela\xE7\xE3o \xE0 semelhan\xE7a entre o nosso
+        jogo e o jogo  Build-Mine. No entanto, gostar\xEDamos de esclarecer que o
+        Castle-Build \xE9 um jogo original criado pela nossa equipe de desenvolvimento,
+        que se inspirou em muitas fontes diferentes, incluindo outros jogos de constru\xE7\xE3o
+        e aventura em mundo aberto. Embora haja algumas semelhan\xE7as superficiais
+        entre os dois jogos, acreditamos que a jog\xE1bilidade do Castle-Build \xE9
+        distinta e \xFAnica. Nosso jogo n\xE3o prejudica na venda do jogo Build-Mine.\u201C"
       objectReference: {fileID: 0}
     - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
@@ -17279,6 +16071,28 @@ PrefabInstance:
       propertyPath: plagioNegado
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 23/07/2022\r\nAutor: Cl\xE9ber\r\nAcusado:
+        Mariana\r\n\r\nInforma\xE7\xF5es do autor\r\n\nFoi publicado em 2020 uma
+        trilogia dos livros \u201CViagem \xE0 Terra do Futuro\u201C\r\n\r\nInforma\xE7\xF5es
+        do acusado\r\n\nFoi publicado em 2022 um \xFAnico livro com tem\xE1tica de
+        viagem no tempo para o futuro, chamado \u201CAs aventuras de Chalre\u201C\r\n\r\n\nMensagem
+        de requerimento do processo:\r\n\n1. Obra original: \u201CViagem \xE0 Terra
+        do Futuro\u201C\r\n2. Obra plagiada: \u201CAs aventuras de Chalre\u201C\r\n3.
+        Semelhan\xE7as: Tem\xE1tica de viagem no tempo para o futuro\r\n4. Pedido
+        de a\xE7\xE3o: Retirada de livro para vendas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 23/07/2022\r\nAutor: Cl\xE9ber\r\nAcusado:
+        Mariana\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201CFoi copiada
+        a mesma ideia do meu livro de viagem para o futuro. Meu livro vendeu muito
+        e ficou relativamente famoso, al\xE9m de eu ter publicado j\xE1 faz um tempo.\u201D\r\n\r\nResposta
+        do Acusado:\r\n\n\u201CViagem no tempo \xE9 uma tem\xE1tica comum na literatura!
+        Eu li dois dos livros desse autor, mas de qualquer forma h\xE1 dezenas de
+        livros com temas iguais!\u201D"
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -17290,6 +16104,43 @@ PrefabInstance:
     - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia3
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/10/2019\r\nAutor: Cl\xE3 do
+        Campe\xF5es\r\nAcusado: Campe\xF5es do celular\r\n\r\nInforma\xE7\xF5es 
+        do autor\r\n\nCl\xE3 do Campe\xF5es \xE9 um jogo eletr\xF4nico do g\xEAnero
+        MOBA (Multiplayer Online Battle Arena), desenvolvido e publicado pela Tye
+        Games. O jogo consiste em duas equipes de cinco jogadores, cada uma controlando
+        um personagem com habilidades \xFAnicas, chamados de \"campe\xF5es\", com
+        o objetivo de destruir a base inimiga.\r\n\r\nInforma\xE7\xF5es  do acusado\r\n\nCampe\xF5es
+        do Celular \xE9 um jogo eletr\xF4nico gratuito do g\xEAnero MOBA, desenvolvido
+        e publicado pela Mutto Studio. O jogo consiste em duas equipes de cinco jogadores,
+        cada uma controlando um personagem com habilidades \xFAnicas, chamados de
+        \"her\xF3is\", com o objetivo de destruir a base inimiga.\r\n\r\n\nMensagem
+        de requerimento do processo:\r\n\n1. Obra original: Personagem Nina do jogo
+        Cl\xE3 dos Campe\xF5es\r\n2. Obra plagiada: Personagem Clara do jogo Campe\xF5es
+        do Celular\r\n3. Semelhan\xE7as: Apar\xEAncia e habilidades dentro de jogo\r\n4.
+        Pedido de a\xE7\xE3o: Indeniza\xE7\xE3o e Retirada de obra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 20/10/2019\r\nAutor: Cl\xE3 do
+        Campe\xF5es\r\nAcusado: Campe\xF5es do celular\r\n\r\nMensagem de requerimento
+        do Autor:\r\n\n\u201CNa data 08/10/2019 lan\xE7amos um personagem do nosso
+        jogo. Uma personagem feminina chamada Nina, sua paleta de cores \xE9: vermelho,
+        preto e laranja. Ela \xE9 uma maga de fogo que carrega uma espada longa,
+        com um vestido longo, e ela \xE9 princesa do reino de Azarah. Suas skills
+        envolvem lan\xE7ar espadas de fogo para frente, criar um escudo em si mesmo
+        e sua skill mais forte ela invoca uma lan\xE7a de fogo em linha reta no mapa
+        todo.\r\n\r\nNo dia 15/10/2019 o jogo Campe\xF5es do Celular lan\xE7ou uma
+        personagem chamada Clara, com a mesma paleta de cor, armas, apar\xEAncia
+        e skills.\u201D\r\n\r\nResposta do Acusado:\r\n\n\u201CA declara\xE7\xE3o
+        n\xE3o poderia ser mais falsa! Nossa personagem Clara n\xE3o \xE9 uma princesa,
+        \xE9 uma rainha, e ela usa roupas de banho, al\xE9m de sua paleta de cor
+        ser rosa, cinza e laranja. Ela lan\xE7a adagas e n\xE3o espadas, as skills
+        s\xE3o um pouco parecidas sim, mas a clara \xE9 muito melhor, ela lan\xE7a
+        um raio de fogo, n\xE3o uma lan\xE7azinha qualquer em sua habilidade.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
@@ -17311,6 +16162,31 @@ PrefabInstance:
       propertyPath: plagioNegado
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 19/02/2022\r\nAutor: J\xFAnior
+        - Leitor do livro\r\nAcusado: Marcelo - Dono do livro\r\n\r\nInforma\xE7\xF5es
+        do autor\r\n\nJ\xFAnior, 76, aposentado.\r\n\r\nInforma\xE7\xF5es do acusado\r\n\nMarcelo,
+        34, escritor e professor de literatura.\r\n\r\n\nMensagem de requerimento
+        do processo:\r\n\n1. Obra original: Peter Pan\r\n2. Obra plagiada: trecho
+        em A Ordem do Nada\r\n3. Semelhan\xE7as: Trecho citado \n4. Pedido de a\xE7\xE3o:
+        Inserir refer\xEAncia bibliogr\xE1fica"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 19/02/2022\r\nAutor: J\xFAnior
+        - Leitor do livro\r\nAcusado: Marcelo - Dono do livro\r\n\r\nMensagem de
+        requerimento do Autor:\r\n\nFoi utilizado um trecho do livro de \u201CPeter
+        Pan\u201D, no livro \u201CA Ordem do Nada\u201D de Marcelo, sem ser citado
+        o autor da obra em nenhum momento, nem mesmo citaram o nome do personagem
+        que falou na obra original, durante a narrativa! Segue trecho plagiado:\r\n\r\n\"-Eu
+        n\xE3o consigo! - disse chateado.\r\n\r\n-J\xE1 dizia nosso velho amigo:
+        \u2018N\xE3o fique tentando ser normal. Isso \xE9 um mito inventado por pessoas
+        comuns para te fazer se sentir mal por ser diferente.\u2019 \"\r\n\r\nResposta
+        do Acusado:\r\n\nSua obra \xE9 de dom\xEDnio p\xFAblico desde a morte do
+        autor de Peter Pan, n\xE3o \xE9 necess\xE1rio cita\xE7\xF5es, al\xE9m de
+        ainda parafrasear o trecho."
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -17322,6 +16198,33 @@ PrefabInstance:
     - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia3
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[0]
+      value: "De: Departamento Jur\xEDdico\r\nData: 12/02/2022\r\nAutor: Felipe\r\nAcusado:
+        Bruno\r\n\r\nInforma\xE7\xF5es do autor\r\n\nFelipe, 26, designer gr\xE1fico.\r\n\r\nInforma\xE7\xF5es
+        do acusado\r\n\nBruno, 31, dono de FoodTruck Churrusburger.\r\n\r\n\nMensagem
+        de requerimento do processo:\r\n\n1. Obra original: Logo por Felipe\r\n2.
+        Obra plagiada: Logo de Churrusburger\r\n3. Semelhan\xE7as: Formato, fonte
+        e cores.\r\n4. Pedido de a\xE7\xE3o: Indeniza\xE7\xE3o e Retirada de obra."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: textosDocumento.Array.data[1]
+      value: "De: Departamento Jur\xEDdico\r\nData: 12/02/2022\r\nAutor: Felipe\r\nAcusado:
+        Bruno\r\n\r\nMensagem de requerimento do Autor:\r\n\n\u201CEu sou designer
+        gr\xE1fico e fa\xE7o freelances a mais de 3 anos. Um desses meus trabalhos
+        foi fazer uma logo para esse food truck Churrusburger, fiz e enviei o processo
+        com marcas d'\xE1gua para n\xE3o correr o risco de roubo. Ele me pagou no
+        in\xEDcio como um pagamento inicial de trabalho, para que caso ele aceite
+        usar a logo, ele completaria o pagamento no final. Mas ele recusou. Disse
+        que n\xE3o iria usar. Ent\xE3o encerramos. E agora me aparece ele estreando
+        com uma logo igual \xE0 minha (mostra imagens de provas).\u201D\r\n\r\nResposta
+        do Acusado:\r\n\n\u201CEu j\xE1 havia contratado uns tr\xEAs designers desde
+        que abri minha marca. Este ocorreu de eu n\xE3o gostar! Meu primo que est\xE1
+        come\xE7ando na carreira tentou ajudar e gostei. N\xE3o \xE9 parecido! O
+        contorno \xE9 quadrado, as cores s\xE3o diferentes e s\xF3 se parece por
+        que s\xE3o as mesmas letras. N\xE3o pode me processar s\xF3 por n\xE3o ter
+        tido o trabalho aceito.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 6258159169514925812, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Volume
@@ -19925,7 +18828,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 6ec9e7790b160c44f92e35e04d0182f6, type: 3}
     - target: {fileID: 5873677820686247003, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5873677820727494460, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -20145,11 +19048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821321087065, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821321087065, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821321087065, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20161,11 +19064,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821321087065, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 57.544983
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821321087065, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -19.660004
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821337651066, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_LocalScale.x
@@ -20341,7 +19244,7 @@ PrefabInstance:
       objectReference: {fileID: 1892307867}
     - target: {fileID: 5873677821732014069, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5873677821793305632, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20453,11 +19356,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822010920035, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822010920035, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822010920035, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20469,11 +19372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822010920035, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 57.544983
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822010920035, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -59.660004
       objectReference: {fileID: 0}
     - target: {fileID: 5873677822022773234, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: m_Spacing
@@ -23040,7 +21943,7 @@ PrefabInstance:
       objectReference: {fileID: 1820964140}
     - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
       propertyPath: folhas.Array.size
-      value: 11
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
       propertyPath: folhaBrancaDefault
@@ -23089,7 +21992,31 @@ PrefabInstance:
     - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
       propertyPath: folhas.Array.data[10]
       value: 
-      objectReference: {fileID: 231625816}
+      objectReference: {fileID: 556740834}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[11]
+      value: 
+      objectReference: {fileID: 1736951695}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[12]
+      value: 
+      objectReference: {fileID: 770672559}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[13]
+      value: 
+      objectReference: {fileID: 928212117}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[14]
+      value: 
+      objectReference: {fileID: 1950762264}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[15]
+      value: 
+      objectReference: {fileID: 589113322}
+    - target: {fileID: 8739681380098213594, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
+      propertyPath: folhas.Array.data[16]
+      value: 
+      objectReference: {fileID: 1746226736}
     - target: {fileID: 8739681380098213595, guid: d352bdd69da413a48b22fb94b440025f, type: 3}
       propertyPath: m_RootOrder
       value: 7
