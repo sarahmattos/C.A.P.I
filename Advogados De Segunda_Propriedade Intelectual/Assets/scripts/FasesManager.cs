@@ -89,7 +89,8 @@ public class FasesManager : MonoBehaviour
             case Fases.DIA3:
             UIManager.Instance.idFase=3;
             pontucao.ipOn=true;
-            UIManager.Instance.buttonCorIp.SetActive(true);
+            //UIManager.Instance.buttonCorIp.SetActive(true);
+            UIManager.Instance.buttonCorIpON = true;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {

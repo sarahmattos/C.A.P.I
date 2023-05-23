@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject bonuObj;
     [SerializeField] GameObject panelFinal;
     [SerializeField] public GameObject buttonCorIp;
+    public bool buttonCorIpON;
     [SerializeField] TMP_Text bonuUI;
     [SerializeField] TMP_Text somaUI;
     [SerializeField] TMP_Text erroUI;
@@ -126,11 +127,14 @@ public class UIManager : MonoBehaviour
             recebeTextos =documento.textosDocumento;
             recebeTamanho=documento.imageDocumento.Length;
             imagenDefault=documento.imageDocumento;
+            if(buttonCorIpON){
+                buttonCorIp.SetActive(true);
+            }
         }else{
-            
+            buttonCorIp.SetActive(false);
             recebeTamanho=1;
             recebeTextos= new string[recebeTamanho];
-            recebeTextos[0] =documento.textosDocumento[0];
+            recebeTextos[0] =documento.textosDocumento[idFase-1];
             imagenDefault = new Sprite[recebeTamanho];
             imagenDefault[0]=documento.imageDocumento[idFase-1];
         }
