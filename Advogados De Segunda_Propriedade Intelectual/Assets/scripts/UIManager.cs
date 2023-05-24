@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
+    
     public static UIManager Instance;
     public Texture2D[] cursorTexture;
     public Sprite compradoImage, equiparImage, desequiparImage;
@@ -57,8 +58,10 @@ public class UIManager : MonoBehaviour
     public Compra compra;
     public Documento documentoIntroducao;
 
+    bool pararmusica;
     public AudioSource souondComputador;
     public AudioSource souondClick;
+    [SerializeField] AudioSource auidoLeitura;
     private void Start()
     {
         Instance=this;
@@ -93,6 +96,12 @@ public class UIManager : MonoBehaviour
         ler=!ler;
         if(ler)setTexto();
         if(!ler)setImage();
+    }
+    public void ouvirTexto(){
+        pararmusica =!pararmusica;
+        auidoLeitura.clip = doc.lerfolha;
+        if(pararmusica)auidoLeitura.Play();
+        if(!pararmusica)auidoLeitura.Stop();
     }
     
     public void setImage(){
@@ -231,7 +240,7 @@ public class UIManager : MonoBehaviour
 
         souondClick.Play();
     }
-    
+
     public void fechar(){
         compraON = !compraON;
         if(!compraON){

@@ -812,6 +812,10 @@ PrefabInstance:
       value: "Folha (11)Laur\xEDcio"
       objectReference: {fileID: 0}
     - target: {fileID: 7090282951774574910, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 2748093b89f5a0c41ac8f81fe4090e44, type: 3}
+    - target: {fileID: 7090282951774574910, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 29/07/2023\r\nAutor: Laur\xEDcio
         de Souza\r\nAcusado: Francisco Nunes\n\r\nInforma\xE7\xF5es do autor: \r\n\nLaur\xEDcio
@@ -3072,7 +3076,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1787189064}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: LerTexto
+        m_MethodName: ouvirTexto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3235,6 +3239,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a50a0e2bf2da36642b966db2487536ba, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: a19fa7b3c85586c4eae8453fb5a23fd7, type: 3}
     - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: imageDocumento.Array.data[0]
       value: 
@@ -6837,6 +6845,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6030465c14dbe514da64e33fba22e03c, type: 3}
     - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f37b6de6d6b7824a88e81fe99ab5506, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Sand Flipflop\r\nAcusado:
         Run Shoes\r\n\u200C\r\nInforma\xE7\xF5es do autor:\r\n\r\nSand Flipflop \xE9
@@ -9211,6 +9223,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460856816}
   m_CullTransparentMesh: 1
+--- !u!1 &1466962635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8810344051729896928, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+  m_PrefabInstance: {fileID: 5873677821225949550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1471647359 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5873677821725748578, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
@@ -11372,6 +11389,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8580857106550910831, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 019cd60878e823d49ab74a777a3ee722, type: 3}
+    - target: {fileID: 8580857106550910831, guid: f602a451fec7b144093d6817302cce38, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 20/10/2021\r\nAutor: Blink Company
         \r\nAcusado: Roberto Watson\r\n\u200C\r\nInforma\xE7\xF5es do autor:\r\n\r\nBlink
@@ -11465,7 +11486,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
   m_PrefabInstance: {fileID: 5873677821225949550}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1466962635}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc6de3123d9c3f347ab0ed6ab21f3e7a, type: 3}
@@ -12738,6 +12759,102 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8810344051729896940, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
   m_PrefabInstance: {fileID: 5873677821225949550}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1984558522
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466962635}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!65 &1985382464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17202,6 +17319,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 608642390655021531, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: a335b47a858a3fc4dbad8eb9c6f9d689, type: 3}
+    - target: {fileID: 608642390655021531, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
       objectReference: {fileID: 0}
@@ -17669,6 +17790,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c940ac636b45d24f999656e14bfa647, type: 3}
+    - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
       objectReference: {fileID: 0}
@@ -17759,6 +17884,10 @@ PrefabInstance:
       propertyPath: idCerto
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: a6660e9f0ce11aa40a3e50519c54a0db, type: 3}
     - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
@@ -21531,6 +21660,10 @@ PrefabInstance:
       propertyPath: souondClick
       value: 
       objectReference: {fileID: 2015216123}
+    - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
+      propertyPath: auidoLeitura
+      value: 
+      objectReference: {fileID: 1984558522}
     - target: {fileID: 8810344051729896939, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: equiparImage
       value: 

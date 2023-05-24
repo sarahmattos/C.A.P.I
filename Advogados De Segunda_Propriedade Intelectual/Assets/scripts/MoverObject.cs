@@ -41,6 +41,8 @@ private void Update()
         
     }
         
+    
+    
     }
     
     //if(transform.position.y<10){
@@ -48,6 +50,7 @@ private void Update()
    // }
     rb.freezeRotation =true;
 }
+
 private void Start()
 {
     rb = GetComponent<Rigidbody>();

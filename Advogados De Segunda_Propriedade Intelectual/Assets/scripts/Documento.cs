@@ -10,6 +10,7 @@ public class Documento : MonoBehaviour
     [TextArea(100,10000)]
     public string[] textosDocumento;
     AudioSource audioFolha;
+    public AudioClip lerfolha;
     public bool plagioAceito=false;
     public bool plagioNegado=false;
     public int corId=-1;
