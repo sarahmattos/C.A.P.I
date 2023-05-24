@@ -175,6 +175,7 @@ public class UIManager : MonoBehaviour
         erroUI.text = "R$ ";
         totalUI.text = "R$ ";
         bonuUI.text= "R$ ";
+        telfinalgrupo.alpha = 0;
         HideUi();
         panelFinal.SetActive(false);
          bonuObj.SetActive(false);
@@ -205,7 +206,8 @@ public class UIManager : MonoBehaviour
         {
 
             telfinalgrupo.alpha += Time.deltaTime;
-            if(telfinalgrupo.alpha >= 1) { fadeIn = false; }
+            if(telfinalgrupo.alpha >= 1) { fadeIn = false;  }
+
 
         }
        
