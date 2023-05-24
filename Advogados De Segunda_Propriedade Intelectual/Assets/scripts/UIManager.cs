@@ -56,6 +56,9 @@ public class UIManager : MonoBehaviour
     public bool compraON;
     public Compra compra;
     public Documento documentoIntroducao;
+
+    public AudioSource souondComputador;
+    public AudioSource souondClick;
     private void Start()
     {
         Instance=this;
@@ -217,14 +220,22 @@ public class UIManager : MonoBehaviour
     public void abrirCompras(){
         compraON = !compraON;
             if(compraON){
+                souondComputador.Play();
                 compra.checarBotoesDinheiro();
                 panelCompra.SetActive(true);
                 panelObjetoCompra();
             }
     }
+
+    public void Click(){
+
+        souondClick.Play();
+    }
+    
     public void fechar(){
         compraON = !compraON;
         if(!compraON){
+            
             panelCompra.SetActive(false);
         }
     }
