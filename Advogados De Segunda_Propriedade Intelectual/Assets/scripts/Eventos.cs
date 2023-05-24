@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class Eventos : MonoBehaviour
 {
-    public bool globoOn, radioOn, mesaOn, presenteOn, armarioOn;
+    public bool globoOn, radioOn, mesaOn, presenteOn, armarioOn, luzOn;
     public BotaoRadio btnRadio;
+    public bool acenderam;
     public GameObject aviso;
     public CameraManager cm;
     public Compra compra;
     public armarioUi armario;
     public Animator globo;
+    public GameObject luz;
     public bool armarioaux;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,24 @@ public class Eventos : MonoBehaviour
                 Debug.Log("rodou");
             }
             if(armarioOn)armario.interfaceArmario();
+             if(luzOn)acender();
         }
+
+    }
+
+    public void acender(){
+
+        acenderam = !acenderam;
+        if(acenderam == true){
+
+            luz.SetActive(false);
+
+        }
+        else
+        {
+            luz.SetActive(true);
+        }
+
 
     }
     private void OnTriggerStay(Collider other)
@@ -56,6 +75,11 @@ public class Eventos : MonoBehaviour
             armarioOn=true;
             aviso.SetActive(true);
         }
+
+        if (other.gameObject.tag == "Luz") {
+            luzOn=true;
+            aviso.SetActive(true);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
@@ -77,6 +101,10 @@ public class Eventos : MonoBehaviour
         }
         if (other.gameObject.tag == "Armario") {
             armarioOn=false;
+            aviso.SetActive(false);
+        }
+        if (other.gameObject.tag == "Luz") {
+            luzOn=false;
             aviso.SetActive(false);
         }
     }

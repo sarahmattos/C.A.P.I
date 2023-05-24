@@ -15,6 +15,7 @@ TagManager:
   - botao
   - chao
   - Armario
+  - Luz
   layers:
   - Default
   - TransparentFX
