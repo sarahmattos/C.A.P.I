@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
-    
+    FasesManager fasesManager;
     public static UIManager Instance;
     public Texture2D[] cursorTexture;
     public Sprite compradoImage, equiparImage, desequiparImage;
@@ -30,6 +30,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] TMP_Text totalUI;
     [SerializeField] TMP_Text quantidade;
     [SerializeField] TMP_Text dinheiro;
+    [SerializeField] TMP_Text diasText;
     [SerializeField] GameObject panelCompra;
     [SerializeField] GameObject panelCompraObjeto;
     [SerializeField] GameObject panelCompraPapeis;
@@ -99,7 +100,12 @@ public class UIManager : MonoBehaviour
     }
     public void ouvirTexto(){
         pararmusica =!pararmusica;
-        auidoLeitura.clip = doc.lerfolha;
+        if(!doc.introducao){
+            auidoLeitura.clip = doc.lerfolha;
+        }else{
+             auidoLeitura.clip = doc.audiosIntroducao[idFase-1];
+        }
+        
         if(pararmusica)auidoLeitura.Play();
         if(!pararmusica)auidoLeitura.Stop();
     }
@@ -165,6 +171,8 @@ public class UIManager : MonoBehaviour
     public void resetaIda(){
         id=0;
         ler=false;
+        auidoLeitura.Stop();
+        pararmusica =false;
     }
     public void panelFinalTrue(int soma, int bonus, int erro, int total, string acertos){
 
@@ -172,6 +180,7 @@ public class UIManager : MonoBehaviour
         panelFinal.SetActive(true);
         ShowUi();
         //HideUi();
+        diasText.text = "DIA "+idFase;
         somaUI.text+= soma.ToString()+",00";
         erroUI.text+= erro.ToString()+",00";
         totalUI.text+= total.ToString()+",00";
