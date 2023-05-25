@@ -84,7 +84,7 @@ public class Eventos : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Mesa") {
-            mesaOn=false;
+            if(!cm.sentado)mesaOn=false;
             aviso.SetActive(false);
         }
         if (other.gameObject.tag == "Globo") {

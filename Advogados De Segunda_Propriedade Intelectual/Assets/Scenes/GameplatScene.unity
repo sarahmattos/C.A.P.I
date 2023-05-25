@@ -2375,13 +2375,13 @@ GameObject:
   - component: {fileID: 429201281}
   - component: {fileID: 429201280}
   - component: {fileID: 429201279}
+  - component: {fileID: 429201284}
   - component: {fileID: 429201283}
   - component: {fileID: 429201282}
-  - component: {fileID: 429201285}
-  - component: {fileID: 429201284}
   - component: {fileID: 429201286}
+  - component: {fileID: 429201287}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: playercube
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2514,7 +2514,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 1, z: 2.5}
   m_Center: {x: 0, y: 0, z: 1.5}
---- !u!114 &429201285
+--- !u!114 &429201286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429201277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a24dcebb4f7d34c9ecec5bc04623ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  moveSpeedDefault: 0
+  gorundDrag: 5
+  PlayerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  orientation: {fileID: 429201278}
+  cm: {fileID: 613263149}
+--- !u!114 &429201287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2541,27 +2562,6 @@ MonoBehaviour:
   globo: {fileID: 8583948218468522228}
   luz: {fileID: 1784376991}
   armarioaux: 0
---- !u!114 &429201286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429201277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6a24dcebb4f7d34c9ecec5bc04623ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  moveSpeedDefault: 0
-  gorundDrag: 5
-  PlayerHeight: 2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
-  orientation: {fileID: 429201278}
-  cm: {fileID: 613263149}
 --- !u!1 &441462991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3219,12 +3219,14 @@ MonoBehaviour:
   cameraSentado: {fileID: 298565016}
   cameraAndando: {fileID: 889084282}
   sentado: 1
+  boxColliders: []
+  rgP: {fileID: 429201283}
   posicaoCamera: {x: 0, y: 0, z: 0}
   posicaoPlayer: {x: 0, y: 0, z: 0}
   rotationCamera: {x: 0, y: 0, z: 0, w: 0}
   rotationPlayer: {x: 0, y: 0, z: 0, w: 0}
   pc: {fileID: 429201282}
-  evento: {fileID: 429201285}
+  evento: {fileID: 429201287}
 --- !u!4 &613263150
 Transform:
   m_ObjectHideFlags: 0
@@ -4826,7 +4828,7 @@ MonoBehaviour:
   sensX: 200
   sensY: 200
   orientation: {fileID: 429201278}
-  evento: {fileID: 429201285}
+  evento: {fileID: 429201287}
 --- !u!114 &889084287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15902,7 +15904,7 @@ MonoBehaviour:
   - {fileID: 1476684407}
   armarioPanel: {fileID: 1062940031524888882}
   textoUI: {fileID: 1062940031162221500}
-  evento: {fileID: 429201285}
+  evento: {fileID: 429201287}
   movementPlayer: {fileID: 429201286}
   geralTexto: {fileID: 1062940032511397184}
   atualTexto: {fileID: 0}
@@ -21205,7 +21207,7 @@ PrefabInstance:
     - target: {fileID: 5873677821732014067, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: evento
       value: 
-      objectReference: {fileID: 429201285}
+      objectReference: {fileID: 429201287}
     - target: {fileID: 5873677821732014067, guid: e99250a3d1588b641a3e3e7761fdb0e0, type: 3}
       propertyPath: quadro
       value: 

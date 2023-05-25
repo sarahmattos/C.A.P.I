@@ -8,6 +8,8 @@ public class CameraManager : MonoBehaviour
     public GameObject cameraSentado;
     public GameObject cameraAndando;
     public bool sentado=true;
+    public BoxCollider[] boxColliders;
+    public Rigidbody rgP;
     bool troca = true;
     public Vector3 posicaoCamera;
     public Vector3 posicaoPlayer;
@@ -22,6 +24,7 @@ public class CameraManager : MonoBehaviour
         rotationCamera = cameraAndando.transform.rotation;
         rotationPlayer =  pc.transform.rotation;
         posicaoPlayer =  pc.transform.position;
+        boxColliders = pc.gameObject.GetComponentsInChildren<BoxCollider>();
         //mudarCamera();
     }
 
@@ -41,15 +44,26 @@ public class CameraManager : MonoBehaviour
     public void mudarCamera(){
          sentado = !sentado;
         if(sentado){
+            evento.mesaOn=true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            rgP.useGravity=false;
             evento.aviso.SetActive(false);
+            foreach (BoxCollider collider in boxColliders)
+                {
+                    collider.enabled = false;
+                }
             cameraSentado.SetActive(true);
             cameraAndando.SetActive(false);
 
         }else{
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            foreach (BoxCollider collider in boxColliders)
+                {
+                    collider.enabled = true;
+                }
+            rgP.useGravity=true;
             cameraSentado.SetActive(false);
             cameraAndando.SetActive(true);
              pc.transform.position = posicaoPlayer;
