@@ -1733,6 +1733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Folha (11)Laur\xEDcio"
       objectReference: {fileID: 0}
+    - target: {fileID: 7090282951774574909, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7090282951774574910, guid: 7ce98af9dd857c04dacf6fb4ee15fd21, type: 3}
       propertyPath: lerfolha
       value: 
@@ -2923,6 +2927,10 @@ PrefabInstance:
     - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Name
       value: 'Folha (17)MamSung '
+      objectReference: {fileID: 0}
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Sprite
@@ -5622,6 +5630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Folha (15)Restaurante
       objectReference: {fileID: 0}
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7756,6 +7768,10 @@ PrefabInstance:
     - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Name
       value: Folha (16)MC Sinfonia
+      objectReference: {fileID: 0}
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Sprite
@@ -13281,6 +13297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Folha (13)FlipFlop
       objectReference: {fileID: 0}
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -18249,10 +18269,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Folha (14)TV
       objectReference: {fileID: 0}
+    - target: {fileID: 826428671916334633, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2566936386772650346, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: afc81f374b29c974aa3bf281df8d35b8, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 1dffed65be1f575449ab39a64fd10fc0, type: 3}
     - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: imageDocumento.Array.data[0]
       value: 
@@ -21172,6 +21200,10 @@ PrefabInstance:
     - target: {fileID: 8580857106550910819, guid: f602a451fec7b144093d6817302cce38, type: 3}
       propertyPath: m_Name
       value: Folha (12)Blink
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580857106550910819, guid: f602a451fec7b144093d6817302cce38, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8580857106550910828, guid: f602a451fec7b144093d6817302cce38, type: 3}
       propertyPath: m_RootOrder
@@ -29503,6 +29535,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2995422379526064091, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 710e8030d89d4934781524c13ce023d6, type: 3}
+    - target: {fileID: 2995422379526064091, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Swin Animations\r\nAcusado:
         Dolu Studios\r\n\r\nInforma\xE7\xF5es do autor\r\n\nEquipe independente que
@@ -29531,6 +29567,14 @@ PrefabInstance:
         nossas personagens.\u201D\r\n\r\nResposta do Acusado:\r\n\nO acusado n\xE3o
         compareceu para defesa."
       objectReference: {fileID: 0}
+    - target: {fileID: 2995422379526064097, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422379855366044, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2995422379855366050, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -29547,6 +29591,10 @@ PrefabInstance:
       propertyPath: dia3
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2995422379855366054, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 170b7ac5ab72abd48a2d572c2589b2e1, type: 3}
     - target: {fileID: 2995422379855366054, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: nomeDocumento
       value: "Autopl\xE1gio"
@@ -29590,6 +29638,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 24fb2a6f6743f444d9ff0cc07fd8845e, type: 3}
+    - target: {fileID: 2995422380917342159, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 3/3/2021\r\nAutor: Joana Miller\r\nAcusado:
         Softer Entertainment\r\n\r\nInforma\xE7\xF5es do autor\r\n\nJoana Miller,
@@ -29619,6 +29671,10 @@ PrefabInstance:
         da equipe, e eu entrevisto tantas pessoas, n\xE3o \xE9 como se eu fosse lembrar
         desta. Nos surgiu esta ideia, gostamos e produzimos. Calhou de ser logo depois
         dessa entrevista.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995422380917342197, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3693659157482217934, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Sprite
@@ -29719,7 +29775,7 @@ PrefabInstance:
     - target: {fileID: 5327172741207662747, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: lerfolha
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: e5c58b59a36180a40a161a1597f19e0a, type: 3}
     - target: {fileID: 5327172741207662747, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
@@ -29808,6 +29864,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5327172741589537426, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 223ea5c6c455c6148b437f2c3636aea3, type: 3}
+    - target: {fileID: 5327172741589537426, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioAceito
       value: 0
       objectReference: {fileID: 0}
@@ -29847,6 +29907,10 @@ PrefabInstance:
         entre os dois jogos, acreditamos que a jog\xE1bilidade do Castle-Build \xE9
         distinta e \xFAnica. Nosso jogo n\xE3o prejudica na venda do jogo Build-Mine.\u201C"
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172741589537448, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -29870,7 +29934,7 @@ PrefabInstance:
     - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: lerfolha
       value: 
-      objectReference: {fileID: 8300000, guid: 4c940ac636b45d24f999656e14bfa647, type: 3}
+      objectReference: {fileID: 8300000, guid: a6660e9f0ce11aa40a3e50519c54a0db, type: 3}
     - target: {fileID: 5327172741750990058, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
@@ -29910,6 +29974,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 97eee577a08b5c84ca7d8c6ee741e3bc, type: 3}
+    - target: {fileID: 5327172741842878423, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 20/10/2019\r\nAutor: Cl\xE3 do
         Campe\xF5es\r\nAcusado: Campe\xF5es do celular\r\n\r\nInforma\xE7\xF5es 
@@ -29946,6 +30014,10 @@ PrefabInstance:
         s\xE3o um pouco parecidas sim, mas a clara \xE9 muito melhor, ela lan\xE7a
         um raio de fogo, n\xE3o uma lan\xE7azinha qualquer em sua habilidade.\u201D"
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172741842878445, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -29965,7 +30037,7 @@ PrefabInstance:
     - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: lerfolha
       value: 
-      objectReference: {fileID: 8300000, guid: a6660e9f0ce11aa40a3e50519c54a0db, type: 3}
+      objectReference: {fileID: 8300000, guid: 4c940ac636b45d24f999656e14bfa647, type: 3}
     - target: {fileID: 5327172742234986124, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: plagioNegado
       value: 0
@@ -29995,6 +30067,10 @@ PrefabInstance:
         autor de Peter Pan, n\xE3o \xE9 necess\xE1rio cita\xE7\xF5es, al\xE9m de
         ainda parafrasear o trecho."
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172742234986166, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: dia1
       value: 0
@@ -30007,6 +30083,10 @@ PrefabInstance:
       propertyPath: dia3
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: d4b83b1e565eb02419d3cb9c53d979b7, type: 3}
     - target: {fileID: 5327172742398091350, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "De: Departamento Jur\xEDdico\r\nData: 12/02/2022\r\nAutor: Felipe\r\nAcusado:
@@ -30033,6 +30113,10 @@ PrefabInstance:
         contorno \xE9 quadrado, as cores s\xE3o diferentes e s\xF3 se parece por
         que s\xE3o as mesmas letras. N\xE3o pode me processar s\xF3 por n\xE3o ter
         tido o trabalho aceito.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327172742398091372, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6258159169514925812, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: m_Volume
