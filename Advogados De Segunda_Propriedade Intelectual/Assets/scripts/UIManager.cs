@@ -22,13 +22,17 @@ public class UIManager : MonoBehaviour
     [SerializeField] Image documentoImage;
     [SerializeField] GameObject bonuObj;
     [SerializeField] GameObject panelFinal;
+    [SerializeField] GameObject panelFinal2;
     [SerializeField] public GameObject buttonCorIp;
     public bool buttonCorIpON;
     [SerializeField] TMP_Text bonuUI;
     [SerializeField] TMP_Text somaUI;
     [SerializeField] TMP_Text erroUI;
     [SerializeField] TMP_Text totalUI;
+    [SerializeField] TMP_Text tota2lUI;
     [SerializeField] TMP_Text quantidade;
+    [SerializeField] TMP_Text quantidade2;
+    [SerializeField] TMP_Text analise;
     [SerializeField] TMP_Text dinheiro;
     [SerializeField] TMP_Text diasText;
     [SerializeField] GameObject panelCompra;
@@ -44,8 +48,8 @@ public class UIManager : MonoBehaviour
 
     string[] recebeTextos;
     Sprite[] imagenDefault;
-    [SerializeField] public Sprite botaoProximoDiaPontuacaoSprite;
-    [SerializeField] public Image botaoProximoPontuacao;
+    [SerializeField] public GameObject botaoProximoPontuacao;
+    [SerializeField] public GameObject botaoCntinuarPontuacao;
     [SerializeField] Image spriteIntroducao;
     public bool reseta=true;
     int recebeTamanho;
@@ -196,6 +200,24 @@ public class UIManager : MonoBehaviour
         if(bonus>0){
             bonuUI.text+= bonus.ToString()+",00";
             bonuObj.SetActive(true);
+        }
+        
+    }
+    public void detalhesFnais(int pontos, int dinheiro){
+        panelFinal2.SetActive(true);
+        tota2lUI.text= " R$ "+dinheiro.ToString()+",00";
+        quantidade2.text= pontos.ToString()+"/17";
+        if(pontos>=0&& pontos<6){
+            analise.text= "E eu achando que eu fazia mal o meu trabalho, pelo visto tem sempre alguém pior, é meu caro, parece que uma semana já foi o suficiente para ver que esse trabalho não é para você, 'VOCÊ ESTÁ DEMITIDO !!!' imagina eu falando isso gritando, sempre quis fazer isso. Do seu antigo chefe Sobs.";
+        }
+        if(pontos>=6 && pontos<12){
+            analise.text= "O RH disse que você foi mais ou menos, mas não se preocupe, seu amigo Sobs te defendeu. Eu disse que você está apenas se adaptando e espero que você pegue no tranco logo, mas caso contrário, vou ter que tomar medidas mais severas. Do seu chefe, Sobs.";
+        }
+        if(pontos>=12 && pontos<16){
+            analise.text= "Parabéns! Pelo que ouvi falar do RH, você está se saindo muito bem. É sua primeira semana, então não espere um aumento ou algo do tipo. No entanto, continue assim e você chegará longe. Do seu amigão e chefe, Sobs.";
+        }
+        if(pontos>=15 ){
+            analise.text= "Caramba eu não esperava isso de você , mas devo dizer que você superou minhas expectativas, PARABÉNS!!! você se saiu muito bem, mas vou dizer uma vez só: NÃO ROUBE MEU TRABALHO EU SEI ONDE VOCÊ MORA!";
         }
         
     }

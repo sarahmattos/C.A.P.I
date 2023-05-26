@@ -12,11 +12,13 @@ public class Pontuacao : MonoBehaviour
     Collider target;
     public int maxDocumentos;
     public int Pontos;
+    public int PontosTotais;
     public int soma;
     public int bonus;
     public int erros;
     public int total;
     public int totalFinal;
+    public int pontuacaoTotal;
     public bool fim;
     
     public bool ipOn;
@@ -104,6 +106,11 @@ public class Pontuacao : MonoBehaviour
         fim=true;
         audioRelogio.Stop();
         totalFinal += total;
+        pontuacaoTotal += total;
+        PontosTotais += Pontos;
+    }
+    public void enviarFinais(){
+         UIManager.Instance.detalhesFnais(PontosTotais,pontuacaoTotal);
     }
     public void resetaPontuacao(){
         Pontos=0;
