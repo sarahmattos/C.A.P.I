@@ -22,6 +22,7 @@ public class FasesManager : MonoBehaviour
     [SerializeField] GameObject computador;
     [SerializeField] GameObject regras;
     [SerializeField] TMP_Text diaText;
+    public UIManager uIManager;
     void Start()
     {
        // documentos = FindObjectsOfType<Documento>();
@@ -63,7 +64,7 @@ public class FasesManager : MonoBehaviour
         diaText.text =fases.ToString();
         switch(fases){
             case Fases.DIA1:
-            UIManager.Instance.idFase=1;
+            uIManager.idFase=1;
             impressora.folhas = new List<GameObject>();
             foreach (Documento doc in documentos)
             {
