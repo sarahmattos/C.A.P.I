@@ -52,6 +52,8 @@ private void Update()
     rb.freezeRotation =true;
 }
 
+
+
 private void Start()
 {
     rb = GetComponent<Rigidbody>();

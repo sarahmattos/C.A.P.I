@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f580e19e3337126499a9211a111d4dbc, type: 3}
-  m_Name: TapeteItem 2
+  m_Name: arCondicionadoItem
   m_EditorClassIdentifier: 
-  NomeItem: Tapete
+  NomeItem: Ar condicionado
   valorItem: 35
   presente: 1

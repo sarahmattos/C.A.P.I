@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f580e19e3337126499a9211a111d4dbc, type: 3}
   m_Name: CabideItem
   m_EditorClassIdentifier: 
-  NomeItem: Cabide
+  NomeItem: Cabideiro
   valorItem: 15
   presente: 1

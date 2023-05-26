@@ -73,6 +73,7 @@ public class UIManager : MonoBehaviour
         SetarCursor(UIManager.Instance.cursorTexture[0]);
         //Physics.IgnoreLayerCollision(LayerMask.NameToLayer("IgnoreCollision"), LayerMask.NameToLayer("IgnoreCollision"));
     }
+    
     public void setActive(bool valor){
         panelUiDocumento.SetActive(valor);
         
