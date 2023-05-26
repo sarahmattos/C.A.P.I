@@ -19,6 +19,8 @@ public class Documento : MonoBehaviour
     public string respostaCerta;
     [HideInInspector]
     public string resposta;
+    public string nomeDocumento;
+    public string motivoDocumento;
     public Image imagem;
     public GameObject plagio;
     public GameObject naoPlagio;

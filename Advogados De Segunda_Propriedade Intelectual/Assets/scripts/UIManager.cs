@@ -72,7 +72,15 @@ public class UIManager : MonoBehaviour
     public void setActive(bool valor){
         panelUiDocumento.SetActive(valor);
         
-    }   
+    }  
+    public void ativar(GameObject panel){
+        panel.SetActive(true);
+        
+    }  
+    public void dsativar(GameObject panel){
+        panel.SetActive(false);
+        
+    }  
     
     public void configuracaoSetas(){
         if(recebeTamanho>1){
