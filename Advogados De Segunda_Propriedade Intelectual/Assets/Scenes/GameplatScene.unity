@@ -2939,6 +2939,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 43ea794cf1e10cb4d925d6c150f7bb85, type: 3}
     - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: 9aefd0395a616234e859a88ce4e1ee0e, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: imageDocumento.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 43ea794cf1e10cb4d925d6c150f7bb85, type: 3}
@@ -7594,6 +7598,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c705f6f5aa06dda48a4597dad82f7906, type: 3}
+    - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: bc0afb9539610fd449b1fdfa24ae8f2d, type: 3}
     - target: {fileID: 2842013306671088720, guid: 4e53a447b96d7924ea765476945bf86d, type: 3}
       propertyPath: imageDocumento.Array.data[0]
       value: 
