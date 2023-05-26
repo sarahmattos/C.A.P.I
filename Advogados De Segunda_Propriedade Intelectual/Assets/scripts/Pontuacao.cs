@@ -90,15 +90,12 @@ public class Pontuacao : MonoBehaviour
             }
             if(ipOn){
                  if(doc.pontuarId()){
-                soma+=5;
-
-                }else{
-                    erros+=5;
+                bonus+=5;
                 }
             }
            
         }
-        if(Pontos==maxDocumentos)bonus = 20;
+        if(Pontos==maxDocumentos)bonus += 20;
         total = bonus + soma - erros;
         string acertos=Pontos+"/"+maxDocumentos;
         Debug.Log("Seus pontos: "+Pontos+"/"+maxDocumentos);

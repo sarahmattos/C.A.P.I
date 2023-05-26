@@ -56,7 +56,7 @@ public class UIManager : MonoBehaviour
     public Documento doc;
     int id;
     public int idFase;
-    int auxcor;
+    public int auxcor;
     bool ler=false;
     public bool zoomON;
     public bool compraON;

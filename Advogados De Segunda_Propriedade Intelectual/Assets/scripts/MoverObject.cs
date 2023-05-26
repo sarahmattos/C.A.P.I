@@ -29,6 +29,7 @@ private void Update()
                     UIManager.Instance.zoomON=true;
                     if(documento.corId == -1){
                         UIManager.Instance.imgIpCor.color= UIManager.Instance.coreIPDefalut;
+                        UIManager.Instance.auxcor= 0;
                     }
                       
                  }
