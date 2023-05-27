@@ -22,6 +22,7 @@ public class Compra : MonoBehaviour
     public List<botoesCompra> todosBotoes;
     public List<botoesCompra> botoesPP;
     public Eventos evento;
+    public AudioSource presenteaudio;
     bool equipar;
     // Start is called before the first frame update
     void Start()
@@ -72,6 +73,8 @@ public class Compra : MonoBehaviour
         checarBotoesDinheiro();
         if(itemPresente.Count>0){
              presente.SetActive(true);
+             presenteaudio.Play();
+
         }
     }
     public void abrirPresente(){
