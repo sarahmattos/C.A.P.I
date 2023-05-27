@@ -87,6 +87,7 @@ public class armarioUi : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             evento.armarioaux = false;
+            resteId();
         }
        
         

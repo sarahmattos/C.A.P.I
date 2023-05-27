@@ -27,7 +27,7 @@ public class Eventos : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(radioOn)btnRadio.PlayMusic();
             if(presenteOn)compra.abrirPresente();
-            if(mesaOn)cm.mudarCamera();
+            if(mesaOn&&!UIManager.Instance.compraON)cm.mudarCamera();
             if(globoOn){
                 globo.Play("GloboGirando");
                 Debug.Log("rodou");
