@@ -11268,6 +11268,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3319920641179406485, guid: 68d80ccbff82b0640878086101f302e2, type: 3}
+      propertyPath: lerfolha
+      value: 
+      objectReference: {fileID: 8300000, guid: f3b8c71c64deb804babe17d2f4a0dc97, type: 3}
+    - target: {fileID: 3319920641179406485, guid: 68d80ccbff82b0640878086101f302e2, type: 3}
       propertyPath: lerObject
       value: 
       objectReference: {fileID: 1920835847}
@@ -11285,18 +11289,22 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 7cc67b5386c82a64b8ad00e13bd1e6c6, type: 3}
     - target: {fileID: 3319920641179406485, guid: 68d80ccbff82b0640878086101f302e2, type: 3}
       propertyPath: textosDocumento.Array.data[0]
-      value: "Instru\xE7\xF5es gerais para o bem-estar no escrit\xF3rio:\r\n\r\nQuando
+      value: "Regras Gerais.\r\n\r\nInstru\xE7\xF5es gerais para o bem-estar no escrit\xF3rio:\r\n\r\nQuando
         a luz do fax estiver verde, significa que h\xE1 um novo caso para voc\xEA.
         Clique no bot\xE3o do fax e o papel sair\xE1 para que voc\xEA avalie. Use
-        o bom senso e as regras abaixo para avaliar e, em seguida, carimbe o papel
-        com o bot\xE3o verde para um caso de n\xE3o pl\xE1gio e o vermelho para um
-        caso de pl\xE1gio. Sua perman\xEAncia neste trabalho depende da precis\xE3o,
+        o bom senso e as regras que est\xE3o no arm\xE1rio para avaliar e, em seguida,
+        carimbe o papel com o carimbo verde para aprovado(hist\xF3rias que podem
+        ter algum problema) e o vermelho para um caso n\xE3o aprovado(hist\xF3rias
+        que n\xE3o tem problemas). Sua perman\xEAncia neste trabalho depende da precis\xE3o,
         portanto, aprenda rapidamente, voc\xEA ser\xE1 avaliado no final da semana.\r\n\r\nQuando
         o papel estiver carimbado, coloque-o no porta-pap\xE9is. Realize todos os
-        casos para finalizar seu expediente.\"\r\n\r\nExistem diversos tipos de propriedade
-        intelectual (PI), e todos eles podem ser tratados pela nossa filial, cada
-        um tem sua nuance de detalhes, caso o bom senso n\xE3o seja o bastante ou
-        fique na d\xFAvida recorra \xE0s regras extras no arm\xE1rio de livros.\r\n"
+        casos para finalizar seu expediente.\"\r\n\r\n\u200C\r\n\r\nExistem diversos
+        tipos de propriedade intelectual (PI), e todos eles podem ser tratados pela
+        nossa filial, cada um tem sua nuance de detalhes, caso o bom senso n\xE3o
+        seja o bastante ou fique na d\xFAvida recorra \xE0s regras extras no arm\xE1rio
+        de livros que est\xE1 em seu escrit\xF3rio, basta levantar usando a letra
+        \u201CE\u201D e mover com \u201CWASD\u201D at\xE9 o arm\xE1rio, navegue pelo
+        arm\xE1rio usando o mouse."
       objectReference: {fileID: 0}
     - target: {fileID: 3319920641179406510, guid: 68d80ccbff82b0640878086101f302e2, type: 3}
       propertyPath: m_Size.x
@@ -11753,7 +11761,7 @@ PrefabInstance:
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: imageDocumento.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 38c76cd3efc39dd43b48e95356835d64, type: 3}
+      objectReference: {fileID: 21300000, guid: 78642667d44850541ae6ba4dd967ea04, type: 3}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[0]
       value: "Parab\xE9ns por conquistar o cargo disputado na equipe de advocacia
@@ -11796,18 +11804,16 @@ PrefabInstance:
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[3]
       value: "O Chefe n\xE3o apareceu hoje, mas avisou para voc\xEA trabalhar normal.
-        \r\n\tAss: Danilo do RH.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA
-        natureza n\xE3o agradece esse gasto de papel ;u;"
+        \r\n\tAss: Danilo do RH.\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[4]
-      value: "  O \xFAltimo dia da semana chegou, sextou! Enfim \xE9 o Sobs, ontem
+      value: "O \xFAltimo dia da semana chegou, sextou! Enfim \xE9 o Sobs, ontem
         eu tirei um dia de folga, quando cheguei estava cheio de mensagem reclamando
         que os post its n\xE3o significam nada\u2026 Mas eu sou o chefe e pode continuar
-        com eles sem nenhum problema :). Eles tamb\xE9m pediram para colocar uma
-        classifica\xE7\xE3o do caso, do que se trata o problema, ent\xE3o independe
-        de ser ou n\xE3o um caso aprovado, cole o porqu\xEA do problema ser ou n\xE3o
-        aprovado.\r\n"
+        com eles sem nenhum problema :). \r\nEnt\xE3o continue o que eu acho que
+        seja um bom trabalho, no final do dia eu vou avaliar a sua semana, estou
+        ansioso, espero que voc\xEA tamb\xE9m."
       objectReference: {fileID: 0}
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: textosDocumento.Array.data[5]
@@ -11832,7 +11838,7 @@ PrefabInstance:
     - target: {fileID: 2732653365825149580, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: audiosIntroducao.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 555a6ba1701aabf43969edda183e968f, type: 3}
+      objectReference: {fileID: 8300000, guid: 8ef405b42accf6146bd71d1a45557a13, type: 3}
     - target: {fileID: 2732653365825149586, guid: 8d5b23e8388de574abea9760d5f38f26, type: 3}
       propertyPath: m_Volume
       value: 1
