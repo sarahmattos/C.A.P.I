@@ -24,6 +24,7 @@ public class Documento : MonoBehaviour
     public Image imagem;
     public GameObject plagio;
     public GameObject naoPlagio;
+    public GameObject lerObject;
     [HideInInspector]
      public bool dentroImpressora;
      private Rigidbody rb;

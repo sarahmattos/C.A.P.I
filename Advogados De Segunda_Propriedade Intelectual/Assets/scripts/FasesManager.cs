@@ -51,9 +51,9 @@ public class FasesManager : MonoBehaviour
             UIManager.Instance.mudarCena(1);
             break;
         }
+        uIManager.ativarLer();
         compra.enviarPresente();
         updatePageFases();
-        
         UIManager.Instance.changeIntroducao();
         impressora.resetaImpressora();
         pontucao.resetaPontuacao();
@@ -88,6 +88,7 @@ public class FasesManager : MonoBehaviour
             break;
 
             case Fases.DIA3:
+            
             UIManager.Instance.idFase=3;
             pontucao.ipOn=true;
             //UIManager.Instance.buttonCorIp.SetActive(true);

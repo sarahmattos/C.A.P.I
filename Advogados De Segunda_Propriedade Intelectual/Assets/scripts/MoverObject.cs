@@ -31,7 +31,8 @@ private void Update()
                         UIManager.Instance.imgIpCor.color= UIManager.Instance.coreIPDefalut;
                         UIManager.Instance.auxcor= 0;
                     }
-                      
+                      if(documento.regras)documento.lerObject.SetActive(false);
+                      if(documento.introducao)documento.lerObject.SetActive(false);
                  }
             }else{
                  UIManager.Instance.setActive(false);
@@ -51,6 +52,7 @@ private void Update()
    // }
     rb.freezeRotation =true;
 }
+
 
 
 
