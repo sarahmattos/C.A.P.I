@@ -30,6 +30,13 @@ private void Update()
                     if(documento.corId == -1){
                         UIManager.Instance.imgIpCor.color= UIManager.Instance.coreIPDefalut;
                         UIManager.Instance.auxcor= 0;
+                    }else{
+                        UIManager.Instance.auxcor = documento.corId;
+                        UIManager.Instance.imgIpCor.color= UIManager.Instance.coresIP[documento.corId];
+                        UIManager.Instance.auxcor ++;
+                        if(UIManager.Instance.auxcor>=UIManager.Instance.coresIP.Length){
+                                UIManager.Instance.auxcor=0;
+                            }
                     }
                       if(documento.regras)documento.lerObject.SetActive(false);
                       if(documento.introducao)documento.lerObject.SetActive(false);

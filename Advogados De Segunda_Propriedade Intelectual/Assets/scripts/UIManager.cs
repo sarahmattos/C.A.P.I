@@ -38,7 +38,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelCompra;
     [SerializeField] GameObject panelCompraObjeto;
     [SerializeField] GameObject panelCompraPapeis;
-    [SerializeField] Color[] coresIP;
+    [SerializeField] public Color[] coresIP;
     [SerializeField]public  Color coreIPDefalut;
     public Image imgIpCor;
    [SerializeField] private CanvasGroup telfinalgrupo;
