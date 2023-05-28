@@ -16,6 +16,11 @@ TagManager:
   - chao
   - Armario
   - Luz
+  - Poltrona
+  - Tapete
+  - Quadro
+  - Abajur
+  - Cabide
   layers:
   - Default
   - TransparentFX

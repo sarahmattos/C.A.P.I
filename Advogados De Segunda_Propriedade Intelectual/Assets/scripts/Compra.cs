@@ -46,6 +46,7 @@ public class Compra : MonoBehaviour
              mudarInterface(btnCompra);
             checarBotoesDinheiro();
             if(btnCompra.item.presente==true){
+                Debug.Log("adicinou compra");
                 itemPresente.Add(btnCompra.item);
             }else{
                 equiparItem(btnCompra);
@@ -80,21 +81,22 @@ public class Compra : MonoBehaviour
     public void abrirPresente(){
         for(int i=0; i<itemPresente.Count;i++){
             if(itemPresente[i].NomeItem=="Ventilador"){
+                Debug.Log("abriu presente ventilador");
                 ventilador.SetActive(true);
             }
-            if(itemPresente[i].NomeItem=="Poltrona"){
+            if(itemPresente[i].NomeItem=="Aquário"){
                 poltrona.SetActive(true);
             }
-            if(itemPresente[i].NomeItem=="Tapete"){
+            if(itemPresente[i].NomeItem=="ArCondicionado"){
                 tapete.SetActive(true);
             }
             if(itemPresente[i].NomeItem=="Quadro"){
                 quadro.SetActive(true);
             }
-            if(itemPresente[i].NomeItem=="Abajur"){
+            if(itemPresente[i].NomeItem=="Vaso de Planta"){
                 abajur.SetActive(true);
             }
-            if(itemPresente[i].NomeItem=="Cabide"){
+            if(itemPresente[i].NomeItem=="Cabideiro"){
                 cabide.SetActive(true);
             }
         }
