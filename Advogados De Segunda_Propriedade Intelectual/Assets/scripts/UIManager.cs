@@ -40,6 +40,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelCompraPapeis;
     [SerializeField] public Color[] coresIP;
     [SerializeField]public  Color coreIPDefalut;
+    [SerializeField]public  string informeDefault;
+    [SerializeField]public  string[] informes;
+    [SerializeField] public  TMP_Text informeText;
     public Image imgIpCor;
    [SerializeField] private CanvasGroup telfinalgrupo;
 
@@ -305,6 +308,7 @@ public class UIManager : MonoBehaviour
     }
     public void mudaCor(Image img){
         img.color= coresIP[auxcor];
+        informeText.text = informes[auxcor];
         doc.corId = auxcor;
         auxcor++;
         if(auxcor>=coresIP.Length){
