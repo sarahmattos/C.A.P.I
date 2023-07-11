@@ -7950,6 +7950,17 @@ PrefabInstance:
       value: "De: Departamento Jur\xEDdico\r\nData: 29/04/2023\r\nAutor: Sand Flipflop\r\nAcusado:
         Run Shoes\r\n\n*IMAGENS*\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 2850948444495672912, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: respostaCerta
+      value: Negado
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850948444495672912, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
+      propertyPath: motivoDocumento
+      value: "Desaprovado, motivo: os itens em quest\xE3o s\xE3o de uso comum dos
+        aparatos tecnol\xF3gicos, al\xE9m de que pl\xE1gios por via da lei brasileira
+        s\xF3 visa c\xF3pias exatas ou que ultrapassem as mudan\xE7as m\xEDnimas,
+        como se trata de partes e n\xE3o ao todo, o caso acaba aqui. "
+      objectReference: {fileID: 0}
     - target: {fileID: 2850948444699480602, guid: 8eb7ea59d6cc3dd4bbb9282f189654ee, type: 3}
       propertyPath: motivoDocumento
       value: "Aprovado, motivo: semelhan\xE7a entre as m\xFAsicas, demora para creditar
