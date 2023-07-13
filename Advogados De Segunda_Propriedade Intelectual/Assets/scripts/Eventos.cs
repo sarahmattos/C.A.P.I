@@ -15,9 +15,11 @@ public class Eventos : MonoBehaviour
     public Animator globo;
     public GameObject luz;
     public bool armarioaux;
+    public AudioSource interruptorSFX, globoSFX;
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(this.gameObject.name);
         mesaOn=true;
     }
 
@@ -31,6 +33,7 @@ public class Eventos : MonoBehaviour
             if(globoOn){
                 globo.Play("GloboGirando");
                 Debug.Log("rodou");
+                globoSFX.Play();
             }
             if(armarioOn)armario.interfaceArmario();
              if(luzOn)acender();
@@ -39,7 +42,7 @@ public class Eventos : MonoBehaviour
     }
 
     public void acender(){
-
+        interruptorSFX.Play();
         acenderam = !acenderam;
         if(acenderam == true){
 
@@ -79,6 +82,7 @@ public class Eventos : MonoBehaviour
         if (other.gameObject.tag == "Luz") {
             luzOn=true;
             aviso.SetActive(true);
+
         }
     }
     private void OnTriggerExit(Collider other)
