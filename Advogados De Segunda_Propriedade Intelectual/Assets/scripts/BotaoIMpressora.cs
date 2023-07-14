@@ -5,9 +5,14 @@ using UnityEngine;
 public class BotaoIMpressora : MonoBehaviour
 {
     public Impressora impressora;
+    private CameraManager cm;
+    private void Start()
+    {
+        cm = FindObjectOfType<CameraManager>();
+    }
     private void OnMouseDown()
-{
-    impressora.lancarFolha();
+    {
+        if(cm.sentado)impressora.lancarFolha();
     
-}
+    }
 }
