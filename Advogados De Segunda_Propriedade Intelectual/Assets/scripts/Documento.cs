@@ -21,6 +21,8 @@ public class Documento : MonoBehaviour
     public string resposta;
     public string nomeDocumento;
     public string motivoDocumento;
+    public string respostaCor;
+    public Color corResposta;
     public Image imagem;
     public GameObject plagio;
     public GameObject naoPlagio;
@@ -63,8 +65,12 @@ public class Documento : MonoBehaviour
     }
     public bool pontuar(){
         if(resposta == respostaCerta){
+            corResposta = Color.green;
+            respostaCor = "VOCÊ ACERTOU";
             return true;
         }else{
+            corResposta = Color.red;
+            respostaCor = "VOCÊ ERROU";
             return false;
         }
     }

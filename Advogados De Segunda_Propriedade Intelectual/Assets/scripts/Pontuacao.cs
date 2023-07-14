@@ -98,7 +98,7 @@ public class Pontuacao : MonoBehaviour
         if(Pontos==maxDocumentos)bonus += 20;
         total = bonus + soma - erros;
         string acertos=Pontos+"/"+maxDocumentos;
-        Debug.Log("Seus pontos: "+Pontos+"/"+maxDocumentos);
+        //Debug.Log("Seus pontos: "+Pontos+"/"+maxDocumentos);
         UIManager.Instance.panelFinalTrue(soma,bonus,erros,total,acertos);
         fim=true;
         audioRelogio.Stop();

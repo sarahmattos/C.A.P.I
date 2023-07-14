@@ -27,7 +27,6 @@ public class FasesManager : MonoBehaviour
     {
        // documentos = FindObjectsOfType<Documento>();
         updatePageFases();
-        Debug.Log(impressora.esperaTime);
     }
     
 
