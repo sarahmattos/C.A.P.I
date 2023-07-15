@@ -16,6 +16,9 @@ public class Eventos : MonoBehaviour
     public GameObject luz;
     public bool armarioaux;
     public AudioSource interruptorSFX, globoSFX;
+
+    public Animator luzanim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,11 +49,13 @@ public class Eventos : MonoBehaviour
         if(acenderam == true){
 
             luz.SetActive(false);
+            luzanim.SetBool("LuzOff", true);
 
         }
         else
         {
             luz.SetActive(true);
+            luzanim.SetBool("LuzOff", false);
         }
 
 
