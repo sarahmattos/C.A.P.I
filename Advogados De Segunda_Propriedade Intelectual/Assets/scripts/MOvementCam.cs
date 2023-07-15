@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MOvementCam : MonoBehaviour
 {
     // Start is called before the first frame update
+    
     public float sensX;
     public float sensY;
     public Transform orientation;
@@ -13,8 +15,9 @@ public class MOvementCam : MonoBehaviour
     public Eventos evento;
     void Start()
     {
-        
+       
     }
+    
 
     // Update is called once per frame
     void Update()

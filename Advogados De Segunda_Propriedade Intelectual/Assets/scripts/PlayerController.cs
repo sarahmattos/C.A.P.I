@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
-{
+{   
+    
     public float speed = 5f;
     public float sensitivity = 2f;
     public float verticalLookLimit = 60f;

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovementPlayer : MonoBehaviour
 {
     public float moveSpeed, moveSpeedDefault;
+    [SerializeField] Slider sensibilitySlider;
     
     public float gorundDrag;
     public float PlayerHeight;
@@ -15,6 +17,8 @@ public class MovementPlayer : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    public MOvementCam mOvementCam;
+
     Vector3 moveDirection;
     Rigidbody rb;
     public CameraManager cm;
@@ -22,7 +26,12 @@ public class MovementPlayer : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         moveSpeedDefault = moveSpeed;
+         sensibilitySlider.onValueChanged.AddListener(delegate {alterarSens(); });
         //rb.freezeRotation =true;
+    }
+    public void alterarSens(){
+        mOvementCam.sensX = sensibilitySlider.value *200;
+        mOvementCam.sensY=  sensibilitySlider.value *200;
     }
 
     // Update is called once per frame
