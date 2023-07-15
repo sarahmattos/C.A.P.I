@@ -1729,7 +1729,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.22, y: 0.92, z: 1.84}
+  m_Size: {x: 6, y: 0.92, z: 2.8}
   m_Center: {x: 0.32, y: -0.94, z: 3.92}
 --- !u!1 &179030684
 GameObject:
@@ -45717,9 +45717,10 @@ GameObject:
   - component: {fileID: 1691369497320486605}
   - component: {fileID: 6259764265628449467}
   - component: {fileID: 2042220052}
+  - component: {fileID: 8913682136361447304}
   m_Layer: 0
   m_Name: Cadeira
-  m_TagString: Untagged
+  m_TagString: Mesa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48359,6 +48360,19 @@ Transform:
   m_Father: {fileID: 1870445334413021983}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8913682136361447304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7998140053092953935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 204.40596, y: 170.56795, z: 209.02663}
+  m_Center: {x: -0.13044026, y: 10.764668, z: -104.88175}
 --- !u!33 &8922061418483298096
 MeshFilter:
   m_ObjectHideFlags: 0

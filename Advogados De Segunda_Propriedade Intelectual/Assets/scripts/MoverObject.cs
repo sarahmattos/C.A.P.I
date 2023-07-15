@@ -19,7 +19,15 @@ private void Update()
 {
  
     if(documento!=null &&  cm.sentado){
-        
+
+         if(Input.GetKeyDown(KeyCode.Escape)){   
+             if(keyDown){
+                 UIManager.Instance.setActive(false);
+                UIManager.Instance.resetaIda();
+                keyDown=false;
+                UIManager.Instance.zoomON=false;
+             }
+         }
         if(Input.GetKeyDown(KeyCode.Tab)){   
             if(keyDown==false){
                 if(enterMouse && UIManager.Instance.zoomON==false){
