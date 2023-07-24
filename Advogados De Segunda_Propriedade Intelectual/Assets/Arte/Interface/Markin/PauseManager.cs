@@ -8,9 +8,33 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private GameObject PainelPausado;
     [SerializeField] private GameObject PainelControles;
     [SerializeField] private GameObject PainelOpcoes;
+    bool PauseOn;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            PauseOn = !PauseOn;
+            if (PauseOn)
+            {
+                AbrirPause();
+            }
+            else
+            {
+                Continuar();
+            }
+        }
+    }
+
     public void Continuar()
     {
+        PainelPausado.SetActive(false);
+        PauseOn = false;
+    }
 
+    public void AbrirPause()
+    {
+        PainelPausado.SetActive(true);
     }
 
     public void AbrirControles()
@@ -39,6 +63,6 @@ public class PauseManager : MonoBehaviour
 
     public void Sair()
     {
-
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }
