@@ -60,7 +60,8 @@ public class FasesManager : MonoBehaviour
     }
     public void updatePageFases()
     {
-        diaText.text =fases.ToString();
+        int diaNum = uIManager.idFase+1;
+        diaText.text =diaNum.ToString();
         switch(fases){
             case Fases.DIA1:
             uIManager.idFase=1;
